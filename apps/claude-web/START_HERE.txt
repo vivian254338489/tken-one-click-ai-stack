@@ -1,0 +1,24 @@
+TKEN Claude-Style Web UI
+
+Start here if you are not technical.
+
+1. Windows
+   Double-click START.bat
+
+2. macOS / Linux
+   Run:
+   sh START.sh
+
+3. Open in your browser
+   http://localhost:8789
+
+4. Need an API key?
+   https://www.tken.shop/
+
+5. Change the API endpoint or model
+   Run:
+   npm run configure
+
+6. More help
+   README.md
+   NEXT_STEPS.md

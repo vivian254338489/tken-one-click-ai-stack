@@ -4,6 +4,8 @@ Standalone Claude-style browser UI for any OpenAI-compatible endpoint.
 
 ## Quick Start
 
+If you are not technical, open `START_HERE.txt` first.
+
 Windows:
 
 ```text

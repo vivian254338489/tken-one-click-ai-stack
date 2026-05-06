@@ -1,0 +1,24 @@
+TKEN Codex Client Kit
+
+Start here if you are not technical.
+
+1. Windows
+   Double-click START.bat
+
+2. macOS / Linux
+   Run:
+   sh START.sh
+
+3. Generated file
+   generated/codex.tken.json
+
+4. Need an API key?
+   https://www.tken.shop/
+
+5. Next step
+   Set TKEN_API_KEY in your environment.
+   Copy generated/codex.tken.json into your Codex-compatible client.
+
+6. More help
+   README.md
+   NEXT_STEPS.md

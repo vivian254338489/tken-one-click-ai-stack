@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.7
+
+- Added `START_HERE.txt` to standalone ChatGPT-style and Claude-style Web UI packages.
+- Added `START_HERE.txt` to Codex and OpenClaw client kits.
+- Added standalone package start-here coverage to zip validation.
+
 ## 0.4.6
 
 - Added `START_HERE.txt` for non-technical users after unzip.

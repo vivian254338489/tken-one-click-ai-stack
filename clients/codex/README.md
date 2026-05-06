@@ -20,6 +20,8 @@ https://www.tken.shop/?utm_source=github&utm_medium=client_config&utm_campaign=c
 
 ## Generate Config
 
+If you are not technical, open `START_HERE.txt` first.
+
 Windows:
 
 ```text

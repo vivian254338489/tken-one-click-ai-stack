@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.4.6
+# Release Notes: TKEN One-Click AI Stack 0.4.7
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -24,6 +24,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added safe support report generation for customer troubleshooting.
 - Added `SUPPORT.bat` and `SUPPORT.sh` for one-click support reports.
 - Added `START_HERE.txt` for non-technical users after unzip.
+- Added `START_HERE.txt` to standalone Web UI and client kit packages.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
 - Standalone Web UI packages include `START.bat`, `START.sh`, `configure.mjs`, and `NEXT_STEPS.md`.

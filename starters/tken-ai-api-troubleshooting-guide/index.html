@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI API Troubleshooting Guide</title>
+  <meta name="description" content="Fix OpenAI-compatible API base URL, 401, 502, model not found, CORS, and gateway routing errors.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">AI API troubleshooting</p>
+      <h1>Fix OpenAI-compatible API errors faster.</h1>
+      <p class="lead">Start with auth, base URL, model route, gateway health, and CORS. Most problems are one of these five.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=guide_cta&utm_campaign=tken_ai_api_troubleshooting_guide">Try TKEN API</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-openai-compatible-examples">View examples</a>
+      </div>
+    </header>
+    <section class="grid">
+      <article><h2>401 Unauthorized</h2><p>Check the Authorization header and key scope.</p></article>
+      <article><h2>502 Gateway Error</h2><p>Check upstream URL, upstream key, and provider availability.</p></article>
+      <article><h2>Model Not Found</h2><p>Use local route names like <code>free-model</code> and <code>premium-gpt</code>.</p></article>
+      <article><h2>API Base URL</h2><p>Use <code>https://www.tken.shop/v1</code> and avoid duplicated `/v1`.</p></article>
+      <article><h2>CORS Error</h2><p>Set a production-safe `CORS_ORIGIN` or call from your backend.</p></article>
+    </section>
+  </main>
+</body>
+</html>

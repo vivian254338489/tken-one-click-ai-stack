@@ -11,6 +11,8 @@ This matrix separates actions Codex can prepare automatically from actions that 
 | SEO | Create guide/comparison/tool pages | HTML + sitemap |
 | Content | Draft Reddit, HN, dev.to, X, LinkedIn posts | Markdown drafts |
 | Video | Draft shorts scripts and shot lists | Markdown scripts |
+| GitHub distribution | Publish standalone source repos and release zips | Public repo + release |
+| Developer SEO | Publish troubleshooting and comparison source packages | Static files + release |
 | Tracking | Generate UTM links | `node tools/utm-builder.mjs` |
 | Packaging | Add growth assets to zip releases | Release assets |
 
@@ -32,3 +34,12 @@ This matrix separates actions Codex can prepare automatically from actions that 
 3. Create one permissive-license fork with a real TKEN provider preset.
 4. Submit one useful PR only if the upstream repo welcomes provider examples.
 5. Track all links with campaign-specific UTM parameters.
+
+## Current GitHub Assets Published
+
+| Repo | Purpose |
+| --- | --- |
+| `https://github.com/vivian254338489/tken-ai-api-video-script-pack` | Video scripts for AI API tutorial channels |
+| `https://github.com/vivian254338489/tken-reddit-launch-pack` | Community-safe Reddit post drafts |
+| `https://github.com/vivian254338489/tken-awesome-openai-compatible` | Curated OpenAI-compatible resource hub |
+| `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide` | SEO troubleshooting guide for API errors |

@@ -152,6 +152,26 @@ const kits = [
     files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
     commands: [["npm", ["run", "check"]]],
   },
+  {
+    zip: "tken-ai-api-video-script-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "scripts/01-three-minute-gateway.md", "scripts/02-stop-paying-premium.md", "scripts/03-chinese-model-routes.md", "scripts/04-claude-style-ui.md", "scripts/05-codex-openclaw-base-url.md", "scripts/06-cheapest-ai-api-routing.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-reddit-launch-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "drafts/selfhosted.md", "drafts/webdev.md", "drafts/openai.md", "drafts/chatgpt.md", "drafts/claudeai.md", "drafts/comment-followups.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-awesome-openai-compatible.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-ai-api-troubleshooting-guide.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "guides/401-unauthorized.md", "guides/502-gateway-error.md", "guides/model-not-found.md", "guides/api-base-url.md", "guides/cors-error.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

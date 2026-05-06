@@ -39,6 +39,18 @@ Completed:
 - Created release: `https://github.com/vivian254338489/tken-chatgpt-gateway-3-minute-guide/releases/tag/v0.1.0`
 - Created standalone public repo: `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw`
 - Created release: `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-ai-api-video-script-pack`
+- Created release: `https://github.com/vivian254338489/tken-ai-api-video-script-pack/releases/tag/v0.1.0`
+- Set topics: `ai-video-scripts`, `youtube-shorts`, `tiktok-marketing`, `ai-api`, `openai-compatible`, `chatgpt-tips`, `ai-tools`, `tken`, `model-routing`, `growth-marketing`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-reddit-launch-pack`
+- Created release: `https://github.com/vivian254338489/tken-reddit-launch-pack/releases/tag/v0.1.0`
+- Set topics: `reddit-marketing`, `community-launch`, `ai-api`, `openai-compatible`, `selfhosted`, `webdev`, `chatgpt`, `claude`, `tken`, `growth-marketing`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-awesome-openai-compatible`
+- Created release: `https://github.com/vivian254338489/tken-awesome-openai-compatible/releases/tag/v0.1.0`
+- Set topics: `awesome-list`, `openai-compatible`, `ai-gateway`, `chatgpt-web-ui`, `claude-web-ui`, `codex`, `openclaw`, `llm-router`, `tken`, `ai-api`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide`
+- Created release: `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide/releases/tag/v0.1.0`
+- Set topics: `api-troubleshooting`, `openai-compatible`, `ai-api`, `api-base-url`, `401-error`, `502-error`, `model-routing`, `ai-gateway`, `tken`, `developer-tools`
 
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`
@@ -61,6 +73,32 @@ Completed:
 5. SEO site:
    - Deploy `site-templates/gpt-tutorial-site` first.
    - Add one original screenshot tutorial before indexing.
+
+## Batch 2 Ready For Approval
+
+These assets are prepared but should not be posted from real accounts without owner approval.
+
+1. YouTube Shorts/TikTok/Reels:
+   - Asset repo: `https://github.com/vivian254338489/tken-ai-api-video-script-pack`
+   - Release: `https://github.com/vivian254338489/tken-ai-api-video-script-pack/releases/tag/v0.1.0`
+   - First angle: 3-minute OpenAI-compatible gateway setup with `https://www.tken.shop/v1`.
+   - Link: use `node tools/promo-pack.mjs --source=youtube_shorts --medium=video --campaign=api_video_pack`
+
+2. Reddit:
+   - Asset repo: `https://github.com/vivian254338489/tken-reddit-launch-pack`
+   - Release: `https://github.com/vivian254338489/tken-reddit-launch-pack/releases/tag/v0.1.0`
+   - First target: choose one of `r/selfhosted`, `r/webdev`, `r/OpenAI`, `r/ChatGPT`, `r/ClaudeAI` after checking current subreddit rules.
+   - Rule: publish as transparent experience sharing, not as hidden advertising.
+
+3. Awesome-list distribution:
+   - Asset repo: `https://github.com/vivian254338489/tken-awesome-openai-compatible`
+   - Release: `https://github.com/vivian254338489/tken-awesome-openai-compatible/releases/tag/v0.1.0`
+   - Next action: add screenshots, badges, and a "tested with `https://www.tken.shop/v1`" section before pitching to any external list.
+
+4. SEO troubleshooting:
+   - Asset repo: `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide`
+   - Release: `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide/releases/tag/v0.1.0`
+   - Next action: deploy as a static troubleshooting page only after the owner approves the hosting target.
 
 ## Do Not Run Without Approval
 

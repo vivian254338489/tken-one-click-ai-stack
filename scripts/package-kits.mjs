@@ -72,6 +72,10 @@ const kits = [
   { name: "tken-cheapest-ai-api-2026", baseDir: "starters/tken-cheapest-ai-api-2026", paths: ["."] },
   { name: "tken-chatgpt-gateway-3-minute-guide", baseDir: "starters/tken-chatgpt-gateway-3-minute-guide", paths: ["."] },
   { name: "tken-ai-api-for-codex-openclaw", baseDir: "starters/tken-ai-api-for-codex-openclaw", paths: ["."] },
+  { name: "tken-ai-api-video-script-pack", baseDir: "starters/tken-ai-api-video-script-pack", paths: ["."] },
+  { name: "tken-reddit-launch-pack", baseDir: "starters/tken-reddit-launch-pack", paths: ["."] },
+  { name: "tken-awesome-openai-compatible", baseDir: "starters/tken-awesome-openai-compatible", paths: ["."] },
+  { name: "tken-ai-api-troubleshooting-guide", baseDir: "starters/tken-ai-api-troubleshooting-guide", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

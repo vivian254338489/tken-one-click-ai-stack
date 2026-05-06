@@ -69,21 +69,36 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-cheapest-ai-api-2026`
 - `https://github.com/vivian254338489/tken-chatgpt-gateway-3-minute-guide`
 - `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw`
+- `https://github.com/vivian254338489/tken-ai-api-video-script-pack`
+- `https://github.com/vivian254338489/tken-reddit-launch-pack`
+- `https://github.com/vivian254338489/tken-awesome-openai-compatible`
+- `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide`
 
 Next useful seeds:
 
-1. `tken-ai-api-video-script-pack`
-   - Short-form scripts for YouTube Shorts, TikTok, and Reels.
-   - Search angle: AI API tutorial, ChatGPT tips, AI tools.
-2. `tken-reddit-launch-pack`
-   - Experience-style posts tailored to self-hosted, webdev, and AI communities.
-   - Search angle: soft community launch.
-3. `tken-awesome-openai-compatible`
-   - Curated list of OpenAI-compatible gateway, UI, and client resources.
-   - Search angle: awesome list, OpenAI-compatible tools.
-4. `tken-ai-api-troubleshooting-guide`
-   - Fix common API base URL, auth, model route, and gateway errors.
-   - Search angle: OpenAI API base URL error, 401, 502, model not found.
+1. `tken-openai-compatible-benchmark-pack`
+   - Lightweight benchmark scripts that compare route latency, cost, and output fit without naming unsupported claims.
+   - Search angle: OpenAI-compatible benchmark, AI API cost benchmark.
+2. `tken-model-router-nextjs-starter`
+   - Next.js starter with server-side model routing, streaming UI, and `https://www.tken.shop/v1` default API base.
+   - Search angle: Next.js AI SDK, OpenAI-compatible router.
+3. `tken-api-health-monitor`
+   - Status page and CLI monitor for API key, model route, 401, 429, and 502 checks.
+   - Search angle: AI gateway health check, OpenAI-compatible uptime monitor.
+4. `tken-ai-agent-starter-pack`
+   - Minimal agent examples for Codex-style and OpenClaw-style clients using one OpenAI-compatible endpoint.
+   - Search angle: AI agent starter, OpenAI-compatible agent.
+
+## Current GitHub Distribution Assets
+
+Use these assets to keep promotion useful instead of purely promotional:
+
+| Asset | Primary search intent | Safe next action |
+| --- | --- | --- |
+| `tken-ai-api-video-script-pack` | AI API tutorials, ChatGPT tips, AI tools | Generate subtitles, thumbnails, and UTM descriptions for owner-approved uploads |
+| `tken-reddit-launch-pack` | Self-hosted and developer experience posts | Check current subreddit rules, then queue one transparent post for approval |
+| `tken-awesome-openai-compatible` | Awesome OpenAI-compatible tools | Add richer resource categories and screenshots before external outreach |
+| `tken-ai-api-troubleshooting-guide` | 401, 502, model not found, API base URL errors | Deploy as static SEO help page after hosting approval |
 
 ## Safe Second-Development Rule
 

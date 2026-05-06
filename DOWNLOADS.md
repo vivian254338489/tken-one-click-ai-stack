@@ -18,6 +18,12 @@ Download:
 https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-full-stack.zip
 ```
 
+Verify package integrity:
+
+```text
+https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/SHA256SUMS.txt
+```
+
 ## Package Picker
 
 | You want | Download |

@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.4.2
+# Release Notes: TKEN One-Click AI Stack 0.4.3
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -10,6 +10,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - `tken-claude-web-ui.zip`
 - `tken-codex-client-kit.zip`
 - `tken-openclaw-client-kit.zip`
+- `SHA256SUMS.txt`
 
 ## What Changed
 
@@ -19,6 +20,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added preflight checks and `TROUBLESHOOTING.md` so one-click users get clear startup fixes.
 - Added `DOWNLOADS.md` package picker and README preview image for better GitHub conversion.
 - Added preflight checks to one-step install scripts.
+- Added SHA-256 checksum generation and verification for release assets.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
 - Standalone Web UI packages include `START.bat`, `START.sh`, `configure.mjs`, and `NEXT_STEPS.md`.

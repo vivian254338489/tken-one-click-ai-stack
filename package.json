@@ -1,6 +1,6 @@
 {
   "name": "tken-one-click-ai-stack",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "private": false,
   "type": "module",
   "engines": {
@@ -12,11 +12,11 @@
     "preflight": "node tools/preflight.mjs",
     "smoke": "node scripts/smoke.mjs",
     "check": "node scripts/smoke.mjs --spawn && node scripts/check-web-apps.mjs && node tools/doctor.mjs",
-    "check:kits": "npm run package:kits && node scripts/validate-kits.mjs",
+    "check:kits": "npm run package:kits && node scripts/validate-kits.mjs && node scripts/verify-checksums.mjs",
     "setup": "node tools/bootstrap.mjs",
     "wizard": "node tools/wizard.mjs",
     "production:check": "node tools/production-check.mjs",
-    "package:kits": "node scripts/package-kits.mjs"
+    "package:kits": "node scripts/package-kits.mjs && node scripts/write-checksums.mjs"
   },
   "keywords": [
     "openai-compatible",

@@ -25,6 +25,8 @@ const required = [
   "tools/wizard.mjs",
   "tools/production-check.mjs",
   "docs/preview.svg",
+  "scripts/write-checksums.mjs",
+  "scripts/verify-checksums.mjs",
   "src/app.js",
   "api/index.js",
   "public/chatgpt.html",

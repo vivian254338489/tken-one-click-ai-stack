@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.3
+
+- Added `SHA256SUMS.txt` generation for release zip packages.
+- Added checksum verification to kit validation.
+- Documented release integrity checks in README and commercial launch docs.
+
 ## 0.4.2
 
 - Added README visual preview for stronger GitHub first impression.

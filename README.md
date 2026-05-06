@@ -46,6 +46,12 @@ Not sure which package to choose? Open `DOWNLOADS.md`.
 | Codex config kit | [`tken-codex-client-kit.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-codex-client-kit.zip) |
 | OpenClaw config kit | [`tken-openclaw-client-kit.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-openclaw-client-kit.zip) |
 
+Verify downloads with:
+
+```text
+https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/SHA256SUMS.txt
+```
+
 Build locally only if you want to modify the source:
 
 ```bash

@@ -63,3 +63,5 @@ RATE_LIMIT_MAX=120
 npm run check
 npm run check:kits
 ```
+
+Release assets should include `SHA256SUMS.txt` so users can verify package integrity.

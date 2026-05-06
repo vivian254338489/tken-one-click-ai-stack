@@ -54,6 +54,10 @@ const kits = [
   },
 ];
 
+if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {
+  throw new Error("Missing dist/SHA256SUMS.txt");
+}
+
 function run(command, args, cwd) {
   const result = spawnSync(command, args, {
     cwd,

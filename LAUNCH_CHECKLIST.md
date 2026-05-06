@@ -27,6 +27,7 @@ npm run production:check
 
 - README first screen explains what to download.
 - Release contains all six zip assets.
+- Release contains `SHA256SUMS.txt`.
 - README direct download links point to the latest release assets.
 - Topics include `openai-compatible`, `ai-gateway`, `chatgpt-ui`, `claude-ui`, `docker`, `vercel`, `railway`.
 - Issue templates are enabled.
@@ -39,3 +40,4 @@ npm run production:check
 - CORS guidance is included.
 - API key handling guidance is included.
 - No secrets are committed.
+- Download integrity is documented with SHA-256 checksums.

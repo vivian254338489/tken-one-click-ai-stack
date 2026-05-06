@@ -72,4 +72,6 @@ For customer support, ask users to run:
 npm run support:report
 ```
 
+Windows users can double-click `SUPPORT.bat`.
+
 The report is written to `generated/support-report.json` and does not include raw API keys.

@@ -134,6 +134,8 @@ Generate a safe support report:
 npm run support:report
 ```
 
+Windows users can also double-click `SUPPORT.bat`. macOS/Linux users can run `sh SUPPORT.sh`.
+
 Production check before sharing with real users:
 
 ```bash

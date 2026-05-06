@@ -13,6 +13,8 @@ const required = [
   "MANIFEST.md",
   "START.bat",
   "START.sh",
+  "SUPPORT.bat",
+  "SUPPORT.sh",
   "Dockerfile",
   "docker-compose.yml",
   "docker-compose.full.yml",

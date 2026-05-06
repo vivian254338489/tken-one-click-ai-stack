@@ -90,6 +90,12 @@ Generate a safe support report:
 npm run support:report
 ```
 
+Windows users can double-click `SUPPORT.bat`. macOS/Linux users can run:
+
+```bash
+sh SUPPORT.sh
+```
+
 This writes `generated/support-report.json`. It records environment and health-check details without printing real API keys.
 
 Open an issue and include:

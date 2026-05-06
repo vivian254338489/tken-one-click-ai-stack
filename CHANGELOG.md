@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.5
+
+- Added `SUPPORT.bat` and `SUPPORT.sh` for one-click support report generation.
+- Added support scripts to full-stack and gateway package validation.
+- Documented the one-click support flow in README, troubleshooting, and commercial docs.
+
 ## 0.4.4
 
 - Added `npm run support:report` for safe customer troubleshooting.

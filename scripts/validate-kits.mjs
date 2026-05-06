@@ -36,20 +36,20 @@ const kits = [
   },
   {
     zip: "tken-chatgpt-web-ui.zip",
-    files: ["README.md", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    files: ["README.md", "NEXT_STEPS.md", "START.bat", "START.sh", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
   },
   {
     zip: "tken-claude-web-ui.zip",
-    files: ["README.md", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    files: ["README.md", "NEXT_STEPS.md", "START.bat", "START.sh", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
   },
   {
     zip: "tken-codex-client-kit.zip",
-    files: ["README.md", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    files: ["README.md", "NEXT_STEPS.md", "START.bat", "START.sh", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
     command: ["node", ["install.mjs"]],
   },
   {
     zip: "tken-openclaw-client-kit.zip",
-    files: ["README.md", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    files: ["README.md", "NEXT_STEPS.md", "START.bat", "START.sh", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
     command: ["node", ["install.mjs"]],
   },
 ];

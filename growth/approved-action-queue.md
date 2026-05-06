@@ -100,6 +100,34 @@ These assets are prepared but should not be posted from real accounts without ow
    - Release: `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide/releases/tag/v0.1.0`
    - Next action: deploy as a static troubleshooting page only after the owner approves the hosting target.
 
+## Batch 3 Completed
+
+These GitHub assets were published as source repos and release zips:
+
+1. `tken-openai-compatible-benchmark-pack`
+   - Purpose: benchmark route latency and response path for OpenAI-compatible endpoints.
+   - Search angle: cheapest AI API benchmark, OpenAI-compatible benchmark.
+   - Repo: `https://github.com/vivian254338489/tken-openai-compatible-benchmark-pack`
+   - Release: `https://github.com/vivian254338489/tken-openai-compatible-benchmark-pack/releases/tag/v0.1.0`
+
+2. `tken-model-router-nextjs-starter`
+   - Purpose: Next.js-style route handler for cheap/premium model routing.
+   - Search angle: Next.js OpenAI-compatible API route, model router starter.
+   - Repo: `https://github.com/vivian254338489/tken-model-router-nextjs-starter`
+   - Release: `https://github.com/vivian254338489/tken-model-router-nextjs-starter/releases/tag/v0.1.0`
+
+3. `tken-api-health-monitor`
+   - Purpose: CLI and status page for `/models`, chat, 401, 502, and latency checks.
+   - Search angle: AI gateway status page, OpenAI-compatible API health check.
+   - Repo: `https://github.com/vivian254338489/tken-api-health-monitor`
+   - Release: `https://github.com/vivian254338489/tken-api-health-monitor/releases/tag/v0.1.0`
+
+4. `tken-ai-agent-starter-pack`
+   - Purpose: planner, coding, and support agent examples using one API base URL.
+   - Search angle: OpenAI-compatible AI agent starter, Codex custom API base URL.
+   - Repo: `https://github.com/vivian254338489/tken-ai-agent-starter-pack`
+   - Release: `https://github.com/vivian254338489/tken-ai-agent-starter-pack/releases/tag/v0.1.0`
+
 ## Do Not Run Without Approval
 
 - Do not post to Reddit.

@@ -43,3 +43,12 @@ This matrix separates actions Codex can prepare automatically from actions that 
 | `https://github.com/vivian254338489/tken-reddit-launch-pack` | Community-safe Reddit post drafts |
 | `https://github.com/vivian254338489/tken-awesome-openai-compatible` | Curated OpenAI-compatible resource hub |
 | `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide` | SEO troubleshooting guide for API errors |
+
+## Current GitHub Assets Published In Batch 3
+
+| Repo | Purpose |
+| --- | --- |
+| `https://github.com/vivian254338489/tken-openai-compatible-benchmark-pack` | Benchmark route latency and model fit |
+| `https://github.com/vivian254338489/tken-model-router-nextjs-starter` | Next.js-style cheap/premium model routing |
+| `https://github.com/vivian254338489/tken-api-health-monitor` | API health CLI and local status page |
+| `https://github.com/vivian254338489/tken-ai-agent-starter-pack` | Planner, coding, and support agent examples |

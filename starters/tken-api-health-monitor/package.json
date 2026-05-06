@@ -1,0 +1,19 @@
+{
+  "name": "tken-api-health-monitor",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node server.mjs",
+    "check:api": "node monitor.mjs",
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "api-health-monitor",
+    "openai-compatible",
+    "ai-gateway",
+    "status-page",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_api_health_monitor"
+}

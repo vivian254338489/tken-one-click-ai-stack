@@ -1,0 +1,18 @@
+{
+  "name": "tken-ai-agent-starter-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "demo": "node demo.mjs",
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "openai-compatible",
+    "codex",
+    "openclaw",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_ai_agent_starter_pack"
+}

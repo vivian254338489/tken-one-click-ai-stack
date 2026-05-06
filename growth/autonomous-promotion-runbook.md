@@ -73,6 +73,10 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-reddit-launch-pack`
 - `https://github.com/vivian254338489/tken-awesome-openai-compatible`
 - `https://github.com/vivian254338489/tken-ai-api-troubleshooting-guide`
+- `https://github.com/vivian254338489/tken-openai-compatible-benchmark-pack`
+- `https://github.com/vivian254338489/tken-model-router-nextjs-starter`
+- `https://github.com/vivian254338489/tken-api-health-monitor`
+- `https://github.com/vivian254338489/tken-ai-agent-starter-pack`
 
 Next useful seeds:
 
@@ -89,6 +93,23 @@ Next useful seeds:
    - Minimal agent examples for Codex-style and OpenClaw-style clients using one OpenAI-compatible endpoint.
    - Search angle: AI agent starter, OpenAI-compatible agent.
 
+These four seeds are now in local production and should be published as standalone GitHub repositories before the next batch.
+
+Next useful seeds after publishing:
+
+1. `tken-ai-sdk-provider-template`
+   - Provider adapter pattern for JavaScript AI SDK-style apps.
+   - Search angle: AI SDK OpenAI-compatible provider.
+2. `tken-openwebui-provider-pack`
+   - Provider preset docs for Open WebUI and compatible frontends.
+   - Search angle: Open WebUI OpenAI-compatible endpoint.
+3. `tken-cursor-windsurf-base-url-guide`
+   - Coding editor config guide for custom API base URLs.
+   - Search angle: Cursor API base URL, Windsurf OpenAI-compatible.
+4. `tken-free-model-fallback-recipes`
+   - Fallback recipes for low-cost/free routes with premium escalation.
+   - Search angle: cheap AI model fallback, LLM router.
+
 ## Current GitHub Distribution Assets
 
 Use these assets to keep promotion useful instead of purely promotional:
@@ -99,6 +120,10 @@ Use these assets to keep promotion useful instead of purely promotional:
 | `tken-reddit-launch-pack` | Self-hosted and developer experience posts | Check current subreddit rules, then queue one transparent post for approval |
 | `tken-awesome-openai-compatible` | Awesome OpenAI-compatible tools | Add richer resource categories and screenshots before external outreach |
 | `tken-ai-api-troubleshooting-guide` | 401, 502, model not found, API base URL errors | Deploy as static SEO help page after hosting approval |
+| `tken-openai-compatible-benchmark-pack` | benchmark and cost comparison searches | Publish repo, release zip, then add example result screenshots |
+| `tken-model-router-nextjs-starter` | Next.js AI route integration | Publish repo and add a deploy button after validation |
+| `tken-api-health-monitor` | uptime and error diagnosis searches | Publish repo and queue a dev.to troubleshooting draft |
+| `tken-ai-agent-starter-pack` | AI agent starter searches | Publish repo and connect it to Codex/OpenClaw guide pages |
 
 ## Safe Second-Development Rule
 

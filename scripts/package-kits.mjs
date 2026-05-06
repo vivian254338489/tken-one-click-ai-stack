@@ -76,6 +76,10 @@ const kits = [
   { name: "tken-reddit-launch-pack", baseDir: "starters/tken-reddit-launch-pack", paths: ["."] },
   { name: "tken-awesome-openai-compatible", baseDir: "starters/tken-awesome-openai-compatible", paths: ["."] },
   { name: "tken-ai-api-troubleshooting-guide", baseDir: "starters/tken-ai-api-troubleshooting-guide", paths: ["."] },
+  { name: "tken-openai-compatible-benchmark-pack", baseDir: "starters/tken-openai-compatible-benchmark-pack", paths: ["."] },
+  { name: "tken-model-router-nextjs-starter", baseDir: "starters/tken-model-router-nextjs-starter", paths: ["."] },
+  { name: "tken-api-health-monitor", baseDir: "starters/tken-api-health-monitor", paths: ["."] },
+  { name: "tken-ai-agent-starter-pack", baseDir: "starters/tken-ai-agent-starter-pack", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

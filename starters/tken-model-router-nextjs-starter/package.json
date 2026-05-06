@@ -1,0 +1,19 @@
+{
+  "name": "tken-model-router-nextjs-starter",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "nextjs",
+    "ai-sdk",
+    "openai-compatible",
+    "model-router",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_model_router_nextjs_starter"
+}

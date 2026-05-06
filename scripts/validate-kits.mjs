@@ -172,6 +172,26 @@ const kits = [
     files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "guides/401-unauthorized.md", "guides/502-gateway-error.md", "guides/model-not-found.md", "guides/api-base-url.md", "guides/cors-error.md", "check.mjs"],
     commands: [["npm", ["run", "check"]]],
   },
+  {
+    zip: "tken-openai-compatible-benchmark-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "bench.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-model-router-nextjs-starter.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "server.mjs", "app/api/chat/route.js", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-api-health-monitor.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "monitor.mjs", "server.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-ai-agent-starter-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "lib/client.mjs", "agents/planner-agent.mjs", "agents/coding-agent.mjs", "agents/support-agent.mjs", "demo.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

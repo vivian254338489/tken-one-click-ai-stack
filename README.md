@@ -255,6 +255,8 @@ Generated zip packages:
 - `dist/tken-codex-client-kit.zip`
 - `dist/tken-openclaw-client-kit.zip`
 
+Each zip contains its own README and beginner entry point. Windows users can start with `START.bat` where applicable.
+
 ## Verify
 
 ```bash

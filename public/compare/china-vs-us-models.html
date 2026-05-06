@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chinese Models vs US Models: How to Use Both From One API</title>
+  <meta name="description" content="Use Chinese and US model routes from one OpenAI-compatible endpoint for cost control, availability, and quality routing.">
+  <link rel="canonical" href="https://www.tken.shop/compare/china-vs-us-models">
+  <link rel="stylesheet" href="/assets/growth.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="topbar">
+      <a class="brand" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=compare&utm_campaign=china_vs_us_models">TKEN API</a>
+      <div class="nav">
+        <a href="/guides/three-minute-chatgpt-gateway">3-minute gateway</a>
+        <a href="/compare/ai-api-pricing">API pricing</a>
+        <a href="/compare/gpt-vs-claude">GPT vs Claude</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">Global model routing</div>
+      <h1>Chinese models vs US models: use both without changing your app</h1>
+      <p class="lead">Many teams want lower-cost model routes for high-volume work and premium western models for critical reasoning. A gateway lets you expose both through one OpenAI-compatible API.</p>
+      <div class="cta-row">
+        <a class="button" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=cta&utm_campaign=china_vs_us_models">Try TKEN routes</a>
+        <a class="button secondary" href="/guides/three-minute-chatgpt-gateway">Build a gateway</a>
+      </div>
+    </section>
+
+    <main>
+      <h2>Where low-cost routes fit</h2>
+      <table>
+        <thead><tr><th>Workload</th><th>Suggested starting route</th><th>Escalate when</th></tr></thead>
+        <tbody>
+          <tr><td>Chinese/English content drafts</td><td>Low-cost route</td><td>Brand tone or factual sensitivity is high.</td></tr>
+          <tr><td>Data extraction</td><td>Low-cost route</td><td>Schema errors exceed your threshold.</td></tr>
+          <tr><td>Chatbot fallback answers</td><td>Hybrid route</td><td>The answer affects billing, legal, medical, or safety decisions.</td></tr>
+          <tr><td>Complex coding and agents</td><td>Premium route</td><td>Always benchmark against real tests.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Gateway config example</h2>
+      <pre><code>FREE_MODEL=tken-free-model
+PREMIUM_MODEL=premium-gpt-model
+MODEL_ROUTES={
+  "cn-fast":"tken-free-model",
+  "premium-gpt":"premium-gpt-model"
+}</code></pre>
+
+      <h2>Why overseas users care</h2>
+      <div class="grid">
+        <div class="card"><strong>Payment access</strong>Some users want to try Chinese model routes without learning new payment flows.</div>
+        <div class="card"><strong>API compatibility</strong>OpenAI-style clients can test routes quickly.</div>
+        <div class="card"><strong>Cost control</strong>Route simple work cheaply and reserve premium models for hard tasks.</div>
+      </div>
+
+      <p class="note">Always respect provider terms, user privacy, and data residency requirements before moving production traffic between regions.</p>
+    </main>
+
+    <footer class="footer">Independent educational content. Not affiliated with OpenAI, Anthropic, ChatGPT, Claude, Codex, or OpenClaw.</footer>
+  </div>
+</body>
+</html>

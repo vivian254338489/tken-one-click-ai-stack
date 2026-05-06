@@ -18,7 +18,7 @@ const tmp = path.join(os.tmpdir(), `tken-kit-validate-${Date.now()}`);
 const kits = [
   {
     zip: "tken-full-stack.zip",
-    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "docs/preview.svg", "src/app.js", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
+    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
     install: true,
     commands: [
       ["npm", ["run", "setup"]],
@@ -27,7 +27,7 @@ const kits = [
   },
   {
     zip: "tken-gateway.zip",
-    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "docs/preview.svg", "src/app.js", "Dockerfile", "vercel.json"],
+    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "Dockerfile", "vercel.json"],
     install: true,
     commands: [
       ["npm", ["run", "setup"]],

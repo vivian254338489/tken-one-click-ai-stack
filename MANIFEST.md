@@ -18,6 +18,7 @@ Beginner entry points:
 - One-click support report: `SUPPORT.bat` or `SUPPORT.sh`
 - Local preflight check: `npm run preflight`
 - Download picker: `DOWNLOADS.md`
+- Growth assets: `growth/`
 - Troubleshooting guide: `TROUBLESHOOTING.md`
 - Commercial checklist: `COMMERCIAL.md`
 - 3-minute guide: `QUICKSTART.md`

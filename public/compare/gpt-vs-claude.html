@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPT vs Claude: Which Model Route Should Your App Use?</title>
+  <meta name="description" content="A practical GPT vs Claude comparison for app builders using OpenAI-compatible gateways and multi-model routing.">
+  <link rel="canonical" href="https://www.tken.shop/compare/gpt-vs-claude">
+  <link rel="stylesheet" href="/assets/growth.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="topbar">
+      <a class="brand" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=compare&utm_campaign=gpt_vs_claude">TKEN API</a>
+      <div class="nav">
+        <a href="/guides/three-minute-chatgpt-gateway">3-minute gateway</a>
+        <a href="/compare/ai-api-pricing">API pricing</a>
+        <a href="/compare/china-vs-us-models">China vs US models</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">Model comparison</div>
+      <h1>GPT vs Claude is the wrong question. Routing is the advantage.</h1>
+      <p class="lead">Different model families can shine on different jobs. The practical move is to keep one API surface and switch routes by task, budget, latency, and quality requirement.</p>
+      <div class="cta-row">
+        <a class="button" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=cta&utm_campaign=gpt_vs_claude">Test multi-model routing</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest">Download demo stack</a>
+      </div>
+    </section>
+
+    <main>
+      <h2>Decision table</h2>
+      <table>
+        <thead><tr><th>Use case</th><th>What to test</th><th>Gateway route idea</th></tr></thead>
+        <tbody>
+          <tr><td>Long document analysis</td><td>Context handling, quote accuracy, stable summaries.</td><td><code>doc-review</code></td></tr>
+          <tr><td>Code generation</td><td>Pass rate, patch quality, test-fix loop speed.</td><td><code>premium-code</code></td></tr>
+          <tr><td>Support replies</td><td>Tone, policy consistency, hallucination rate.</td><td><code>support-final</code></td></tr>
+          <tr><td>High-volume automation</td><td>Cost, latency, acceptable quality floor.</td><td><code>free-model</code></td></tr>
+        </tbody>
+      </table>
+
+      <h2>One endpoint, many routes</h2>
+      <pre><code>MODEL_ROUTES={
+  "draft":"tken-free-model",
+  "premium-code":"premium-gpt-model",
+  "support-final":"premium-gpt-model"
+}</code></pre>
+
+      <h2>Recommended workflow</h2>
+      <div class="grid">
+        <div class="card"><strong>Start cheap</strong>Send drafts, extraction, and formatting to a low-cost route.</div>
+        <div class="card"><strong>Escalate hard tasks</strong>Use premium models when the first answer fails or quality risk is high.</div>
+        <div class="card"><strong>Log outcomes</strong>Track route, prompt type, latency, cost, and pass/fail result.</div>
+      </div>
+    </main>
+
+    <footer class="footer">Not affiliated with OpenAI, Anthropic, ChatGPT, Claude, Codex, or OpenClaw.</footer>
+  </div>
+</body>
+</html>

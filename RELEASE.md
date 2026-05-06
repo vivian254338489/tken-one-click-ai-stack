@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.4.9
+# Release Notes: TKEN One-Click AI Stack 0.5.0
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -29,6 +29,11 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added one-click support reports to standalone ChatGPT-style and Claude-style Web UI packages.
 - Added one-click support reports to Codex and OpenClaw client kit packages.
 - Added standalone support-report coverage to zip validation.
+- Added SEO-ready landing pages for "3-minute ChatGPT gateway", API pricing comparison, GPT vs Claude, and Chinese vs US model routing.
+- Added a sitemap for the new guide and comparison pages.
+- Added a GitHub growth target list for legal second-development opportunities.
+- Added a 30-day content calendar, Reddit experience draft, short-video scripts, comparison headline bank, and Amazon/voucher risk plan.
+- Added smoke-test coverage for all new guide and comparison pages.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
 - Standalone Web UI packages include `START.bat`, `START.sh`, `SUPPORT.bat`, `SUPPORT.sh`, `configure.mjs`, and `NEXT_STEPS.md`.
@@ -39,6 +44,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Web UIs: bundled and standalone ChatGPT-style / Claude-style packages.
 - Clients: Codex and OpenClaw config generators.
 - Deploy: Docker, Railway, Render, and Vercel docs.
+- Growth: GitHub second-development targets, SEO pages, social drafts, and video scripts.
 - QA: smoke tests, web app health tests, package doctor, and zip validation.
 
 ## Quick Test

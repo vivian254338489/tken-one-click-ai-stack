@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3-Minute ChatGPT API Gateway: Railway, Vercel, Docker</title>
+  <meta name="description" content="Deploy an OpenAI-compatible ChatGPT gateway in about three minutes with Railway, Vercel, Docker, and ready-to-run web UIs.">
+  <link rel="canonical" href="https://www.tken.shop/guides/three-minute-chatgpt-gateway">
+  <link rel="stylesheet" href="/assets/growth.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="topbar">
+      <a class="brand" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=guide&utm_campaign=three_minute_gateway">TKEN API</a>
+      <div class="nav">
+        <a href="/compare/ai-api-pricing">API pricing</a>
+        <a href="/compare/gpt-vs-claude">GPT vs Claude</a>
+        <a href="/compare/china-vs-us-models">China vs US models</a>
+        <a href="https://github.com/vivian254338489/tken-one-click-ai-stack">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">3-minute deploy guide</div>
+      <h1>Build your own ChatGPT API gateway without rewriting your app</h1>
+      <p class="lead">Use one OpenAI-compatible endpoint for a ChatGPT-style UI, Claude-style UI, Codex-style clients, and OpenClaw-style clients. Start local first, then deploy with Docker, Railway, Render, or Vercel.</p>
+      <div class="cta-row">
+        <a class="button" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=cta&utm_campaign=three_minute_gateway">Get API access</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest">Download one-click kit</a>
+      </div>
+    </section>
+
+    <main>
+      <h2>Fastest local setup</h2>
+      <p>Download the full-stack kit, unzip it, and run the start script. The package starts in demo mode first, so you can verify the UI before adding a real upstream key.</p>
+      <pre><code>npm install
+npm run setup
+npm start</code></pre>
+
+      <div class="grid">
+        <div class="card"><strong>Gateway</strong>OpenAI-compatible <code>/v1/chat/completions</code> route with model mapping.</div>
+        <div class="card"><strong>Web UIs</strong>ChatGPT-style and Claude-style browser interfaces included.</div>
+        <div class="card"><strong>Client kits</strong>Codex and OpenClaw config templates generated locally.</div>
+      </div>
+
+      <h2>Deploy options</h2>
+      <table>
+        <thead><tr><th>Target</th><th>Best for</th><th>Command or action</th></tr></thead>
+        <tbody>
+          <tr><td>Docker</td><td>Private servers and predictable production setups.</td><td><code>docker compose up --build</code></td></tr>
+          <tr><td>Railway</td><td>Fast proof-of-concept deployments.</td><td>Import the repo and set environment variables.</td></tr>
+          <tr><td>Render</td><td>Simple web service hosting with health checks.</td><td>Use the included <code>render.yaml</code>.</td></tr>
+          <tr><td>Vercel</td><td>Quick demos and edge-friendly API routes.</td><td>Use the included <code>vercel.json</code>.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Environment variables</h2>
+      <pre><code>UPSTREAM_BASE_URL=https://www.tken.shop/v1
+UPSTREAM_API_KEY=your_tken_api_key
+LOCAL_API_KEY=change_this_local_gateway_key
+FREE_MODEL=tken-free-model
+PREMIUM_MODEL=premium-gpt-model
+DEFAULT_ROUTE=free-model</code></pre>
+
+      <p class="note">Keep marketing claims specific: this gateway helps you route compatible API calls. It does not make any third-party service unlimited or official.</p>
+
+      <h2>Next step</h2>
+      <p>Use the low-cost route for drafts, extraction, summaries, and simple automation. Switch to the premium route for coding, hard reasoning, and important final answers.</p>
+      <div class="cta-row">
+        <a class="button" href="https://www.tken.shop/?utm_source=seo_page&utm_medium=bottom_cta&utm_campaign=three_minute_gateway">Try TKEN API</a>
+        <a class="button secondary" href="/compare/ai-api-pricing">Compare API costs</a>
+      </div>
+    </main>
+
+    <footer class="footer">Not affiliated with OpenAI, Anthropic, ChatGPT, Claude, Codex, or OpenClaw. Names describe compatibility patterns only.</footer>
+  </div>
+</body>
+</html>

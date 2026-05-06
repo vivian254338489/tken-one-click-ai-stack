@@ -91,11 +91,26 @@ export function createApp() {
   });
 
   app.use("/assets", express.static(path.join(publicDir, "assets")));
+  app.get("/sitemap.xml", (_req, res) => {
+    res.type("application/xml").sendFile(path.join(publicDir, "sitemap.xml"));
+  });
 
   app.get("/", (_req, res) => res.redirect("/chatgpt"));
   app.get("/chatgpt", (_req, res) => res.sendFile(path.join(publicDir, "chatgpt.html")));
   app.get("/claude", (_req, res) => res.sendFile(path.join(publicDir, "claude.html")));
   app.get("/admin", (_req, res) => res.sendFile(path.join(publicDir, "admin.html")));
+  app.get("/guides/three-minute-chatgpt-gateway", (_req, res) => {
+    res.sendFile(path.join(publicDir, "guides", "three-minute-chatgpt-gateway.html"));
+  });
+  app.get("/compare/ai-api-pricing", (_req, res) => {
+    res.sendFile(path.join(publicDir, "compare", "ai-api-pricing.html"));
+  });
+  app.get("/compare/gpt-vs-claude", (_req, res) => {
+    res.sendFile(path.join(publicDir, "compare", "gpt-vs-claude.html"));
+  });
+  app.get("/compare/china-vs-us-models", (_req, res) => {
+    res.sendFile(path.join(publicDir, "compare", "china-vs-us-models.html"));
+  });
 
   app.get("/health", (_req, res) => {
     res.json({

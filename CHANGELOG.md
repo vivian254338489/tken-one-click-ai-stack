@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0
+
+- Added SEO-ready landing pages for 3-minute gateway setup, AI API pricing, GPT vs Claude, and Chinese vs US model routing.
+- Added a sitemap for the new guide and comparison pages.
+- Added GitHub second-development target research and safer PR guidance.
+- Added a 30-day content calendar, Reddit draft, short-video scripts, comparison headline bank, and Amazon/voucher channel risk plan.
+- Added smoke-test, doctor, and zip validation coverage for the new growth assets.
+
 ## 0.4.9
 
 - Added one-click support reports to standalone ChatGPT-style and Claude-style Web UI packages.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.6
+
+- Added `START_HERE.txt` for non-technical users after unzip.
+- Added start-here coverage to package validation and doctor checks.
+- Documented the start-here flow in README and download guide.
+
 ## 0.4.5
 
 - Added `SUPPORT.bat` and `SUPPORT.sh` for one-click support report generation.

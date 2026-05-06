@@ -2,6 +2,8 @@
 
 Pick one package. Unzip it. Run the included start script.
 
+After unzipping, open `START_HERE.txt` if you are not technical.
+
 ## Best First Download
 
 Use this if you are not sure:

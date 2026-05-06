@@ -1,0 +1,29 @@
+TKEN One-Click AI Stack
+
+Start here if you are not technical.
+
+1. Windows
+   Double-click START.bat
+
+2. macOS / Linux
+   Run:
+   sh START.sh
+
+3. Open in your browser
+   http://localhost:8787/chatgpt
+   http://localhost:8787/claude
+
+4. Need an API key?
+   https://www.tken.shop/
+
+5. Startup failed?
+   Windows: double-click SUPPORT.bat
+   macOS / Linux: run sh SUPPORT.sh
+
+   Then send generated/support-report.json with your support request.
+   The report does not include raw API keys.
+
+6. More help
+   QUICKSTART.md
+   TROUBLESHOOTING.md
+   DOWNLOADS.md

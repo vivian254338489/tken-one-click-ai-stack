@@ -24,6 +24,7 @@ const kits = [
       "COMMERCIAL.md",
       "LAUNCH_CHECKLIST.md",
       "MANIFEST.md",
+      "START_HERE.txt",
       "START.bat",
       "START.sh",
       "SUPPORT.bat",
@@ -48,7 +49,7 @@ const kits = [
   {
     name: "tken-gateway",
     baseDir: ".",
-    paths: [".env.example", "Dockerfile", "docker-compose.yml", "package.json", "package-lock.json", "README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "api", "deploy", "docs", "public", "scripts", "src", "tools", "railway.json", "render.yaml", "vercel.json", "LICENSE"],
+    paths: [".env.example", "Dockerfile", "docker-compose.yml", "package.json", "package-lock.json", "README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "api", "deploy", "docs", "public", "scripts", "src", "tools", "railway.json", "render.yaml", "vercel.json", "LICENSE"],
   },
   { name: "tken-chatgpt-web-ui", baseDir: "apps/chatgpt-web", paths: ["."] },
   { name: "tken-claude-web-ui", baseDir: "apps/claude-web", paths: ["."] },

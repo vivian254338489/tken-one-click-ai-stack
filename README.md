@@ -15,6 +15,8 @@ Six ready-to-run install packages for an OpenAI-compatible multi-model AI stack.
 
 Pick a zip, unzip it, and run. No framework migration, no vendor lock-in.
 
+After unzipping, non-technical users can open `START_HERE.txt`.
+
 For non-technical users: download `tken-full-stack.zip`, unzip it, double-click `START.bat`, then open `http://localhost:8787/chatgpt`.
 
 The start scripts run a preflight check first. If Node.js is missing, the port is busy, or files are incomplete, the package prints a clear fix before it starts.
@@ -268,6 +270,7 @@ Generated files are written to each package's `generated/` folder.
 ## More
 
 - `DOWNLOADS.md`
+- `START_HERE.txt`
 - `QUICKSTART.md`
 - `COMMERCIAL.md`
 - `FAQ.md`

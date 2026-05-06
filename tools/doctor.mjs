@@ -11,6 +11,7 @@ const required = [
   "COMMERCIAL.md",
   "LAUNCH_CHECKLIST.md",
   "MANIFEST.md",
+  "START_HERE.txt",
   "START.bat",
   "START.sh",
   "SUPPORT.bat",

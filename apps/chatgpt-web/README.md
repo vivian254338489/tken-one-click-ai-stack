@@ -4,6 +4,20 @@ Standalone browser UI for any OpenAI-compatible endpoint.
 
 ## Quick Start
 
+Windows:
+
+```text
+Double-click START.bat
+```
+
+macOS/Linux:
+
+```bash
+sh START.sh
+```
+
+Manual:
+
 ```bash
 npm install
 npm start
@@ -27,7 +41,13 @@ https://www.tken.shop/?utm_source=github&utm_medium=webui_package&utm_campaign=c
 
 ## Configure
 
-Edit `public/config.js`:
+Run:
+
+```bash
+npm run configure
+```
+
+Or edit `public/config.js`:
 
 ```js
 window.TKEN_WEB_CONFIG = {

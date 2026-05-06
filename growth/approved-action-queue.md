@@ -9,6 +9,12 @@ Completed:
 - Created standalone public repo: `https://github.com/vivian254338489/chatgpt-web-ui-tken-starter`
 - Created release: `https://github.com/vivian254338489/chatgpt-web-ui-tken-starter/releases/tag/v0.1.0`
 - Set topics: `chatgpt-web-ui`, `openai-compatible`, `ai-gateway`, `tken`, `vercel`, `railway`, `docker`, `llm-router`, `ai-api`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-claude-web-ui`
+- Created release: `https://github.com/vivian254338489/tken-claude-web-ui/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-codex-client-kit`
+- Created release: `https://github.com/vivian254338489/tken-codex-client-kit/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-openclaw-client-kit`
+- Created release: `https://github.com/vivian254338489/tken-openclaw-client-kit/releases/tag/v0.1.0`
 
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`

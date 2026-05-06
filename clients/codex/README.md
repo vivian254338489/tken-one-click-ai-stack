@@ -20,6 +20,20 @@ https://www.tken.shop/?utm_source=github&utm_medium=client_config&utm_campaign=c
 
 ## Generate Config
 
+Windows:
+
+```text
+Double-click START.bat
+```
+
+macOS/Linux:
+
+```bash
+sh START.sh
+```
+
+Manual:
+
 ```bash
 node install.mjs
 ```
@@ -37,3 +51,5 @@ node install.mjs --base-url https://www.tken.shop/v1 --default-model tken-free-m
 ```
 
 The generated file is a portable template. Adapt the exact destination to your Codex-compatible client.
+
+See `NEXT_STEPS.md` after generation.

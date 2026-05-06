@@ -4,6 +4,12 @@ These are ready-to-run public actions. They require owner approval before postin
 
 ## Batch 1
 
+Completed:
+
+- Created standalone public repo: `https://github.com/vivian254338489/chatgpt-web-ui-tken-starter`
+- Created release: `https://github.com/vivian254338489/chatgpt-web-ui-tken-starter/releases/tag/v0.1.0`
+- Set topics: `chatgpt-web-ui`, `openai-compatible`, `ai-gateway`, `tken`, `vercel`, `railway`, `docker`, `llm-router`, `ai-api`
+
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`
    - Asset: `growth/reddit-experience-post.md`

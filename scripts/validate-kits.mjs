@@ -36,7 +36,7 @@ const kits = [
   },
   {
     zip: "chatgpt-web-ui-tken-starter.zip",
-    files: ["README.md", "START.bat", "START.sh", "package.json", "preflight.mjs", "server.mjs", "smoke.mjs", "Dockerfile", "railway.json", "vercel.json", "public/index.html", "public/app.js", "public/config.js", "public/styles.css"],
+    files: ["README.md", "LICENSE", "DEPLOY.md", "PROMOTION.md", ".github/workflows/check.yml", "START.bat", "START.sh", "package.json", "preflight.mjs", "server.mjs", "smoke.mjs", "Dockerfile", "railway.json", "vercel.json", "public/index.html", "public/app.js", "public/config.js", "public/styles.css"],
     install: true,
     commands: [
       ["npm", ["run", "preflight"]],

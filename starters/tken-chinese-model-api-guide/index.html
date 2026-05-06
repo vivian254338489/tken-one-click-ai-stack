@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chinese Model API Guide for OpenAI-Compatible Clients</title>
+  <meta name="description" content="Learn how international developers can test Chinese model routes through an OpenAI-compatible API base URL.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">OpenAI-compatible routing guide</p>
+      <h1>Use Chinese model routes without rewriting your AI client.</h1>
+      <p class="lead">A practical English guide for developers who want lower-cost model routes, familiar `/v1` API shape, and a simple path from testing to production.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=guide_cta&utm_campaign=tken_chinese_model_api_guide">Try TKEN API</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-openai-compatible-examples">View examples</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Why international developers look at Chinese models</h2>
+      <p>Many teams want cheaper routes for summaries, extraction, drafts, translation, and bulk automation. Premium GPT-style routes still matter for coding, hard reasoning, and final answers, but not every request needs to use the highest-cost route.</p>
+    </section>
+
+    <section class="grid">
+      <article>
+        <h3>One API base</h3>
+        <p>Use `https://www.tken.shop/v1` with OpenAI-compatible clients.</p>
+      </article>
+      <article>
+        <h3>Route by task</h3>
+        <p>Send routine work to `free-model` and harder work to `premium-gpt`.</p>
+      </article>
+      <article>
+        <h3>Payment bridge</h3>
+        <p>Use a site that supports international-friendly checkout and USDT options.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Copy-paste request</h2>
+      <pre><code>curl https://www.tken.shop/v1/chat/completions \
+  -H "Authorization: Bearer $TKEN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"free-model","messages":[{"role":"user","content":"Summarize this text."}]}'</code></pre>
+    </section>
+
+    <section>
+      <h2>Routing table</h2>
+      <table>
+        <thead><tr><th>Route</th><th>Best for</th><th>Upgrade when</th></tr></thead>
+        <tbody>
+          <tr><td><code>free-model</code></td><td>Summaries, extraction, drafts, translation</td><td>The answer is high-risk or customer-facing</td></tr>
+          <tr><td><code>premium-gpt</code></td><td>Coding, hard reasoning, agent planning</td><td>Already selected for hard work</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

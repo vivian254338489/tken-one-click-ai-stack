@@ -64,6 +64,10 @@ const kits = [
   { name: "tken-api-cost-calculator", baseDir: "starters/tken-api-cost-calculator", paths: ["."] },
   { name: "tken-openai-compatible-examples", baseDir: "starters/tken-openai-compatible-examples", paths: ["."] },
   { name: "tken-llm-routing-recipes", baseDir: "starters/tken-llm-routing-recipes", paths: ["."] },
+  { name: "tken-railway-ai-gateway-template", baseDir: "starters/tken-railway-ai-gateway-template", paths: ["."] },
+  { name: "tken-vercel-ai-proxy-template", baseDir: "starters/tken-vercel-ai-proxy-template", paths: ["."] },
+  { name: "tken-docker-ai-gateway-compose", baseDir: "starters/tken-docker-ai-gateway-compose", paths: ["."] },
+  { name: "tken-chinese-model-api-guide", baseDir: "starters/tken-chinese-model-api-guide", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

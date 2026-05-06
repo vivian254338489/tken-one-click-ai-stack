@@ -101,6 +101,37 @@ const kits = [
       ["npm", ["run", "check"]],
     ],
   },
+  {
+    zip: "tken-railway-ai-gateway-template.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "server.mjs", "preflight.mjs", "smoke.mjs", "Dockerfile", "railway.json"],
+    install: true,
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-vercel-ai-proxy-template.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "vercel.json", "lib/gateway.mjs", "api/health.mjs", "api/models.mjs", "api/chat-completions.mjs", "check.mjs"],
+    install: true,
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-docker-ai-gateway-compose.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "server.mjs", "preflight.mjs", "smoke.mjs", "Dockerfile", "docker-compose.yml"],
+    install: true,
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-chinese-model-api-guide.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

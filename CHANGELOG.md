@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0
+
+- Added one-click start scripts to every standalone package.
+- Added configure scripts for standalone ChatGPT-style and Claude-style Web UIs.
+- Added `NEXT_STEPS.md` to standalone Web UI and client config packages.
+- Added automatic `.env` loading, setup wizard, demo mode, and admin status page.
+- Strengthened zip validation to check beginner entry points in every package.
+
 ## 0.2.0
 
 - Added six downloadable install kits.

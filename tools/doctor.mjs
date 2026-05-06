@@ -83,6 +83,7 @@ const required = [
   "growth/seo-site-network-plan.md",
   "growth/fork-adapter-template.md",
   "growth/distribution-matrix.md",
+  "growth/autonomous-promotion-runbook.md",
   "growth/devto-article-draft.md",
   "growth/hacker-news-draft.md",
   "growth/generated-promo-pack.example.json",

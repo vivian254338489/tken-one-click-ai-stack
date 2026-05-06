@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.3
+
+- Added `adapter-kits/chatgpt-web-ui-tken` for permissive-license ChatGPT Web UI forks.
+- Added provider mapping, README snippet, Docker Compose, Railway, Vercel, and upstream PR templates for TKEN adapter forks.
+- Added `tools/install-adapter-kit.mjs` for injecting the adapter kit into a target project directory.
+- Added doctor and zip validation coverage for the adapter kit.
+
 ## 0.5.2
 
 - Added deployable static site templates for GPT tutorial, Claude tutorial, and AI tools navigation sites.

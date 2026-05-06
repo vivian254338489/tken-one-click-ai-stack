@@ -20,6 +20,7 @@ Beginner entry points:
 - Download picker: `DOWNLOADS.md`
 - Growth assets: `growth/`
 - SEO site templates: `site-templates/`
+- ChatGPT Web UI adapter kit: `adapter-kits/chatgpt-web-ui-tken/`
 - UTM link builder: `node tools/utm-builder.mjs --source=reddit --medium=community --campaign=gateway_launch`
 - Promo pack generator: `node tools/promo-pack.mjs --source=reddit --medium=community --campaign=gateway_launch`
 - Troubleshooting guide: `TROUBLESHOOTING.md`

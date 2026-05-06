@@ -98,6 +98,7 @@ The first run uses demo mode by default. The UI works immediately without an ups
 - SEO-ready comparison pages and growth drafts for GitHub, Reddit, video, and marketplace experiments.
 - API cost calculator and UTM builder for measurable promotion campaigns.
 - Deployable GPT tutorial, Claude tutorial, and AI tools navigation site templates.
+- ChatGPT Web UI adapter kit for permissive-license forks and one-click provider presets.
 - Built-in request rate limiting and basic security headers for public deployments.
 - Zip packages are validated after build, so users can unzip and run.
 
@@ -293,6 +294,7 @@ Client kit users can double-click `SUPPORT.bat` or run `sh SUPPORT.sh` to genera
 - `growth/approved-action-queue.md`
 - `growth/short-video-scripts.md`
 - `site-templates/`
+- `adapter-kits/chatgpt-web-ui-tken/`
 - `COMMERCIAL.md`
 - `FAQ.md`
 - `ROADMAP.md`

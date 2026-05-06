@@ -1,0 +1,10 @@
+services:
+  chatgpt-web-ui:
+    build: .
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      OPENAI_BASE_URL: "https://www.tken.shop/v1"
+      OPENAI_API_KEY: "${OPENAI_API_KEY:-your_tken_api_key}"
+      DEFAULT_MODEL: "${DEFAULT_MODEL:-tken-free-model}"
+      PREMIUM_MODEL: "${PREMIUM_MODEL:-premium-gpt-model}"

@@ -31,6 +31,14 @@ Completed:
 - Created release: `https://github.com/vivian254338489/tken-docker-ai-gateway-compose/releases/tag/v0.1.0`
 - Created standalone public repo: `https://github.com/vivian254338489/tken-chinese-model-api-guide`
 - Created release: `https://github.com/vivian254338489/tken-chinese-model-api-guide/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-gpt-vs-claude-routing-guide`
+- Created release: `https://github.com/vivian254338489/tken-gpt-vs-claude-routing-guide/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-cheapest-ai-api-2026`
+- Created release: `https://github.com/vivian254338489/tken-cheapest-ai-api-2026/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-chatgpt-gateway-3-minute-guide`
+- Created release: `https://github.com/vivian254338489/tken-chatgpt-gateway-3-minute-guide/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw`
+- Created release: `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw/releases/tag/v0.1.0`
 
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`

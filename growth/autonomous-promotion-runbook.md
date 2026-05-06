@@ -65,21 +65,25 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-vercel-ai-proxy-template`
 - `https://github.com/vivian254338489/tken-docker-ai-gateway-compose`
 - `https://github.com/vivian254338489/tken-chinese-model-api-guide`
+- `https://github.com/vivian254338489/tken-gpt-vs-claude-routing-guide`
+- `https://github.com/vivian254338489/tken-cheapest-ai-api-2026`
+- `https://github.com/vivian254338489/tken-chatgpt-gateway-3-minute-guide`
+- `https://github.com/vivian254338489/tken-ai-api-for-codex-openclaw`
 
 Next useful seeds:
 
-1. `tken-gpt-vs-claude-routing-guide`
-   - Comparison guide focused on task routing, not model fandom.
-   - Search angle: GPT vs Claude, route by task.
-2. `tken-cheapest-ai-api-2026`
-   - SEO/comparison repo for low-cost AI API positioning.
-   - Search angle: cheapest AI API, low-cost LLM API.
-3. `tken-chatgpt-gateway-3-minute-guide`
-   - Ultra-short tutorial and deploy links for the gateway.
-   - Search angle: 3 minute ChatGPT gateway.
-4. `tken-ai-api-for-codex-openclaw`
-   - Client-focused guide for coding agent users.
-   - Search angle: Codex API base URL, OpenClaw provider.
+1. `tken-ai-api-video-script-pack`
+   - Short-form scripts for YouTube Shorts, TikTok, and Reels.
+   - Search angle: AI API tutorial, ChatGPT tips, AI tools.
+2. `tken-reddit-launch-pack`
+   - Experience-style posts tailored to self-hosted, webdev, and AI communities.
+   - Search angle: soft community launch.
+3. `tken-awesome-openai-compatible`
+   - Curated list of OpenAI-compatible gateway, UI, and client resources.
+   - Search angle: awesome list, OpenAI-compatible tools.
+4. `tken-ai-api-troubleshooting-guide`
+   - Fix common API base URL, auth, model route, and gateway errors.
+   - Search angle: OpenAI API base URL error, 401, 502, model not found.
 
 ## Safe Second-Development Rule
 

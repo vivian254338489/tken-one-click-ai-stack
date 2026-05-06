@@ -57,21 +57,25 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-claude-web-ui`
 - `https://github.com/vivian254338489/tken-codex-client-kit`
 - `https://github.com/vivian254338489/tken-openclaw-client-kit`
+- `https://github.com/vivian254338489/tken-ai-gateway-lite`
+- `https://github.com/vivian254338489/tken-api-cost-calculator`
+- `https://github.com/vivian254338489/tken-openai-compatible-examples`
+- `https://github.com/vivian254338489/tken-llm-routing-recipes`
 
 Next useful seeds:
 
-1. `tken-ai-gateway-lite`
-   - Minimal OpenAI-compatible gateway only.
-   - Search angle: Docker, Railway, Vercel, API gateway.
-2. `tken-api-cost-calculator`
-   - Static calculator for GPT vs Claude vs low-cost route estimates.
-   - Search angle: AI API pricing, cost calculator.
-3. `tken-openai-compatible-examples`
-   - Copy-paste examples for curl, Node.js, Python, Codex-style clients, and Web UIs.
-   - Search angle: base URL, model routing, OpenAI-compatible.
-4. `tken-llm-routing-recipes`
-   - Task-based route examples: summarization, extraction, coding, translation, customer support.
-   - Search angle: cheap fallback routes and premium route control.
+1. `tken-railway-ai-gateway-template`
+   - Railway-first gateway template with screenshots and env setup.
+   - Search angle: Railway AI gateway, OpenAI-compatible Railway.
+2. `tken-vercel-ai-proxy-template`
+   - Vercel-first serverless proxy template.
+   - Search angle: Vercel AI proxy, OpenAI-compatible proxy.
+3. `tken-docker-ai-gateway-compose`
+   - Docker Compose focused gateway and Web UI bundle.
+   - Search angle: Docker AI gateway, self-hosted AI API.
+4. `tken-chinese-model-api-guide`
+   - English guide for using Chinese model routes from US-friendly payment/API tooling.
+   - Search angle: Chinese AI model API, low-cost LLM API.
 
 ## Safe Second-Development Rule
 

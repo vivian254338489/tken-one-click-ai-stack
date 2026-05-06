@@ -15,6 +15,14 @@ Completed:
 - Created release: `https://github.com/vivian254338489/tken-codex-client-kit/releases/tag/v0.1.0`
 - Created standalone public repo: `https://github.com/vivian254338489/tken-openclaw-client-kit`
 - Created release: `https://github.com/vivian254338489/tken-openclaw-client-kit/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-ai-gateway-lite`
+- Created release: `https://github.com/vivian254338489/tken-ai-gateway-lite/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-api-cost-calculator`
+- Created release: `https://github.com/vivian254338489/tken-api-cost-calculator/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-openai-compatible-examples`
+- Created release: `https://github.com/vivian254338489/tken-openai-compatible-examples/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-llm-routing-recipes`
+- Created release: `https://github.com/vivian254338489/tken-llm-routing-recipes/releases/tag/v0.1.0`
 
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`

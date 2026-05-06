@@ -62,6 +62,18 @@ window.TKEN_WEB_CONFIG = {
 };
 ```
 
+## Support Report
+
+Windows users can double-click `SUPPORT.bat`.
+
+macOS/Linux:
+
+```bash
+sh SUPPORT.sh
+```
+
+This writes `generated/support-report.json`. It checks system, files, config shape, and local health without including raw API keys.
+
 ## Docker
 
 ```bash

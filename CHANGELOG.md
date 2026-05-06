@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.9
+
+- Added one-click support reports to standalone ChatGPT-style and Claude-style Web UI packages.
+- Added one-click support reports to Codex and OpenClaw client kit packages.
+- Added standalone support-report coverage to zip validation.
+- Documented standalone support reports in README, START_HERE, and NEXT_STEPS files.
+
 ## 0.4.8
 
 - Added automatic browser opening to full-stack start scripts.

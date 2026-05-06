@@ -1,12 +1,13 @@
 {
   "name": "tken-claude-web-ui",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "private": false,
   "type": "module",
   "scripts": {
     "preflight": "node preflight.mjs",
     "start": "node server.mjs",
     "configure": "node configure.mjs",
+    "support:report": "node support-report.mjs",
     "check": "node smoke.mjs"
   },
   "dependencies": {

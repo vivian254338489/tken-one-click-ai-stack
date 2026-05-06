@@ -94,6 +94,7 @@ The first run uses demo mode by default. The UI works immediately without an ups
 - Real deployment files for Docker, Railway, Render, and Vercel.
 - Demo mode, setup wizard, admin status page, and production readiness check.
 - Preflight checks for Node.js, required files, and local port conflicts.
+- Safe support reports in the full stack, standalone Web UIs, and client kits.
 - Built-in request rate limiting and basic security headers for public deployments.
 - Zip packages are validated after build, so users can unzip and run.
 
@@ -244,6 +245,12 @@ window.TKEN_WEB_CONFIG = {
 };
 ```
 
+Standalone Web UI users can generate a safe support report with:
+
+```bash
+npm run support:report
+```
+
 ## Client Kits
 
 Codex config generator:
@@ -261,6 +268,8 @@ node install.mjs
 ```
 
 Generated files are written to each package's `generated/` folder.
+
+Client kit users can double-click `SUPPORT.bat` or run `sh SUPPORT.sh` to generate `generated/support-report.json`.
 
 ## Cloud Deploy
 

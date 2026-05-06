@@ -36,21 +36,33 @@ const kits = [
   },
   {
     zip: "tken-chatgpt-web-ui.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "preflight.mjs", "open-browser.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "open-browser.mjs", "support-report.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    commands: [
+      ["node", ["support-report.mjs"]],
+    ],
   },
   {
     zip: "tken-claude-web-ui.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "preflight.mjs", "open-browser.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "open-browser.mjs", "support-report.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    commands: [
+      ["node", ["support-report.mjs"]],
+    ],
   },
   {
     zip: "tken-codex-client-kit.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "preflight.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
-    command: ["node", ["install.mjs"]],
+    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    commands: [
+      ["node", ["install.mjs"]],
+      ["node", ["support-report.mjs"]],
+    ],
   },
   {
     zip: "tken-openclaw-client-kit.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "preflight.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
-    command: ["node", ["install.mjs"]],
+    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    commands: [
+      ["node", ["install.mjs"]],
+      ["node", ["support-report.mjs"]],
+    ],
   },
 ];
 

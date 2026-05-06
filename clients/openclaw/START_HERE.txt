@@ -20,5 +20,7 @@ Start here if you are not technical.
    Copy generated/openclaw.tken.json into your OpenClaw-style client.
 
 6. More help
+   Windows: double-click SUPPORT.bat to generate a support report.
+   macOS / Linux: run sh SUPPORT.sh
    README.md
    NEXT_STEPS.md

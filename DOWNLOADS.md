@@ -58,4 +58,4 @@ sh START.sh
 - local port availability
 - demo `.env` generation for the full stack
 
-If startup fails, open `TROUBLESHOOTING.md`.
+If startup fails, run `SUPPORT.bat` on Windows or `sh SUPPORT.sh` on macOS/Linux. Send `generated/support-report.json` with your support request.

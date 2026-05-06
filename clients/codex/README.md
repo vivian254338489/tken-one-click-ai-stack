@@ -55,3 +55,15 @@ node install.mjs --base-url https://www.tken.shop/v1 --default-model tken-free-m
 The generated file is a portable template. Adapt the exact destination to your Codex-compatible client.
 
 See `NEXT_STEPS.md` after generation.
+
+## Support Report
+
+Windows users can double-click `SUPPORT.bat`.
+
+macOS/Linux:
+
+```bash
+sh SUPPORT.sh
+```
+
+This writes `generated/support-report.json`. It checks system, required files, environment variable shape, and generated config shape without including raw API keys.

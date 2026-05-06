@@ -5,6 +5,7 @@
 3. Open `generated/codex.tken.json`.
 4. Copy the provider settings into your Codex-compatible client.
 5. Run `quick-test.sh` to verify the API key and model route.
+6. If config generation fails, double-click `SUPPORT.bat` or run `sh SUPPORT.sh`, then send `generated/support-report.json`.
 
 Default endpoint:
 

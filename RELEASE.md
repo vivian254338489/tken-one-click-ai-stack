@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.4.8
+# Release Notes: TKEN One-Click AI Stack 0.4.9
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -26,10 +26,13 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added `START_HERE.txt` for non-technical users after unzip.
 - Added `START_HERE.txt` to standalone Web UI and client kit packages.
 - Added automatic browser opening for full-stack and standalone Web UI start scripts.
+- Added one-click support reports to standalone ChatGPT-style and Claude-style Web UI packages.
+- Added one-click support reports to Codex and OpenClaw client kit packages.
+- Added standalone support-report coverage to zip validation.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
-- Standalone Web UI packages include `START.bat`, `START.sh`, `configure.mjs`, and `NEXT_STEPS.md`.
-- Codex and OpenClaw kits include `START.bat`, `START.sh`, and `NEXT_STEPS.md`.
+- Standalone Web UI packages include `START.bat`, `START.sh`, `SUPPORT.bat`, `SUPPORT.sh`, `configure.mjs`, and `NEXT_STEPS.md`.
+- Codex and OpenClaw kits include `START.bat`, `START.sh`, `SUPPORT.bat`, `SUPPORT.sh`, and `NEXT_STEPS.md`.
 - Gateway loads `.env` automatically.
 - Full stack includes demo mode and `/admin` status page.
 - Gateway: OpenAI-compatible `/v1/chat/completions` proxy with model route mapping.

@@ -21,5 +21,7 @@ Start here if you are not technical.
    npm run configure
 
 6. More help
+   Windows: double-click SUPPORT.bat to generate a support report.
+   macOS / Linux: run sh SUPPORT.sh
    README.md
    NEXT_STEPS.md

@@ -15,6 +15,7 @@ Beginner entry points:
 
 - Windows: `START.bat`
 - macOS/Linux: `START.sh`
+- One-click support report: `SUPPORT.bat` or `SUPPORT.sh`
 - Local preflight check: `npm run preflight`
 - Download picker: `DOWNLOADS.md`
 - Troubleshooting guide: `TROUBLESHOOTING.md`
@@ -36,4 +37,4 @@ Every generated zip is validated by:
 npm run check:kits
 ```
 
-Validation confirms the package contains the expected root-level files and that runnable packages can complete their smoke checks.
+Validation confirms the package contains the expected root-level files, support-report tools, and runnable smoke checks.

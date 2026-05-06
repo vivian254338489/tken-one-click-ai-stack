@@ -18,7 +18,7 @@ const tmp = path.join(os.tmpdir(), `tken-kit-validate-${Date.now()}`);
 const kits = [
   {
     zip: "tken-full-stack.zip",
-    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "tools/utm-builder.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "public/tools/api-cost-calculator.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "growth/seo-site-network-plan.md", "growth/distribution-matrix.md", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
+    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "tools/utm-builder.mjs", "tools/promo-pack.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "public/tools/api-cost-calculator.html", "site-templates/gpt-tutorial-site/index.html", "site-templates/claude-tutorial-site/index.html", "site-templates/ai-tools-nav/index.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "growth/seo-site-network-plan.md", "growth/distribution-matrix.md", "growth/approved-action-queue.md", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
     install: true,
     commands: [
       ["npm", ["run", "setup"]],
@@ -27,7 +27,7 @@ const kits = [
   },
   {
     zip: "tken-gateway.zip",
-    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "tools/utm-builder.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "public/tools/api-cost-calculator.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "growth/seo-site-network-plan.md", "growth/distribution-matrix.md", "Dockerfile", "vercel.json"],
+    files: ["README.md", "DOWNLOADS.md", "QUICKSTART.md", "TROUBLESHOOTING.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START_HERE.txt", "START.bat", "SUPPORT.bat", "SUPPORT.sh", "package.json", "tools/preflight.mjs", "tools/open-browser.mjs", "tools/support-report.mjs", "tools/utm-builder.mjs", "tools/promo-pack.mjs", "docs/preview.svg", "src/app.js", "public/guides/three-minute-chatgpt-gateway.html", "public/compare/ai-api-pricing.html", "public/tools/api-cost-calculator.html", "site-templates/gpt-tutorial-site/index.html", "site-templates/claude-tutorial-site/index.html", "site-templates/ai-tools-nav/index.html", "growth/content-calendar.md", "growth/github-fork-targets.md", "growth/seo-site-network-plan.md", "growth/distribution-matrix.md", "growth/approved-action-queue.md", "Dockerfile", "vercel.json"],
     install: true,
     commands: [
       ["npm", ["run", "setup"]],

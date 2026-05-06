@@ -1,0 +1,9 @@
+{
+  "howToGenerate": "node tools/promo-pack.mjs --source=reddit --medium=community --campaign=gateway_launch --angle=route_by_task",
+  "useCases": [
+    "Reddit experience post link bundle",
+    "YouTube Shorts description link bundle",
+    "GitHub fork PR disclosure text",
+    "SEO site CTA links"
+  ]
+}

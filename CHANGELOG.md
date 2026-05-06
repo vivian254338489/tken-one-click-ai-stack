@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.2
+
+- Added deployable static site templates for GPT tutorial, Claude tutorial, and AI tools navigation sites.
+- Added `tools/promo-pack.mjs` to generate channel-specific UTM links and promotion copy.
+- Added an approval queue for public promotion actions.
+- Added doctor and zip validation coverage for site templates and promo generation assets.
+
 ## 0.5.1
 
 - Added an AI API cost calculator page for SEO and conversion experiments.

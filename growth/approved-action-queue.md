@@ -1,0 +1,35 @@
+# Approval Queue
+
+These are ready-to-run public actions. They require owner approval before posting, uploading, spending, or opening PRs.
+
+## Batch 1
+
+1. Reddit:
+   - Subreddit: `r/selfhosted` or `r/webdev`
+   - Asset: `growth/reddit-experience-post.md`
+   - Link: use `node tools/promo-pack.mjs --source=reddit --medium=community --campaign=gateway_launch`
+
+2. dev.to:
+   - Asset: `growth/devto-article-draft.md`
+   - Link to GitHub release and 3-minute guide.
+
+3. Short video:
+   - Asset: `growth/short-video-scripts.md`, Script 1
+   - Description link: UTM source `youtube_shorts`
+
+4. GitHub fork:
+   - Target: start with `anse-app/chatgpt-demo` or another MIT project.
+   - Asset: `growth/fork-adapter-template.md`
+   - Rule: keep license and disclose TKEN affiliation.
+
+5. SEO site:
+   - Deploy `site-templates/gpt-tutorial-site` first.
+   - Add one original screenshot tutorial before indexing.
+
+## Do Not Run Without Approval
+
+- Do not post to Reddit.
+- Do not upload to YouTube/TikTok.
+- Do not open upstream PRs.
+- Do not create Amazon listings.
+- Do not spend on ads.

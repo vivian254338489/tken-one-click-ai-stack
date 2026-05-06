@@ -19,7 +19,9 @@ Beginner entry points:
 - Local preflight check: `npm run preflight`
 - Download picker: `DOWNLOADS.md`
 - Growth assets: `growth/`
+- SEO site templates: `site-templates/`
 - UTM link builder: `node tools/utm-builder.mjs --source=reddit --medium=community --campaign=gateway_launch`
+- Promo pack generator: `node tools/promo-pack.mjs --source=reddit --medium=community --campaign=gateway_launch`
 - Troubleshooting guide: `TROUBLESHOOTING.md`
 - Commercial checklist: `COMMERCIAL.md`
 - 3-minute guide: `QUICKSTART.md`

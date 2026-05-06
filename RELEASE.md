@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.5.1
+# Release Notes: TKEN One-Click AI Stack 0.5.2
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -39,6 +39,9 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added fork adapter templates for permissive-license second-development projects.
 - Added dev.to and Hacker News draft posts.
 - Added a distribution matrix separating automatic assets from approval-required public actions.
+- Added deployable SEO site templates for GPT tutorial, Claude tutorial, and AI tools navigation sites.
+- Added a promo-pack generator that outputs UTM links, Reddit copy, short-video copy, and fork PR copy.
+- Added an approval queue for public promotion actions that require owner review.
 - Added smoke-test coverage for all new guide and comparison pages.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
@@ -50,7 +53,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Web UIs: bundled and standalone ChatGPT-style / Claude-style packages.
 - Clients: Codex and OpenClaw config generators.
 - Deploy: Docker, Railway, Render, and Vercel docs.
-- Growth: GitHub second-development targets, SEO pages, social drafts, video scripts, UTM tracking, and site-network planning.
+- Growth: GitHub second-development targets, SEO pages, deployable site templates, social drafts, video scripts, UTM tracking, and site-network planning.
 - QA: smoke tests, web app health tests, package doctor, and zip validation.
 
 ## Quick Test

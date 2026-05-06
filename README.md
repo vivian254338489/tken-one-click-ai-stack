@@ -2,6 +2,8 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vivian254338489/tken-one-click-ai-stack&env=LOCAL_API_KEY,UPSTREAM_API_KEY,UPSTREAM_BASE_URL,FREE_MODEL,PREMIUM_MODEL,DEFAULT_ROUTE&envDescription=OpenAI-compatible%20gateway%20settings&envLink=https://www.tken.shop/?utm_source=github%26utm_medium=deploy_button%26utm_campaign=one_click_ai_stack)
 
+![TKEN One-Click AI Stack preview](docs/preview.svg)
+
 Six ready-to-run install packages for an OpenAI-compatible multi-model AI stack.
 
 - One-click AI gateway
@@ -32,6 +34,8 @@ https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_clic
 Latest release:
 
 https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest
+
+Not sure which package to choose? Open `DOWNLOADS.md`.
 
 | Need | Download |
 | --- | --- |
@@ -249,6 +253,7 @@ Generated files are written to each package's `generated/` folder.
 
 ## More
 
+- `DOWNLOADS.md`
 - `QUICKSTART.md`
 - `COMMERCIAL.md`
 - `FAQ.md`

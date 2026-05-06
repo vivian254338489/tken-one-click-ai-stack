@@ -6,6 +6,7 @@ Use this flow for screenshots, GIFs, and short launch videos.
 
 ```bash
 npm install
+npm run preflight
 npm run setup
 npm start
 ```
@@ -58,3 +59,13 @@ npm run package:kits
 ```
 
 Show the six generated zip files in `dist/`.
+
+## 5. Show The Download Picker
+
+Open:
+
+```text
+DOWNLOADS.md
+```
+
+Show that non-technical users can choose one zip and run the included start script.

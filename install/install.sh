@@ -8,6 +8,7 @@ PREMIUM_MODEL="${PREMIUM_MODEL:-premium-gpt-model}"
 
 echo "Installing TKEN One-Click AI Stack..."
 npm install
+npm run preflight
 node tools/bootstrap.mjs \
   --upstream-base-url "$UPSTREAM_BASE_URL" \
   --local-api-key "$LOCAL_API_KEY" \

@@ -35,6 +35,8 @@ https://www.tken.shop/v1
 - Want a standalone browser UI: `tken-chatgpt-web-ui.zip` or `tken-claude-web-ui.zip`
 - Want client config: `tken-codex-client-kit.zip` or `tken-openclaw-client-kit.zip`
 
+See `DOWNLOADS.md` for a one-page package picker.
+
 ## Do I need Docker?
 
 No. Node.js 20+ works. Docker is included for easier deployment.

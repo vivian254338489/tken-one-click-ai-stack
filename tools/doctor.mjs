@@ -6,6 +6,7 @@ const root = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
 
 const required = [
   "README.md",
+  "DOWNLOADS.md",
   "QUICKSTART.md",
   "COMMERCIAL.md",
   "LAUNCH_CHECKLIST.md",
@@ -23,6 +24,7 @@ const required = [
   "tools/preflight.mjs",
   "tools/wizard.mjs",
   "tools/production-check.mjs",
+  "docs/preview.svg",
   "src/app.js",
   "api/index.js",
   "public/chatgpt.html",

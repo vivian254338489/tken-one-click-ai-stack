@@ -62,6 +62,8 @@ Fix every warning before production traffic.
 
 ## Need Only One Package?
 
+See `DOWNLOADS.md` for the full package picker.
+
 - Gateway only: `tken-gateway.zip`
 - ChatGPT-style UI only: `tken-chatgpt-web-ui.zip`
 - Claude-style UI only: `tken-claude-web-ui.zip`

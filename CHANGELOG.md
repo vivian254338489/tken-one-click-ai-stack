@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.2
+
+- Added README visual preview for stronger GitHub first impression.
+- Added `DOWNLOADS.md` package picker.
+- Added preflight checks to one-step installer scripts.
+- Added preview and download docs to package validation.
+
 ## 0.4.1
 
 - Added built-in request rate limiting and basic security headers.

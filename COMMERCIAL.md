@@ -65,3 +65,11 @@ npm run check:kits
 ```
 
 Release assets should include `SHA256SUMS.txt` so users can verify package integrity.
+
+For customer support, ask users to run:
+
+```bash
+npm run support:report
+```
+
+The report is written to `generated/support-report.json` and does not include raw API keys.

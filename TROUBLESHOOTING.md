@@ -84,6 +84,14 @@ Fix every warning before public traffic:
 
 ## Still Stuck
 
+Generate a safe support report:
+
+```bash
+npm run support:report
+```
+
+This writes `generated/support-report.json`. It records environment and health-check details without printing real API keys.
+
 Open an issue and include:
 
 - package name
@@ -91,3 +99,4 @@ Open an issue and include:
 - Node.js version from `node -v`
 - command you ran
 - full error message
+- `generated/support-report.json`

@@ -1,6 +1,6 @@
 {
   "name": "tken-one-click-ai-stack",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "private": false,
   "type": "module",
   "engines": {
@@ -15,6 +15,7 @@
     "check:kits": "npm run package:kits && node scripts/validate-kits.mjs && node scripts/verify-checksums.mjs",
     "setup": "node tools/bootstrap.mjs",
     "wizard": "node tools/wizard.mjs",
+    "support:report": "node tools/support-report.mjs",
     "production:check": "node tools/production-check.mjs",
     "package:kits": "node scripts/package-kits.mjs && node scripts/write-checksums.mjs"
   },

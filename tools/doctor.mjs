@@ -22,6 +22,7 @@ const required = [
   "tools/bootstrap.mjs",
   "tools/doctor.mjs",
   "tools/preflight.mjs",
+  "tools/support-report.mjs",
   "tools/wizard.mjs",
   "tools/production-check.mjs",
   "docs/preview.svg",

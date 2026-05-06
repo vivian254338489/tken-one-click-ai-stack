@@ -128,6 +128,12 @@ Preflight only:
 npm run preflight
 ```
 
+Generate a safe support report:
+
+```bash
+npm run support:report
+```
+
 Production check before sharing with real users:
 
 ```bash

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.4
+
+- Added `npm run support:report` for safe customer troubleshooting.
+- Added support report coverage to package validation and doctor checks.
+- Documented support report flow in README, troubleshooting, and commercial docs.
+
 ## 0.4.3
 
 - Added `SHA256SUMS.txt` generation for release zip packages.

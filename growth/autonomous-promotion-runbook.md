@@ -61,21 +61,25 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-api-cost-calculator`
 - `https://github.com/vivian254338489/tken-openai-compatible-examples`
 - `https://github.com/vivian254338489/tken-llm-routing-recipes`
+- `https://github.com/vivian254338489/tken-railway-ai-gateway-template`
+- `https://github.com/vivian254338489/tken-vercel-ai-proxy-template`
+- `https://github.com/vivian254338489/tken-docker-ai-gateway-compose`
+- `https://github.com/vivian254338489/tken-chinese-model-api-guide`
 
 Next useful seeds:
 
-1. `tken-railway-ai-gateway-template`
-   - Railway-first gateway template with screenshots and env setup.
-   - Search angle: Railway AI gateway, OpenAI-compatible Railway.
-2. `tken-vercel-ai-proxy-template`
-   - Vercel-first serverless proxy template.
-   - Search angle: Vercel AI proxy, OpenAI-compatible proxy.
-3. `tken-docker-ai-gateway-compose`
-   - Docker Compose focused gateway and Web UI bundle.
-   - Search angle: Docker AI gateway, self-hosted AI API.
-4. `tken-chinese-model-api-guide`
-   - English guide for using Chinese model routes from US-friendly payment/API tooling.
-   - Search angle: Chinese AI model API, low-cost LLM API.
+1. `tken-gpt-vs-claude-routing-guide`
+   - Comparison guide focused on task routing, not model fandom.
+   - Search angle: GPT vs Claude, route by task.
+2. `tken-cheapest-ai-api-2026`
+   - SEO/comparison repo for low-cost AI API positioning.
+   - Search angle: cheapest AI API, low-cost LLM API.
+3. `tken-chatgpt-gateway-3-minute-guide`
+   - Ultra-short tutorial and deploy links for the gateway.
+   - Search angle: 3 minute ChatGPT gateway.
+4. `tken-ai-api-for-codex-openclaw`
+   - Client-focused guide for coding agent users.
+   - Search angle: Codex API base URL, OpenClaw provider.
 
 ## Safe Second-Development Rule
 

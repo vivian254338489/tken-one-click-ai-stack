@@ -23,6 +23,14 @@ Completed:
 - Created release: `https://github.com/vivian254338489/tken-openai-compatible-examples/releases/tag/v0.1.0`
 - Created standalone public repo: `https://github.com/vivian254338489/tken-llm-routing-recipes`
 - Created release: `https://github.com/vivian254338489/tken-llm-routing-recipes/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-railway-ai-gateway-template`
+- Created release: `https://github.com/vivian254338489/tken-railway-ai-gateway-template/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-vercel-ai-proxy-template`
+- Created release: `https://github.com/vivian254338489/tken-vercel-ai-proxy-template/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-docker-ai-gateway-compose`
+- Created release: `https://github.com/vivian254338489/tken-docker-ai-gateway-compose/releases/tag/v0.1.0`
+- Created standalone public repo: `https://github.com/vivian254338489/tken-chinese-model-api-guide`
+- Created release: `https://github.com/vivian254338489/tken-chinese-model-api-guide/releases/tag/v0.1.0`
 
 1. Reddit:
    - Subreddit: `r/selfhosted` or `r/webdev`

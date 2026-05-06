@@ -1,0 +1,17 @@
+{
+  "name": "tken-litellm-router-config-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "litellm",
+    "llm-router",
+    "openai-compatible",
+    "fallback-policy",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_litellm_router_config_pack"
+}

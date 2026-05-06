@@ -1,0 +1,17 @@
+model_list:
+  - model_name: free-model
+    litellm_params:
+      model: openai/free-model
+      api_base: https://www.tken.shop/v1
+      api_key: your_tken_api_key
+  - model_name: premium-gpt
+    litellm_params:
+      model: openai/premium-gpt
+      api_base: https://www.tken.shop/v1
+      api_key: your_tken_api_key
+
+router_settings:
+  routing_strategy: simple-shuffle
+  fallbacks:
+    free-model:
+      - premium-gpt

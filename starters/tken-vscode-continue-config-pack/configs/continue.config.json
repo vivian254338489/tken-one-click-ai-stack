@@ -1,0 +1,18 @@
+{
+  "models": [
+    {
+      "title": "TKEN Low Cost",
+      "provider": "openai-compatible",
+      "model": "free-model",
+      "apiBase": "https://www.tken.shop/v1",
+      "apiKey": "your_tken_api_key"
+    },
+    {
+      "title": "TKEN Premium Coding",
+      "provider": "openai-compatible",
+      "model": "premium-gpt",
+      "apiBase": "https://www.tken.shop/v1",
+      "apiKey": "your_tken_api_key"
+    }
+  ]
+}

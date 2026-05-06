@@ -1,0 +1,17 @@
+{
+  "name": "tken-ai-api-seo-landing-kit",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "seo",
+    "ai-api",
+    "openai-compatible",
+    "gpt-vs-claude",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_ai_api_seo_landing_kit"
+}

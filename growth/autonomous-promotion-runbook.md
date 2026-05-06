@@ -81,6 +81,10 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-openwebui-provider-pack`
 - `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide`
 - `https://github.com/vivian254338489/tken-free-model-fallback-recipes`
+- `https://github.com/vivian254338489/tken-vscode-continue-config-pack`
+- `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter`
+- `https://github.com/vivian254338489/tken-litellm-router-config-pack`
+- `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit`
 
 Next useful seeds:
 
@@ -131,6 +135,23 @@ Next useful seeds after this batch:
    - Static comparison landing pages and FAQ blocks for organic search.
    - Search angle: cheapest AI API, GPT vs Claude API price.
 
+These four seeds are now in local production and should be published as standalone GitHub repositories before the next batch.
+
+Next useful seeds after this batch:
+
+1. `tken-python-openai-compatible-cookbook`
+   - Python examples for chat, streaming-shaped calls, retries, and route selection.
+   - Search angle: Python OpenAI-compatible API base URL.
+2. `tken-node-openai-compatible-cookbook`
+   - Node.js examples for server apps and webhooks.
+   - Search angle: Node.js OpenAI-compatible API.
+3. `tken-ai-api-postman-collection`
+   - Postman/HTTP client collection for quick testing.
+   - Search angle: OpenAI-compatible Postman collection.
+4. `tken-model-route-cheatsheet`
+   - Markdown cheat sheet for common task-to-route choices.
+   - Search angle: AI model routing cheat sheet.
+
 ## Current GitHub Distribution Assets
 
 Use these assets to keep promotion useful instead of purely promotional:
@@ -149,6 +170,10 @@ Use these assets to keep promotion useful instead of purely promotional:
 | `tken-openwebui-provider-pack` | Open WebUI custom endpoint searches | Publish repo and queue setup tutorial draft |
 | `tken-cursor-windsurf-base-url-guide` | coding tool base URL searches | Publish repo and connect to Codex/OpenClaw guide |
 | `tken-free-model-fallback-recipes` | cheap model fallback searches | Publish repo and add recipes to routing docs |
+| `tken-vscode-continue-config-pack` | VS Code/Continue config searches | Publish repo and link from coding tool guides |
+| `tken-langchain-openai-compatible-starter` | LangChain integration searches | Publish repo and add RAG example variants |
+| `tken-litellm-router-config-pack` | LiteLLM router searches | Publish repo and add fallback policy examples |
+| `tken-ai-api-seo-landing-kit` | organic comparison searches | Publish repo; deploy only after owner approval |
 
 ## Safe Second-Development Rule
 

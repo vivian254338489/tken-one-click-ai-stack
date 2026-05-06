@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://www.tken.shop/v1",
+  "defaultModel": "free-model",
+  "premiumModel": "premium-gpt",
+  "useDefaultFor": ["summaries", "formatting", "comments", "simple refactors"],
+  "usePremiumFor": ["multi-file patches", "debugging failing tests", "security-sensitive changes"]
+}

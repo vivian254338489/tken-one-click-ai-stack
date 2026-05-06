@@ -156,6 +156,34 @@ These GitHub assets were published as source repos and release zips:
    - Repo: `https://github.com/vivian254338489/tken-free-model-fallback-recipes`
    - Release: `https://github.com/vivian254338489/tken-free-model-fallback-recipes/releases/tag/v0.1.0`
 
+## Batch 5 Completed
+
+These GitHub assets were published as source repos and release zips:
+
+1. `tken-vscode-continue-config-pack`
+   - Purpose: VS Code/Continue-style config examples for OpenAI-compatible endpoints.
+   - Search angle: Continue OpenAI-compatible config, VS Code custom API base URL.
+   - Repo: `https://github.com/vivian254338489/tken-vscode-continue-config-pack`
+   - Release: `https://github.com/vivian254338489/tken-vscode-continue-config-pack/releases/tag/v0.1.0`
+
+2. `tken-langchain-openai-compatible-starter`
+   - Purpose: LangChain-style examples for chat, route escalation, and RAG-shaped calls.
+   - Search angle: LangChain OpenAI-compatible base URL, LangChain cheap AI API.
+   - Repo: `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter`
+   - Release: `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter/releases/tag/v0.1.0`
+
+3. `tken-litellm-router-config-pack`
+   - Purpose: LiteLLM-style model list and fallback policy examples.
+   - Search angle: LiteLLM router fallback config, cheap AI model fallback.
+   - Repo: `https://github.com/vivian254338489/tken-litellm-router-config-pack`
+   - Release: `https://github.com/vivian254338489/tken-litellm-router-config-pack/releases/tag/v0.1.0`
+
+4. `tken-ai-api-seo-landing-kit`
+   - Purpose: static SEO comparison pages and FAQ pages for AI API searches.
+   - Search angle: cheapest AI API, GPT vs Claude API, Chinese model API.
+   - Repo: `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit`
+   - Release: `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit/releases/tag/v0.1.0`
+
 ## Do Not Run Without Approval
 
 - Do not post to Reddit.

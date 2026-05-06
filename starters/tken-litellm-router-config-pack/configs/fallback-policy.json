@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.tken.shop/v1",
+  "defaultModel": "free-model",
+  "fallbackModel": "premium-gpt",
+  "fallbackOn": ["timeout", "low_confidence", "schema_failure", "complex_coding"]
+}

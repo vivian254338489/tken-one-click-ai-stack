@@ -1,0 +1,17 @@
+{
+  "name": "tken-vscode-continue-config-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "vscode",
+    "continue",
+    "openai-compatible",
+    "api-base-url",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_vscode_continue_config_pack"
+}

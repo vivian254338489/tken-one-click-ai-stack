@@ -61,3 +61,12 @@ This matrix separates actions Codex can prepare automatically from actions that 
 | `https://github.com/vivian254338489/tken-openwebui-provider-pack` | Open WebUI-style provider settings |
 | `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide` | Cursor/Windsurf custom base URL examples |
 | `https://github.com/vivian254338489/tken-free-model-fallback-recipes` | Low-cost route fallback and premium escalation recipes |
+
+## Current GitHub Assets Published In Batch 5
+
+| Repo | Purpose |
+| --- | --- |
+| `https://github.com/vivian254338489/tken-vscode-continue-config-pack` | VS Code/Continue config examples |
+| `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter` | LangChain-style route examples |
+| `https://github.com/vivian254338489/tken-litellm-router-config-pack` | LiteLLM-style router configs |
+| `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit` | Static SEO comparison pages |

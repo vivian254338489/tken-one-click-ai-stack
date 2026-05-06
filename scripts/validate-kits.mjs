@@ -212,6 +212,26 @@ const kits = [
     files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "recipes/summary-fallback.json", "recipes/coding-escalation.json", "recipes/support-triage.json", "recipes/batch-extraction.json", "router-demo.mjs", "check.mjs"],
     commands: [["npm", ["run", "check"]]],
   },
+  {
+    zip: "tken-vscode-continue-config-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "configs/continue.config.json", "configs/model-policy.json", "docs/setup.md", "docs/troubleshooting.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-langchain-openai-compatible-starter.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "lib/client.mjs", "examples/basic-chat.mjs", "examples/router-chain.mjs", "examples/rag-placeholder.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-litellm-router-config-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "configs/litellm.config.yaml", "configs/fallback-policy.json", "docs/setup.md", "docs/troubleshooting.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-ai-api-seo-landing-kit.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "public/index.html", "public/gpt-vs-claude-api.html", "public/chinese-model-api.html", "public/faq.html", "public/styles.css", "public/sitemap.xml", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

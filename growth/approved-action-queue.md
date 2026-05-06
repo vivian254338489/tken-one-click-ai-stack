@@ -184,6 +184,34 @@ These GitHub assets were published as source repos and release zips:
    - Repo: `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit`
    - Release: `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit/releases/tag/v0.1.0`
 
+## Batch 6 Completed
+
+These GitHub assets were published as source repos and release zips:
+
+1. `tken-python-openai-compatible-cookbook`
+   - Purpose: Python chat, streaming-shaped payload, route selection, and retry examples.
+   - Search angle: Python OpenAI-compatible API, Python custom API base URL.
+   - Repo: `https://github.com/vivian254338489/tken-python-openai-compatible-cookbook`
+   - Release: `https://github.com/vivian254338489/tken-python-openai-compatible-cookbook/releases/tag/v0.1.0`
+
+2. `tken-node-openai-compatible-cookbook`
+   - Purpose: Node.js chat, local server route, route selection, and retry examples.
+   - Search angle: Node.js OpenAI-compatible API, ChatGPT API Node example.
+   - Repo: `https://github.com/vivian254338489/tken-node-openai-compatible-cookbook`
+   - Release: `https://github.com/vivian254338489/tken-node-openai-compatible-cookbook/releases/tag/v0.1.0`
+
+3. `tken-ai-api-postman-collection`
+   - Purpose: Postman collection, environment, and HTTP client requests.
+   - Search angle: OpenAI-compatible Postman collection, AI API HTTP client.
+   - Repo: `https://github.com/vivian254338489/tken-ai-api-postman-collection`
+   - Release: `https://github.com/vivian254338489/tken-ai-api-postman-collection/releases/tag/v0.1.0`
+
+4. `tken-model-route-cheatsheet`
+   - Purpose: task-to-route mapping for low-cost and premium model choices.
+   - Search angle: AI model routing cheatsheet, LLM route selection.
+   - Repo: `https://github.com/vivian254338489/tken-model-route-cheatsheet`
+   - Release: `https://github.com/vivian254338489/tken-model-route-cheatsheet/releases/tag/v0.1.0`
+
 ## Do Not Run Without Approval
 
 - Do not post to Reddit.

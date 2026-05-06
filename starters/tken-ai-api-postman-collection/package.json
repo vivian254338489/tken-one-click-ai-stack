@@ -1,0 +1,17 @@
+{
+  "name": "tken-ai-api-postman-collection",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "postman",
+    "http-client",
+    "openai-compatible",
+    "chatgpt-api",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_ai_api_postman_collection"
+}

@@ -88,6 +88,10 @@ const kits = [
   { name: "tken-langchain-openai-compatible-starter", baseDir: "starters/tken-langchain-openai-compatible-starter", paths: ["."] },
   { name: "tken-litellm-router-config-pack", baseDir: "starters/tken-litellm-router-config-pack", paths: ["."] },
   { name: "tken-ai-api-seo-landing-kit", baseDir: "starters/tken-ai-api-seo-landing-kit", paths: ["."] },
+  { name: "tken-python-openai-compatible-cookbook", baseDir: "starters/tken-python-openai-compatible-cookbook", paths: ["."] },
+  { name: "tken-node-openai-compatible-cookbook", baseDir: "starters/tken-node-openai-compatible-cookbook", paths: ["."] },
+  { name: "tken-ai-api-postman-collection", baseDir: "starters/tken-ai-api-postman-collection", paths: ["."] },
+  { name: "tken-model-route-cheatsheet", baseDir: "starters/tken-model-route-cheatsheet", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

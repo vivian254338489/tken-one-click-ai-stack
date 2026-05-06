@@ -1,0 +1,19 @@
+@base_url = https://www.tken.shop/v1
+@api_key = your_tken_api_key
+@model = free-model
+
+GET {{base_url}}/models
+Authorization: Bearer {{api_key}}
+
+###
+
+POST {{base_url}}/chat/completions
+Authorization: Bearer {{api_key}}
+Content-Type: application/json
+
+{
+  "model": "{{model}}",
+  "messages": [
+    { "role": "user", "content": "Say hello in one sentence." }
+  ]
+}

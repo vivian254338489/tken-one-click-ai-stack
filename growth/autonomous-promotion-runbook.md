@@ -85,6 +85,10 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter`
 - `https://github.com/vivian254338489/tken-litellm-router-config-pack`
 - `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit`
+- `https://github.com/vivian254338489/tken-python-openai-compatible-cookbook`
+- `https://github.com/vivian254338489/tken-node-openai-compatible-cookbook`
+- `https://github.com/vivian254338489/tken-ai-api-postman-collection`
+- `https://github.com/vivian254338489/tken-model-route-cheatsheet`
 
 Next useful seeds:
 
@@ -152,6 +156,23 @@ Next useful seeds after this batch:
    - Markdown cheat sheet for common task-to-route choices.
    - Search angle: AI model routing cheat sheet.
 
+These four seeds are now in local production and should be published as standalone GitHub repositories before the next batch.
+
+Next useful seeds after this batch:
+
+1. `tken-fastapi-ai-gateway-starter`
+   - FastAPI proxy starter for OpenAI-compatible routes.
+   - Search angle: FastAPI OpenAI-compatible gateway.
+2. `tken-express-ai-gateway-starter`
+   - Express proxy starter with route selection and health checks.
+   - Search angle: Express OpenAI-compatible proxy.
+3. `tken-cloudflare-worker-ai-proxy`
+   - Cloudflare Worker proxy template for one API base URL.
+   - Search angle: Cloudflare Worker OpenAI-compatible proxy.
+4. `tken-ai-api-status-page-template`
+   - Static status and incident page template for API gateway operators.
+   - Search angle: AI API status page template.
+
 ## Current GitHub Distribution Assets
 
 Use these assets to keep promotion useful instead of purely promotional:
@@ -174,6 +195,10 @@ Use these assets to keep promotion useful instead of purely promotional:
 | `tken-langchain-openai-compatible-starter` | LangChain integration searches | Publish repo and add RAG example variants |
 | `tken-litellm-router-config-pack` | LiteLLM router searches | Publish repo and add fallback policy examples |
 | `tken-ai-api-seo-landing-kit` | organic comparison searches | Publish repo; deploy only after owner approval |
+| `tken-python-openai-compatible-cookbook` | Python API examples | Publish repo and link from troubleshooting guide |
+| `tken-node-openai-compatible-cookbook` | Node.js API examples | Publish repo and link from Next.js starter |
+| `tken-ai-api-postman-collection` | Postman and HTTP client searches | Publish repo and attach collection release |
+| `tken-model-route-cheatsheet` | route selection searches | Publish repo and connect to fallback recipes |
 
 ## Safe Second-Development Rule
 

@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "TKEN AI API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Models",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/models",
+          "host": ["{{base_url}}"],
+          "path": ["models"]
+        }
+      }
+    },
+    {
+      "name": "Chat Completion",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{api_key}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"model\": \"{{model}}\",\n  \"messages\": [\n    {\"role\": \"user\", \"content\": \"Say hello in one sentence.\"}\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/chat/completions",
+          "host": ["{{base_url}}"],
+          "path": ["chat", "completions"]
+        }
+      }
+    }
+  ]
+}

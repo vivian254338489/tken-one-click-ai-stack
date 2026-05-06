@@ -70,3 +70,12 @@ This matrix separates actions Codex can prepare automatically from actions that 
 | `https://github.com/vivian254338489/tken-langchain-openai-compatible-starter` | LangChain-style route examples |
 | `https://github.com/vivian254338489/tken-litellm-router-config-pack` | LiteLLM-style router configs |
 | `https://github.com/vivian254338489/tken-ai-api-seo-landing-kit` | Static SEO comparison pages |
+
+## Current GitHub Assets Published In Batch 6
+
+| Repo | Purpose |
+| --- | --- |
+| `https://github.com/vivian254338489/tken-python-openai-compatible-cookbook` | Python API examples |
+| `https://github.com/vivian254338489/tken-node-openai-compatible-cookbook` | Node.js API examples |
+| `https://github.com/vivian254338489/tken-ai-api-postman-collection` | Postman and HTTP client requests |
+| `https://github.com/vivian254338489/tken-model-route-cheatsheet` | Task-to-route selection cheatsheet |

@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.tken.shop/v1",
+  "routes": [
+    { "task": "summary", "model": "free-model" },
+    { "task": "extraction", "model": "free-model" },
+    { "task": "formatting", "model": "free-model" },
+    { "task": "drafting", "model": "free-model" },
+    { "task": "coding", "model": "premium-gpt" },
+    { "task": "debugging", "model": "premium-gpt" },
+    { "task": "final-answer", "model": "premium-gpt" }
+  ]
+}

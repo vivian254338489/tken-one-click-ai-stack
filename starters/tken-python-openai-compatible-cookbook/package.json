@@ -1,0 +1,17 @@
+{
+  "name": "tken-python-openai-compatible-cookbook",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "python",
+    "openai-compatible",
+    "chatgpt-api",
+    "ai-api",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_python_openai_compatible_cookbook"
+}

@@ -232,6 +232,26 @@ const kits = [
     files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "public/index.html", "public/gpt-vs-claude-api.html", "public/chinese-model-api.html", "public/faq.html", "public/styles.css", "public/sitemap.xml", "check.mjs"],
     commands: [["npm", ["run", "check"]]],
   },
+  {
+    zip: "tken-python-openai-compatible-cookbook.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "examples/chat.py", "examples/streaming_shape.py", "examples/route_selector.py", "examples/retry_policy.py", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-node-openai-compatible-cookbook.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "examples/chat.mjs", "examples/server-route.mjs", "examples/route-selector.mjs", "examples/retry-policy.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-ai-api-postman-collection.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "postman/tken-ai-api.postman_collection.json", "postman/tken-ai-api.postman_environment.json", "http/chat.http", "docs/testing-checklist.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-model-route-cheatsheet.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "cheatsheets/routes.md", "cheatsheets/routes.json", "examples/select-route.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

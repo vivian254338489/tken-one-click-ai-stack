@@ -1,0 +1,18 @@
+{
+  "name": "tken-model-route-cheatsheet",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "demo": "node examples/select-route.mjs",
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "model-routing",
+    "cheatsheet",
+    "llm-router",
+    "openai-compatible",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_model_route_cheatsheet"
+}

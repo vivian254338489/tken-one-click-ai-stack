@@ -3,6 +3,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
+const args = new Set(process.argv.slice(2));
+
+if (args.has("--skip-web-install")) {
+  console.log(JSON.stringify({ ok: true, skipped: "web-app-health-check" }, null, 2));
+  process.exit(0);
+}
 
 const apps = [
   {

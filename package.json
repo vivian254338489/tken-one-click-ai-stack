@@ -11,6 +11,7 @@
     "dev": "node src/server.js",
     "smoke": "node scripts/smoke.mjs",
     "check": "node scripts/smoke.mjs --spawn && node scripts/check-web-apps.mjs && node tools/doctor.mjs",
+    "check:kits": "npm run package:kits && node scripts/validate-kits.mjs",
     "setup": "node tools/bootstrap.mjs",
     "package:kits": "node scripts/package-kits.mjs"
   },

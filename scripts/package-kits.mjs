@@ -9,6 +9,7 @@ const dist = path.join(root, "dist");
 const kits = [
   {
     name: "tken-full-stack",
+    baseDir: ".",
     paths: [
       ".env.example",
       "Dockerfile",
@@ -35,32 +36,37 @@ const kits = [
       "LICENSE",
     ],
   },
-  { name: "tken-gateway", paths: [".env.example", "Dockerfile", "docker-compose.yml", "package.json", "package-lock.json", "README.md", "api", "deploy", "docs", "public", "scripts", "src", "tools", "railway.json", "render.yaml", "vercel.json", "LICENSE"] },
-  { name: "tken-chatgpt-web-ui", paths: ["apps/chatgpt-web"] },
-  { name: "tken-claude-web-ui", paths: ["apps/claude-web"] },
-  { name: "tken-codex-client-kit", paths: ["clients/codex"] },
-  { name: "tken-openclaw-client-kit", paths: ["clients/openclaw"] },
+  {
+    name: "tken-gateway",
+    baseDir: ".",
+    paths: [".env.example", "Dockerfile", "docker-compose.yml", "package.json", "package-lock.json", "README.md", "api", "deploy", "docs", "public", "scripts", "src", "tools", "railway.json", "render.yaml", "vercel.json", "LICENSE"],
+  },
+  { name: "tken-chatgpt-web-ui", baseDir: "apps/chatgpt-web", paths: ["."] },
+  { name: "tken-claude-web-ui", baseDir: "apps/claude-web", paths: ["."] },
+  { name: "tken-codex-client-kit", baseDir: "clients/codex", paths: ["."] },
+  { name: "tken-openclaw-client-kit", baseDir: "clients/openclaw", paths: ["."] },
 ];
 
-const ignored = new Set(["node_modules", ".git", "dist", ".env"]);
+const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);
 
 function shouldSkip(name) {
   return ignored.has(name) || name.endsWith(".log");
 }
 
-function addPath(archive, source, targetPrefix = "") {
+function addPath(archive, source, baseDir, targetPrefix = "") {
   const stats = fs.statSync(source);
   const base = path.basename(source);
   if (shouldSkip(base)) return;
 
   if (stats.isDirectory()) {
     for (const child of fs.readdirSync(source)) {
-      addPath(archive, path.join(source, child), path.join(targetPrefix, base));
+      addPath(archive, path.join(source, child), baseDir, source === baseDir ? "" : path.relative(baseDir, source));
     }
     return;
   }
 
-  archive.file(source, { name: path.join(targetPrefix, base).replaceAll("\\", "/") });
+  const relative = path.join(targetPrefix, base).replaceAll("\\", "/");
+  archive.file(source, { name: relative });
 }
 
 fs.rmSync(dist, { recursive: true, force: true });
@@ -70,11 +76,12 @@ for (const kit of kits) {
   const zipPath = path.join(dist, `${kit.name}.zip`);
   const output = fs.createWriteStream(zipPath);
   const archive = archiver("zip", { zlib: { level: 9 } });
+  const baseDir = path.resolve(root, kit.baseDir || ".");
 
   archive.pipe(output);
   for (const entry of kit.paths) {
-    const source = path.join(root, entry);
-    if (fs.existsSync(source)) addPath(archive, source);
+    const source = path.resolve(baseDir, entry);
+    if (fs.existsSync(source)) addPath(archive, source, baseDir);
   }
   await archive.finalize();
 

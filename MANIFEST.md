@@ -19,3 +19,11 @@ npm run package:kits
 ```
 
 Generated files are written to `dist/` and are intentionally not committed.
+
+Every generated zip is validated by:
+
+```bash
+npm run check:kits
+```
+
+Validation confirms the package contains the expected root-level files and that runnable packages can complete their smoke checks.

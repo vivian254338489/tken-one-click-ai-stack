@@ -12,3 +12,6 @@
 | OpenClaw config | https://www.tken.shop/?utm_source=github&utm_medium=client_config&utm_campaign=openclaw_config |
 | Vercel deploy button | https://www.tken.shop/?utm_source=github&utm_medium=deploy_button&utm_campaign=one_click_ai_stack |
 | package.json | https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=one_click_ai_stack |
+| Release notes | https://www.tken.shop/?utm_source=github&utm_medium=release_notes&utm_campaign=one_click_ai_stack |
+| ChatGPT standalone package | https://www.tken.shop/?utm_source=github&utm_medium=webui_package&utm_campaign=chatgpt_web_install |
+| Claude standalone package | https://www.tken.shop/?utm_source=github&utm_medium=webui_package&utm_campaign=claude_web_install |

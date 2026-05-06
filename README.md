@@ -2,7 +2,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vivian254338489/tken-one-click-ai-stack&env=LOCAL_API_KEY,UPSTREAM_API_KEY,UPSTREAM_BASE_URL,FREE_MODEL,PREMIUM_MODEL,DEFAULT_ROUTE&envDescription=OpenAI-compatible%20gateway%20settings&envLink=https://www.tken.shop/?utm_source=github%26utm_medium=deploy_button%26utm_campaign=one_click_ai_stack)
 
-Complete install packages for an OpenAI-compatible multi-model AI stack:
+Six ready-to-run install packages for an OpenAI-compatible multi-model AI stack.
 
 - One-click AI gateway
 - One-click ChatGPT-style Web UI
@@ -10,6 +10,8 @@ Complete install packages for an OpenAI-compatible multi-model AI stack:
 - Codex client config kit
 - OpenClaw client config kit
 - Docker, Railway, Render, and Vercel deployment files
+
+Pick a zip, unzip it, set an API key, and run. No framework migration, no vendor lock-in.
 
 Default API base URL:
 
@@ -20,6 +22,26 @@ https://www.tken.shop/v1
 Get an API key:
 
 https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_click_ai_stack
+
+## Download
+
+Build locally:
+
+```bash
+npm install
+npm run check:kits
+```
+
+Then use:
+
+| Need | Package |
+| --- | --- |
+| Everything | `dist/tken-full-stack.zip` |
+| Only the gateway | `dist/tken-gateway.zip` |
+| ChatGPT-style standalone UI | `dist/tken-chatgpt-web-ui.zip` |
+| Claude-style standalone UI | `dist/tken-claude-web-ui.zip` |
+| Codex config | `dist/tken-codex-client-kit.zip` |
+| OpenClaw config | `dist/tken-openclaw-client-kit.zip` |
 
 ## Important Naming Note
 
@@ -39,6 +61,14 @@ The terms "ChatGPT-style" and "Claude-style" describe UI patterns only. You can 
 | OpenClaw client kit | `clients/openclaw` | Generic OpenClaw-style provider config generator | Local client config |
 
 See `MANIFEST.md` for the full file manifest.
+
+## Why Developers Star This
+
+- OpenAI-compatible endpoint shape, so existing tools can connect quickly.
+- Local route names for low-cost and premium models.
+- Two familiar web UIs without a heavy frontend build step.
+- Real deployment files for Docker, Railway, Render, and Vercel.
+- Zip packages are validated after build, so users can unzip and run.
 
 ## Fastest Start
 
@@ -169,6 +199,14 @@ Generated files are written to each package's `generated/` folder.
 - Railway: `deploy/railway.md`
 - Render: `deploy/render.md`
 - Vercel: `deploy/vercel.md`
+
+## More
+
+- `FAQ.md`
+- `ROADMAP.md`
+- `DEMO.md`
+- `RELEASE.md`
+- `CONTRIBUTING.md`
 
 ## Build Downloadable Packages
 

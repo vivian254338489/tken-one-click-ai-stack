@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: tken-one-click-ai-stack
+    env: docker
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: PORT
+        value: 8787
+      - key: UPSTREAM_BASE_URL
+        value: https://www.tken.shop/v1
+      - key: LOCAL_API_KEY
+        sync: false
+      - key: UPSTREAM_API_KEY
+        sync: false
+      - key: FREE_MODEL
+        sync: false
+      - key: PREMIUM_MODEL
+        sync: false
+      - key: DEFAULT_ROUTE
+        value: free-model
+      - key: MODEL_ROUTES
+        sync: false

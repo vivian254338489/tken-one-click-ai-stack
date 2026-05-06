@@ -1,0 +1,7 @@
+services:
+  tken-ai-stack:
+    build: .
+    ports:
+      - "8787:8787"
+    env_file:
+      - .env

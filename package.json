@@ -1,0 +1,36 @@
+{
+  "name": "tken-one-click-ai-stack",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "node scripts/smoke.mjs --spawn"
+  },
+  "keywords": [
+    "openai-compatible",
+    "ai-gateway",
+    "chatgpt-ui",
+    "claude-ui",
+    "vercel",
+    "railway",
+    "docker",
+    "llm-router"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivian254338489/tken-one-click-ai-stack.git"
+  },
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=one_click_ai_stack",
+  "bugs": {
+    "url": "https://github.com/vivian254338489/tken-one-click-ai-stack/issues"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

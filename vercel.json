@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/chatgpt.html" },
+    { "source": "/chatgpt", "destination": "/chatgpt.html" },
+    { "source": "/claude", "destination": "/claude.html" },
+    { "source": "/health", "destination": "/api" },
+    { "source": "/config/public", "destination": "/api" },
+    { "source": "/v1/(.*)", "destination": "/api" }
+  ]
+}

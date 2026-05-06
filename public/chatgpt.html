@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT-Style Multi-Model UI</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <p class="brand">TKEN Chat UI</p>
+      <p class="muted">ChatGPT-style interface for an OpenAI-compatible gateway. Test low-cost models, then switch to premium GPT routes when needed.</p>
+      <div class="settings">
+        <label>Local gateway key
+          <input id="local-key" type="password" autocomplete="off">
+        </label>
+        <label>Model route
+          <select id="model"></select>
+        </label>
+        <p class="muted">Get a key from <a href="https://www.tken.shop/?utm_source=github&utm_medium=webui&utm_campaign=chatgpt_style_ui">tken.shop</a>.</p>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>ChatGPT-Style Web UI</h1>
+        <p class="muted">One API format for GPT and selected low-cost model routes.</p>
+      </header>
+      <section id="messages"></section>
+      <form id="chat-form">
+        <textarea id="prompt" rows="2" placeholder="Ask something..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/assets/app.js"></script>
+  <script>
+    window.bootChat({
+      systemPrompt: "You are a concise assistant in a ChatGPT-style web UI."
+    });
+  </script>
+</body>
+</html>

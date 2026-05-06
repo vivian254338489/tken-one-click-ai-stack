@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claude-Style Multi-Model UI</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <style>
+    :root {
+      --accent: #8b4d2c;
+      --bg: #fbf7f2;
+      --line: #e8d9ca;
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <p class="brand">TKEN Console</p>
+      <p class="muted">Claude-style workspace for thoughtful, longer-form AI conversations. Connect any OpenAI-compatible model route.</p>
+      <div class="settings">
+        <label>Local gateway key
+          <input id="local-key" type="password" autocomplete="off">
+        </label>
+        <label>Model route
+          <select id="model"></select>
+        </label>
+        <p class="muted">Start at <a href="https://www.tken.shop/?utm_source=github&utm_medium=webui&utm_campaign=claude_style_ui">tken.shop</a>.</p>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>Claude-Style Web UI</h1>
+        <p class="muted">A calmer writing and analysis surface for multi-model workflows.</p>
+      </header>
+      <section id="messages"></section>
+      <form id="chat-form">
+        <textarea id="prompt" rows="2" placeholder="Write, analyze, compare..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/assets/app.js"></script>
+  <script>
+    window.bootChat({
+      systemPrompt: "You are a careful assistant in a Claude-style web UI. Prefer structured, useful answers."
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "provider": "tken",
+  "base_url": "https://www.tken.shop/v1",
+  "api_key_env": "TKEN_API_KEY",
+  "models": {
+    "default": "your_free_or_low_cost_model",
+    "premium": "your_premium_gpt_model"
+  },
+  "notes": [
+    "Set TKEN_API_KEY in your environment.",
+    "Use a low-cost model for simple tasks and a premium model for complex reasoning."
+  ]
+}

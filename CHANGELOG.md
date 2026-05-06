@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.1
+
+- Added built-in request rate limiting and basic security headers.
+- Added `npm run production:check` for commercial deployment readiness.
+- Added preflight checks to one-click start scripts.
+- Added `TROUBLESHOOTING.md` for beginner startup fixes.
+- Added production check coverage to package doctor.
+- Updated README with direct release asset download links.
+- Improved production docs and launch checklist.
+
 ## 0.4.0
 
 - Added built-in request rate limiting and basic security headers.

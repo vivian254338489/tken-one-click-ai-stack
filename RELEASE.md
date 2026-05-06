@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.4.0
+# Release Notes: TKEN One-Click AI Stack 0.4.1
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -16,6 +16,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added built-in request rate limiting with `RATE_LIMIT_WINDOW_MS` and `RATE_LIMIT_MAX`.
 - Added basic security headers and disabled Express fingerprinting.
 - Added `npm run production:check` to catch demo mode, weak local keys, wildcard CORS, and missing rate limits.
+- Added preflight checks and `TROUBLESHOOTING.md` so one-click users get clear startup fixes.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
 - Standalone Web UI packages include `START.bat`, `START.sh`, `configure.mjs`, and `NEXT_STEPS.md`.

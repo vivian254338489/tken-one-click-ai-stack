@@ -15,6 +15,8 @@ Beginner entry points:
 
 - Windows: `START.bat`
 - macOS/Linux: `START.sh`
+- Local preflight check: `npm run preflight`
+- Troubleshooting guide: `TROUBLESHOOTING.md`
 - Commercial checklist: `COMMERCIAL.md`
 - 3-minute guide: `QUICKSTART.md`
 

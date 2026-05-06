@@ -15,6 +15,8 @@ Pick a zip, unzip it, and run. No framework migration, no vendor lock-in.
 
 For non-technical users: download `tken-full-stack.zip`, unzip it, double-click `START.bat`, then open `http://localhost:8787/chatgpt`.
 
+The start scripts run a preflight check first. If Node.js is missing, the port is busy, or files are incomplete, the package prints a clear fix before it starts.
+
 Default API base URL:
 
 ```text
@@ -77,6 +79,7 @@ The first run uses demo mode by default. The UI works immediately without an ups
 - Two familiar web UIs without a heavy frontend build step.
 - Real deployment files for Docker, Railway, Render, and Vercel.
 - Demo mode, setup wizard, admin status page, and production readiness check.
+- Preflight checks for Node.js, required files, and local port conflicts.
 - Built-in request rate limiting and basic security headers for public deployments.
 - Zip packages are validated after build, so users can unzip and run.
 
@@ -107,6 +110,12 @@ Interactive setup:
 ```bash
 npm run wizard
 npm start
+```
+
+Preflight only:
+
+```bash
+npm run preflight
 ```
 
 Production check before sharing with real users:
@@ -245,6 +254,7 @@ Generated files are written to each package's `generated/` folder.
 - `FAQ.md`
 - `ROADMAP.md`
 - `DEMO.md`
+- `TROUBLESHOOTING.md`
 - `RELEASE.md`
 - `CONTRIBUTING.md`
 - `LAUNCH_CHECKLIST.md`

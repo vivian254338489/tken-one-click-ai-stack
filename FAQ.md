@@ -39,6 +39,16 @@ https://www.tken.shop/v1
 
 No. Node.js 20+ works. Docker is included for easier deployment.
 
+## What happens if the one-click start fails?
+
+Run:
+
+```bash
+npm run preflight
+```
+
+Then open `TROUBLESHOOTING.md`. The preflight check catches missing Node.js, incomplete files, and local port conflicts.
+
 ## Where do I put API keys?
 
 Use `.env` for the gateway and environment variables such as `TKEN_API_KEY` for client kits. Do not commit real keys.

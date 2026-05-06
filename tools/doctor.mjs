@@ -20,6 +20,7 @@ const required = [
   "vercel.json",
   "tools/bootstrap.mjs",
   "tools/doctor.mjs",
+  "tools/preflight.mjs",
   "tools/wizard.mjs",
   "tools/production-check.mjs",
   "src/app.js",
@@ -36,8 +37,10 @@ const required = [
   "apps/claude-web/vercel.json",
   "apps/claude-web/public/index.html",
   "clients/codex/install.mjs",
+  "clients/codex/preflight.mjs",
   "clients/codex/config.example.json",
   "clients/openclaw/install.mjs",
+  "clients/openclaw/preflight.mjs",
   "clients/openclaw/config.example.json",
 ];
 

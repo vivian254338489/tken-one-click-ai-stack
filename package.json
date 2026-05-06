@@ -1,6 +1,6 @@
 {
   "name": "tken-one-click-ai-stack",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": false,
   "type": "module",
   "engines": {
@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node src/server.js",
+    "preflight": "node tools/preflight.mjs",
     "smoke": "node scripts/smoke.mjs",
     "check": "node scripts/smoke.mjs --spawn && node scripts/check-web-apps.mjs && node tools/doctor.mjs",
     "check:kits": "npm run package:kits && node scripts/validate-kits.mjs",

@@ -4,6 +4,9 @@ cd /d "%~dp0"
 echo Installing dependencies...
 call npm install
 if errorlevel 1 goto failed
+echo Checking local environment...
+call npm run preflight
+if errorlevel 1 goto failed
 echo Generating demo configuration...
 call npm run setup
 if errorlevel 1 goto failed

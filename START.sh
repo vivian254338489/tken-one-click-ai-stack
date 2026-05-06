@@ -4,6 +4,8 @@ set -eu
 cd "$(dirname "$0")"
 echo "Installing dependencies..."
 npm install
+echo "Checking local environment..."
+npm run preflight
 echo "Generating demo configuration..."
 npm run setup
 echo "Starting TKEN One-Click AI Stack..."

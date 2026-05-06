@@ -1,0 +1,12 @@
+{
+  "task": "data_extraction",
+  "route": "free-model",
+  "fallbackRoute": "premium-gpt",
+  "why": "Structured extraction is often cheap-route friendly when the schema is explicit.",
+  "prompt": "Extract the requested fields as JSON. Return only valid JSON and use null when a field is missing.",
+  "upgradeWhen": [
+    "schema has many nested fields",
+    "input is messy or multilingual",
+    "incorrect extraction has business risk"
+  ]
+}

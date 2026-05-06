@@ -1,0 +1,12 @@
+{
+  "task": "agent_planning",
+  "route": "premium-gpt",
+  "fallbackRoute": "free-model",
+  "why": "Agent planning often compounds errors, so stronger reasoning is usually worth the cost.",
+  "prompt": "Create a short execution plan. Identify risks, dependencies, verification steps, and the next concrete action.",
+  "downgradeWhen": [
+    "plan is a simple checklist",
+    "task is low-risk",
+    "human will rewrite before execution"
+  ]
+}

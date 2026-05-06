@@ -1,0 +1,12 @@
+{
+  "task": "summarization",
+  "route": "free-model",
+  "fallbackRoute": "premium-gpt",
+  "why": "Summaries are usually tolerant of low-cost routes unless the source is high-risk or very technical.",
+  "prompt": "Summarize the following text into 5 bullet points. Preserve numbers, names, dates, and action items.",
+  "upgradeWhen": [
+    "legal, medical, or financial content",
+    "source text is ambiguous",
+    "summary will be sent to a customer without review"
+  ]
+}

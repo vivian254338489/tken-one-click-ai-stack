@@ -72,6 +72,35 @@ const kits = [
       ["node", ["support-report.mjs"]],
     ],
   },
+  {
+    zip: "tken-ai-gateway-lite.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "server.mjs", "preflight.mjs", "smoke.mjs", "Dockerfile", "railway.json", "vercel.json"],
+    install: true,
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-api-cost-calculator.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "script.js", "check.mjs"],
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-openai-compatible-examples.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "examples/curl-chat.sh", "examples/node-chat.mjs", "examples/python-chat.py", "examples/web-ui-config.js", "configs/codex.tken.json", "configs/openclaw.tken.json", "check.mjs"],
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
+  {
+    zip: "tken-llm-routing-recipes.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "recipes/summarization.json", "recipes/extraction.json", "recipes/coding.json", "recipes/customer-support.json", "recipes/translation.json", "recipes/agent-planning.json", "examples/routing-policy.json", "check.mjs"],
+    commands: [
+      ["npm", ["run", "check"]],
+    ],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

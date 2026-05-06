@@ -1,0 +1,13 @@
+{
+  "task": "customer_support",
+  "route": "free-model",
+  "fallbackRoute": "premium-gpt",
+  "why": "First-draft support replies can use low-cost routes when a human reviews before sending.",
+  "prompt": "Draft a concise, friendly support reply. Acknowledge the issue, ask for missing details, and avoid overpromising.",
+  "upgradeWhen": [
+    "refund dispute",
+    "angry customer",
+    "security or account access issue",
+    "reply will be sent automatically"
+  ]
+}

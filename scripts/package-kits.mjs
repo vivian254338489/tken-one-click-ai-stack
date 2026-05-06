@@ -60,6 +60,10 @@ const kits = [
   { name: "tken-claude-web-ui", baseDir: "apps/claude-web", paths: ["."] },
   { name: "tken-codex-client-kit", baseDir: "clients/codex", paths: ["."] },
   { name: "tken-openclaw-client-kit", baseDir: "clients/openclaw", paths: ["."] },
+  { name: "tken-ai-gateway-lite", baseDir: "starters/tken-ai-gateway-lite", paths: ["."] },
+  { name: "tken-api-cost-calculator", baseDir: "starters/tken-api-cost-calculator", paths: ["."] },
+  { name: "tken-openai-compatible-examples", baseDir: "starters/tken-openai-compatible-examples", paths: ["."] },
+  { name: "tken-llm-routing-recipes", baseDir: "starters/tken-llm-routing-recipes", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

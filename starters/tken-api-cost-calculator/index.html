@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI API Cost Calculator</title>
+  <meta name="description" content="Estimate AI API savings from routing simple tasks to low-cost models and hard work to premium GPT or Claude routes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">AI API pricing tool</p>
+      <h1>AI API Cost Calculator</h1>
+      <p class="lead">Compare premium-only usage with a route-based setup that sends simple work to a low-cost route and reserves premium models for hard tasks.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=calculator_cta&utm_campaign=tken_api_cost_calculator">Try TKEN API</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-ai-gateway-lite">Deploy a gateway</a>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Calculator inputs and results">
+      <label><span>Monthly requests</span><input id="requests" type="number" min="0" value="100000"></label>
+      <label><span>Premium cost per 1K requests</span><input id="premium" type="number" min="0" step="0.01" value="1.00"></label>
+      <label><span>Low-cost route per 1K requests</span><input id="cheap" type="number" min="0" step="0.01" value="0.10"></label>
+      <label><span>Simple work routed low-cost (%)</span><input id="share" type="number" min="0" max="100" step="1" value="70"></label>
+      <article><span>Premium-only cost</span><strong id="premiumOnly">$0.00</strong></article>
+      <article><span>Routed cost</span><strong id="routed">$0.00</strong></article>
+      <article class="wide"><span>Estimated savings</span><strong id="savings">$0.00 per month</strong></article>
+    </section>
+
+    <section>
+      <h2>Suggested routing policy</h2>
+      <table>
+        <thead><tr><th>Route</th><th>Use it for</th></tr></thead>
+        <tbody>
+          <tr><td><code>free-model</code></td><td>Summaries, extraction, formatting, first drafts, classification, batch variants.</td></tr>
+          <tr><td><code>premium-gpt</code></td><td>Coding, agent planning, hard reasoning, high-risk final answers.</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

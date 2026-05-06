@@ -1,0 +1,9 @@
+{
+  "name": "tken-llm-routing-recipes",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "check": "node check.mjs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "task": "translation",
+  "route": "free-model",
+  "fallbackRoute": "premium-gpt",
+  "why": "Routine translation is often suitable for low-cost routes when tone and domain risk are low.",
+  "prompt": "Translate the text naturally. Preserve product names, URLs, code, and formatting.",
+  "upgradeWhen": [
+    "marketing headline needs nuance",
+    "legal or medical content",
+    "high-value sales page"
+  ]
+}

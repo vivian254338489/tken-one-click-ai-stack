@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "free-model": {
+      "description": "Low-cost route for routine tasks",
+      "tasks": ["summarization", "data_extraction", "translation", "customer_support_draft"]
+    },
+    "premium-gpt": {
+      "description": "Premium route for hard reasoning and final answers",
+      "tasks": ["coding_assistant", "agent_planning", "high_risk_customer_support"]
+    }
+  }
+}

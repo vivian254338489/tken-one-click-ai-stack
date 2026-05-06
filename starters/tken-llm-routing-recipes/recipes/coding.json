@@ -1,0 +1,12 @@
+{
+  "task": "coding_assistant",
+  "route": "premium-gpt",
+  "fallbackRoute": "free-model",
+  "why": "Coding tasks usually benefit from stronger reasoning, tool-use planning, and error analysis.",
+  "prompt": "Find the bug, explain the root cause briefly, and propose a minimal patch with tests.",
+  "downgradeWhen": [
+    "formatting code",
+    "renaming variables",
+    "generating boilerplate from a clear template"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tken-api-cost-calculator",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "check": "node check.mjs",
+    "start": "npx serve ."
+  },
+  "devDependencies": {}
+}

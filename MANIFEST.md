@@ -11,6 +11,13 @@ This repository contains six installable packages.
 | Codex client kit | `clients/codex` | Generates a TKEN OpenAI-compatible client config template | `node install.mjs` |
 | OpenClaw client kit | `clients/openclaw` | Generates an OpenClaw-style provider config template | `node install.mjs` |
 
+Beginner entry points:
+
+- Windows: `START.bat`
+- macOS/Linux: `START.sh`
+- Commercial checklist: `COMMERCIAL.md`
+- 3-minute guide: `QUICKSTART.md`
+
 Build downloadable zip kits:
 
 ```bash

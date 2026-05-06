@@ -23,6 +23,7 @@ HOST=0.0.0.0
 LOCAL_API_KEY=${config.localApiKey}
 UPSTREAM_BASE_URL=${config.upstreamBaseUrl}
 UPSTREAM_API_KEY=${config.upstreamApiKey}
+DEMO_MODE=${config.upstreamApiKey === "your_tken_api_key" ? "true" : "false"}
 FREE_MODEL=${config.freeModel}
 PREMIUM_MODEL=${config.premiumModel}
 DEFAULT_ROUTE=free-model

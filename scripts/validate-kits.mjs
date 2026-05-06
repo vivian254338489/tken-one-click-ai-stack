@@ -18,13 +18,13 @@ const tmp = path.join(os.tmpdir(), `tken-kit-validate-${Date.now()}`);
 const kits = [
   {
     zip: "tken-full-stack.zip",
-    files: ["README.md", "package.json", "src/app.js", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
+    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "START.bat", "package.json", "src/app.js", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
     install: true,
     command: ["npm", ["run", "check", "--", "--skip-web-install"]],
   },
   {
     zip: "tken-gateway.zip",
-    files: ["README.md", "package.json", "src/app.js", "Dockerfile", "vercel.json"],
+    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "START.bat", "package.json", "src/app.js", "Dockerfile", "vercel.json"],
     install: true,
     command: ["npm", ["run", "smoke", "--", "--spawn"]],
   },

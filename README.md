@@ -11,7 +11,9 @@ Six ready-to-run install packages for an OpenAI-compatible multi-model AI stack.
 - OpenClaw client config kit
 - Docker, Railway, Render, and Vercel deployment files
 
-Pick a zip, unzip it, set an API key, and run. No framework migration, no vendor lock-in.
+Pick a zip, unzip it, and run. No framework migration, no vendor lock-in.
+
+For non-technical users: download `tken-full-stack.zip`, unzip it, double-click `START.bat`, then open `http://localhost:8787/chatgpt`.
 
 Default API base URL:
 
@@ -62,6 +64,8 @@ The terms "ChatGPT-style" and "Claude-style" describe UI patterns only. You can 
 
 See `MANIFEST.md` for the full file manifest.
 
+The first run uses demo mode by default. The UI works immediately without an upstream key. For real models, set `UPSTREAM_API_KEY` and `DEMO_MODE=false`.
+
 ## Why Developers Star This
 
 - OpenAI-compatible endpoint shape, so existing tools can connect quickly.
@@ -72,9 +76,30 @@ See `MANIFEST.md` for the full file manifest.
 
 ## Fastest Start
 
+Windows:
+
+```text
+Double-click START.bat
+```
+
+macOS/Linux:
+
+```bash
+sh START.sh
+```
+
+Manual:
+
 ```bash
 npm install
 npm run setup
+npm start
+```
+
+Interactive setup:
+
+```bash
+npm run wizard
 npm start
 ```
 
@@ -202,6 +227,8 @@ Generated files are written to each package's `generated/` folder.
 
 ## More
 
+- `QUICKSTART.md`
+- `COMMERCIAL.md`
 - `FAQ.md`
 - `ROADMAP.md`
 - `DEMO.md`

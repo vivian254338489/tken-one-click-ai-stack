@@ -52,6 +52,7 @@ async function bootStandaloneChat(options) {
 
   baseEl.value = localStorage.getItem("tken_api_base") || config.apiBaseUrl;
   keyEl.value = localStorage.getItem("tken_api_key") || "";
+  messagesEl.appendChild(createMessage("assistant", "Paste your API key and send a message. If you are using the bundled gateway in demo mode, use local-dev-key as the local gateway key."));
 
   for (const model of config.models) {
     const option = document.createElement("option");

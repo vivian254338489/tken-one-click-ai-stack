@@ -13,6 +13,10 @@ const defaultRoutes = {
   "premium-gpt": process.env.PREMIUM_MODEL || "premium-gpt-model",
 };
 
+function isDemoKey(value) {
+  return !value || value === "your_tken_api_key" || value === "demo";
+}
+
 function parseExtraRoutes() {
   if (!process.env.MODEL_ROUTES) return {};
 
@@ -56,6 +60,7 @@ export function createApp() {
   const localApiKey = process.env.LOCAL_API_KEY || "local-dev-key";
   const defaultRoute = process.env.DEFAULT_ROUTE || "free-model";
   const corsOrigin = process.env.CORS_ORIGIN || "*";
+  const demoMode = process.env.DEMO_MODE === "true" || isDemoKey(upstreamApiKey);
 
   app.disable("x-powered-by");
   app.use(express.json({ limit: "2mb" }));
@@ -81,6 +86,7 @@ export function createApp() {
       upstream: upstreamBaseUrl,
       defaultRoute,
       routes: Object.keys(getModelRoutes()),
+      demoMode,
     });
   });
 
@@ -114,19 +120,38 @@ export function createApp() {
       });
     }
 
-    if (!upstreamApiKey) {
-      return res.status(500).json({
-        error: {
-          message: "Set UPSTREAM_API_KEY in your environment.",
-          type: "configuration_error",
-        },
-      });
-    }
-
     const modelRoutes = getModelRoutes();
     const body = { ...req.body };
     const requestedModel = body.model || defaultRoute;
     body.model = modelRoutes[requestedModel] || requestedModel;
+
+    if (demoMode) {
+      const lastMessage = Array.isArray(body.messages) ? body.messages.at(-1)?.content || "" : "";
+      return res.json({
+        id: `chatcmpl-demo-${Date.now()}`,
+        object: "chat.completion",
+        created: Math.floor(Date.now() / 1000),
+        model: requestedModel,
+        choices: [
+          {
+            index: 0,
+            message: {
+              role: "assistant",
+              content: [
+                "Demo mode is active. Your gateway, web UI, model selector, and OpenAI-compatible response format are working.",
+                "",
+                `Local route: ${requestedModel}`,
+                `Upstream model: ${body.model}`,
+                lastMessage ? `Your message: ${lastMessage}` : "",
+                "",
+                "To use real models, set UPSTREAM_API_KEY in .env and restart the server.",
+              ].filter(Boolean).join("\n"),
+            },
+            finish_reason: "stop",
+          },
+        ],
+      });
+    }
 
     try {
       const upstream = await fetch(`${upstreamBaseUrl}/chat/completions`, {

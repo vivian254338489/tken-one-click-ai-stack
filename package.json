@@ -13,6 +13,7 @@
     "check": "node scripts/smoke.mjs --spawn && node scripts/check-web-apps.mjs && node tools/doctor.mjs",
     "check:kits": "npm run package:kits && node scripts/validate-kits.mjs",
     "setup": "node tools/bootstrap.mjs",
+    "wizard": "node tools/wizard.mjs",
     "package:kits": "node scripts/package-kits.mjs"
   },
   "keywords": [

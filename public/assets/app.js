@@ -44,6 +44,8 @@ async function bootChat(options) {
 
   modelEl.value = config.defaultModel || config.models[0]?.id || "free-model";
   keyEl.value = localStorage.getItem("tken_local_key") || "local-dev-key";
+  const demo = createMessage("assistant", "Demo mode works without an upstream API key. Send a message to test the UI. For production, set UPSTREAM_API_KEY in .env.");
+  messagesEl.appendChild(demo);
 
   const messages = [
     { role: "system", content: options.systemPrompt },

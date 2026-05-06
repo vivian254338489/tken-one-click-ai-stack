@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0
+
+- Added `starters/chatgpt-web-ui-tken-starter`, a standalone ChatGPT-style Web UI starter for TKEN/OpenAI-compatible routes.
+- Added Docker, Railway, Vercel, Windows, macOS/Linux, and preflight support for the starter.
+- Added `chatgpt-web-ui-tken-starter.zip` as a dedicated release asset.
+- Added starter package coverage to zip validation and documentation.
+
 ## 0.5.3
 
 - Added `adapter-kits/chatgpt-web-ui-tken` for permissive-license ChatGPT Web UI forks.

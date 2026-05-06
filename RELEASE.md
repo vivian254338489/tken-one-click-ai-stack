@@ -1,4 +1,4 @@
-# Release Notes: TKEN One-Click AI Stack 0.5.3
+# Release Notes: TKEN One-Click AI Stack 0.6.0
 
 This release hardens the install kits for public demos, commercial trials, and beginner self-serve installs.
 
@@ -6,6 +6,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 
 - `tken-full-stack.zip`
 - `tken-gateway.zip`
+- `chatgpt-web-ui-tken-starter.zip`
 - `tken-chatgpt-web-ui.zip`
 - `tken-claude-web-ui.zip`
 - `tken-codex-client-kit.zip`
@@ -45,6 +46,9 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Added a ChatGPT Web UI TKEN adapter kit for permissive-license second-development forks.
 - Added Docker, Railway, Vercel, README, provider-map, and upstream PR templates for adapter forks.
 - Added an adapter installer script for injecting the TKEN kit into target fork directories.
+- Added a standalone ChatGPT Web UI TKEN Starter package designed for separate GitHub launch.
+- Added Docker, Railway, Vercel, Windows, macOS/Linux, and preflight support for the starter.
+- Added the starter as a dedicated release zip for GitHub distribution.
 - Added smoke-test coverage for all new guide and comparison pages.
 - Updated README with direct release download links for every package.
 - Every package now has beginner entry points.
@@ -53,7 +57,7 @@ This release hardens the install kits for public demos, commercial trials, and b
 - Gateway loads `.env` automatically.
 - Full stack includes demo mode and `/admin` status page.
 - Gateway: OpenAI-compatible `/v1/chat/completions` proxy with model route mapping.
-- Web UIs: bundled and standalone ChatGPT-style / Claude-style packages.
+- Web UIs: bundled, standalone, and fork-ready ChatGPT-style / Claude-style packages.
 - Clients: Codex and OpenClaw config generators.
 - Deploy: Docker, Railway, Render, and Vercel docs.
 - Growth: GitHub second-development targets, ChatGPT Web UI adapter kits, SEO pages, deployable site templates, social drafts, video scripts, UTM tracking, and site-network planning.

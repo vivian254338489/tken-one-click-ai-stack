@@ -76,6 +76,7 @@ The terms "ChatGPT-style" and "Claude-style" describe UI patterns only. You can 
 | Full stack | `.` | Gateway plus bundled ChatGPT-style and Claude-style UIs | Node, Docker, Railway, Render, Vercel |
 | Gateway | `.` | OpenAI-compatible `/v1/chat/completions` proxy and route mapper | Node, Docker, Railway, Render, Vercel |
 | ChatGPT Web UI | `apps/chatgpt-web` | Standalone browser UI | Node, Docker, Vercel/static hosts |
+| ChatGPT TKEN Starter | `starters/chatgpt-web-ui-tken-starter` | Standalone fork-ready starter | Node, Docker, Railway, Vercel |
 | Claude Web UI | `apps/claude-web` | Standalone browser UI | Node, Docker, Vercel/static hosts |
 | Codex client kit | `clients/codex` | Generic Codex-style provider config generator | Local client config |
 | OpenClaw client kit | `clients/openclaw` | Generic OpenClaw-style provider config generator | Local client config |
@@ -316,6 +317,7 @@ Generated zip packages:
 - `dist/tken-full-stack.zip`
 - `dist/tken-gateway.zip`
 - `dist/tken-chatgpt-web-ui.zip`
+- `dist/chatgpt-web-ui-tken-starter.zip`
 - `dist/tken-claude-web-ui.zip`
 - `dist/tken-codex-client-kit.zip`
 - `dist/tken-openclaw-client-kit.zip`

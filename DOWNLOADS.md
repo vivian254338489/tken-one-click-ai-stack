@@ -33,6 +33,7 @@ https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/downl
 | Everything in one folder | `tken-full-stack.zip` |
 | Only the OpenAI-compatible gateway | `tken-gateway.zip` |
 | Only a ChatGPT-style browser UI | `tken-chatgpt-web-ui.zip` |
+| Standalone TKEN ChatGPT Web UI starter for a separate GitHub repo | `chatgpt-web-ui-tken-starter.zip` |
 | Only a Claude-style browser UI | `tken-claude-web-ui.zip` |
 | Codex-style provider config | `tken-codex-client-kit.zip` |
 | OpenClaw-style provider config | `tken-openclaw-client-kit.zip` |

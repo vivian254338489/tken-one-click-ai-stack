@@ -7,6 +7,7 @@ This repository contains six installable packages.
 | Full stack | `.` | Gateway plus bundled ChatGPT-style and Claude-style UIs | `npm install && npm start` |
 | Gateway | `.` | OpenAI-compatible gateway for Docker, Railway, Render, and Vercel | `docker compose up --build` |
 | ChatGPT Web UI | `apps/chatgpt-web` | Standalone ChatGPT-style browser UI for any OpenAI-compatible API | `npm install && npm start` |
+| ChatGPT TKEN Starter | `starters/chatgpt-web-ui-tken-starter` | Fork-ready ChatGPT-style UI starter with TKEN preset | `npm install && npm start` |
 | Claude Web UI | `apps/claude-web` | Standalone Claude-style browser UI for any OpenAI-compatible API | `npm install && npm start` |
 | Codex client kit | `clients/codex` | Generates a TKEN OpenAI-compatible client config template | `node install.mjs` |
 | OpenClaw client kit | `clients/openclaw` | Generates an OpenClaw-style provider config template | `node install.mjs` |

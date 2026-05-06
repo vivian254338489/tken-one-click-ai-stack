@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt-web-ui-tken-starter",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "preflight": "node preflight.mjs",
+    "check": "node smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

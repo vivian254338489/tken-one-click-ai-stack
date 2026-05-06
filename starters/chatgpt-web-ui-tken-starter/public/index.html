@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT Web UI TKEN Starter</title>
+  <meta name="description" content="A ChatGPT-style web UI starter for TKEN and OpenAI-compatible model routes.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <p class="brand">TKEN ChatGPT UI</p>
+      <p class="muted">One OpenAI-compatible endpoint for low-cost and premium model routes.</p>
+      <label>API key
+        <input id="api-key" type="password" autocomplete="off" placeholder="Paste your TKEN API key">
+      </label>
+      <label>Model route
+        <select id="model"></select>
+      </label>
+      <a href="https://www.tken.shop/?utm_source=github_starter&utm_medium=webui&utm_campaign=chatgpt_web_ui_tken_starter">Get API access</a>
+    </aside>
+    <main>
+      <header>
+        <h1>ChatGPT Web UI TKEN Starter</h1>
+        <p class="muted">Use cheap routes for drafts and premium routes for hard answers.</p>
+      </header>
+      <section id="messages"></section>
+      <form id="chat-form">
+        <textarea id="prompt" rows="2" placeholder="Ask something..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

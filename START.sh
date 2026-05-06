@@ -13,4 +13,5 @@ echo ""
 echo "Open http://localhost:8787/chatgpt"
 echo "Open http://localhost:8787/claude"
 echo ""
+node tools/open-browser.mjs http://localhost:8787/chatgpt 2500 &
 npm start

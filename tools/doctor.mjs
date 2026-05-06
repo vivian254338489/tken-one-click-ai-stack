@@ -24,6 +24,7 @@ const required = [
   "vercel.json",
   "tools/bootstrap.mjs",
   "tools/doctor.mjs",
+  "tools/open-browser.mjs",
   "tools/preflight.mjs",
   "tools/support-report.mjs",
   "tools/wizard.mjs",

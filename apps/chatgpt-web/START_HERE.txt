@@ -10,6 +10,7 @@ Start here if you are not technical.
    sh START.sh
 
 3. Open in your browser
+   START.bat tries to open this automatically:
    http://localhost:8788
 
 4. Need an API key?

@@ -19,6 +19,8 @@ After unzipping, non-technical users can open `START_HERE.txt`.
 
 For non-technical users: download `tken-full-stack.zip`, unzip it, double-click `START.bat`, then open `http://localhost:8787/chatgpt`.
 
+The start scripts also try to open the browser automatically.
+
 The start scripts run a preflight check first. If Node.js is missing, the port is busy, or files are incomplete, the package prints a clear fix before it starts.
 
 Default API base URL:

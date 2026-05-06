@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.8
+
+- Added automatic browser opening to full-stack start scripts.
+- Added automatic browser opening to standalone ChatGPT-style and Claude-style Web UI packages.
+- Added browser opener coverage to package validation and doctor checks.
+
 ## 0.4.7
 
 - Added `START_HERE.txt` to standalone ChatGPT-style and Claude-style Web UI packages.

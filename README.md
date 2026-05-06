@@ -96,6 +96,7 @@ The first run uses demo mode by default. The UI works immediately without an ups
 - Preflight checks for Node.js, required files, and local port conflicts.
 - Safe support reports in the full stack, standalone Web UIs, and client kits.
 - SEO-ready comparison pages and growth drafts for GitHub, Reddit, video, and marketplace experiments.
+- API cost calculator and UTM builder for measurable promotion campaigns.
 - Built-in request rate limiting and basic security headers for public deployments.
 - Zip packages are validated after build, so users can unzip and run.
 
@@ -286,6 +287,8 @@ Client kit users can double-click `SUPPORT.bat` or run `sh SUPPORT.sh` to genera
 - `QUICKSTART.md`
 - `growth/content-calendar.md`
 - `growth/github-fork-targets.md`
+- `growth/seo-site-network-plan.md`
+- `growth/distribution-matrix.md`
 - `growth/short-video-scripts.md`
 - `COMMERCIAL.md`
 - `FAQ.md`

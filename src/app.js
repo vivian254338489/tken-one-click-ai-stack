@@ -111,6 +111,9 @@ export function createApp() {
   app.get("/compare/china-vs-us-models", (_req, res) => {
     res.sendFile(path.join(publicDir, "compare", "china-vs-us-models.html"));
   });
+  app.get("/tools/api-cost-calculator", (_req, res) => {
+    res.sendFile(path.join(publicDir, "tools", "api-cost-calculator.html"));
+  });
 
   app.get("/health", (_req, res) => {
     res.json({

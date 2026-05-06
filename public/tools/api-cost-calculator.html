@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI API Cost Calculator: Compare Premium vs Low-Cost Routes</title>
+  <meta name="description" content="Estimate monthly AI API savings by routing simple work to low-cost models and reserving premium GPT or Claude routes for hard tasks.">
+  <link rel="canonical" href="https://www.tken.shop/tools/api-cost-calculator">
+  <link rel="stylesheet" href="/assets/growth.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="topbar">
+      <a class="brand" href="https://www.tken.shop/?utm_source=seo_tool&utm_medium=calculator&utm_campaign=api_cost">TKEN API</a>
+      <div class="nav">
+        <a href="/guides/three-minute-chatgpt-gateway">3-minute gateway</a>
+        <a href="/compare/ai-api-pricing">API pricing</a>
+        <a href="/compare/china-vs-us-models">China vs US models</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">Cost calculator</div>
+      <h1>How much can routing save your AI API bill?</h1>
+      <p class="lead">Enter your monthly request volume and rough per-request costs. The calculator estimates the difference between sending every task to a premium model and using a low-cost route for simple work.</p>
+      <div class="cta-row">
+        <a class="button" href="https://www.tken.shop/?utm_source=seo_tool&utm_medium=cta&utm_campaign=api_cost">Try TKEN routing</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest">Download gateway kit</a>
+      </div>
+    </section>
+
+    <main>
+      <div class="grid">
+        <label class="card"><strong>Monthly requests</strong><input id="requests" type="number" min="0" value="100000"></label>
+        <label class="card"><strong>Premium cost per 1K requests</strong><input id="premium" type="number" min="0" step="0.01" value="1.00"></label>
+        <label class="card"><strong>Low-cost route per 1K requests</strong><input id="cheap" type="number" min="0" step="0.01" value="0.10"></label>
+        <label class="card"><strong>Simple work routed low-cost</strong><input id="share" type="number" min="0" max="100" step="1" value="70"></label>
+        <div class="card"><strong>Premium-only monthly cost</strong><p id="premiumOnly">$0.00</p></div>
+        <div class="card"><strong>Routed monthly cost</strong><p id="routed">$0.00</p></div>
+      </div>
+
+      <h2>Estimated savings</h2>
+      <p class="lead" id="savings">$0.00 per month</p>
+      <p class="note">This is a planning calculator, not a quote. Actual cost depends on tokens, model route, context length, retries, and provider terms.</p>
+
+      <h2>Suggested routing policy</h2>
+      <table>
+        <thead><tr><th>Route</th><th>Use it for</th></tr></thead>
+        <tbody>
+          <tr><td><code>free-model</code></td><td>Summaries, extraction, formatting, first drafts, batch variants.</td></tr>
+          <tr><td><code>premium-gpt</code></td><td>Coding, agent planning, hard reasoning, final high-risk answers.</td></tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  <script>
+    const fields = ["requests", "premium", "cheap", "share"].map((id) => document.getElementById(id));
+    const money = (value) => value.toLocaleString(undefined, { style: "currency", currency: "USD" });
+    function recalc() {
+      const requests = Number(document.getElementById("requests").value || 0);
+      const premium = Number(document.getElementById("premium").value || 0);
+      const cheap = Number(document.getElementById("cheap").value || 0);
+      const share = Math.max(0, Math.min(100, Number(document.getElementById("share").value || 0))) / 100;
+      const units = requests / 1000;
+      const premiumOnly = units * premium;
+      const routed = units * ((share * cheap) + ((1 - share) * premium));
+      document.getElementById("premiumOnly").textContent = money(premiumOnly);
+      document.getElementById("routed").textContent = money(routed);
+      document.getElementById("savings").textContent = `${money(Math.max(0, premiumOnly - routed))} per month`;
+    }
+    fields.forEach((field) => field.addEventListener("input", recalc));
+    recalc();
+  </script>
+</body>
+</html>

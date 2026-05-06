@@ -55,6 +55,7 @@ try {
   await checkRoute("/compare/ai-api-pricing", "2026 AI API pricing");
   await checkRoute("/compare/gpt-vs-claude", "GPT vs Claude");
   await checkRoute("/compare/china-vs-us-models", "Chinese models vs US models");
+  await checkRoute("/tools/api-cost-calculator", "How much can routing save your AI API bill?");
 
   const config = await fetch(`${baseUrl}/config/public`).then((response) => response.json());
   if (!config.models?.length) throw new Error("No public model routes found.");

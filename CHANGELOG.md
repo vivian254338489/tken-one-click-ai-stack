@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1
+
+- Added an AI API cost calculator page for SEO and conversion experiments.
+- Added `tools/utm-builder.mjs` for campaign tracking links.
+- Added SEO site-network planning for GPT tutorial, Claude tutorial, and AI tools navigation sites.
+- Added fork adapter templates, dev.to draft, Hacker News draft, and a distribution matrix.
+- Added doctor and zip validation coverage for the new growth assets.
+
 ## 0.5.0
 
 - Added SEO-ready landing pages for 3-minute gateway setup, AI API pricing, GPT vs Claude, and Chinese vs US model routing.

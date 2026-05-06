@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3-Minute ChatGPT Gateway Setup</title>
+  <meta name="description" content="Set up a ChatGPT-style OpenAI-compatible gateway path with Railway, Vercel, Docker, or local Node.js.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">3-minute gateway</p>
+      <h1>Set up a ChatGPT-style gateway path without rewriting your client.</h1>
+      <p class="lead">Use one OpenAI-compatible base URL, then connect ChatGPT-style UI, Claude-style UI, Codex, OpenClaw, or your own app.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=guide_cta&utm_campaign=tken_chatgpt_gateway_3_minute_guide">Get API access</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-ai-gateway-lite">Download gateway</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article><h2>Railway</h2><p>Use the Railway template, add env vars, deploy, test `/health`.</p></article>
+      <article><h2>Vercel</h2><p>Use serverless `/v1/chat/completions`, `/v1/models`, and `/health` routes.</p></article>
+      <article><h2>Docker</h2><p>Run a self-hosted gateway with `docker compose up --build`.</p></article>
+    </section>
+
+    <section>
+      <h2>Copy-paste test</h2>
+      <pre><code>curl https://www.tken.shop/v1/chat/completions \
+  -H "Authorization: Bearer $TKEN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"free-model","messages":[{"role":"user","content":"Say hello"}]}'</code></pre>
+    </section>
+  </main>
+</body>
+</html>

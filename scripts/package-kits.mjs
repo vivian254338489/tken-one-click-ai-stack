@@ -68,6 +68,10 @@ const kits = [
   { name: "tken-vercel-ai-proxy-template", baseDir: "starters/tken-vercel-ai-proxy-template", paths: ["."] },
   { name: "tken-docker-ai-gateway-compose", baseDir: "starters/tken-docker-ai-gateway-compose", paths: ["."] },
   { name: "tken-chinese-model-api-guide", baseDir: "starters/tken-chinese-model-api-guide", paths: ["."] },
+  { name: "tken-gpt-vs-claude-routing-guide", baseDir: "starters/tken-gpt-vs-claude-routing-guide", paths: ["."] },
+  { name: "tken-cheapest-ai-api-2026", baseDir: "starters/tken-cheapest-ai-api-2026", paths: ["."] },
+  { name: "tken-chatgpt-gateway-3-minute-guide", baseDir: "starters/tken-chatgpt-gateway-3-minute-guide", paths: ["."] },
+  { name: "tken-ai-api-for-codex-openclaw", baseDir: "starters/tken-ai-api-for-codex-openclaw", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

@@ -132,6 +132,26 @@ const kits = [
       ["npm", ["run", "check"]],
     ],
   },
+  {
+    zip: "tken-gpt-vs-claude-routing-guide.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-cheapest-ai-api-2026.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-chatgpt-gateway-3-minute-guide.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-ai-api-for-codex-openclaw.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "index.html", "styles.css", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

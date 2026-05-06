@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI API Base URL for Codex and OpenClaw</title>
+  <meta name="description" content="Set up Codex-style and OpenClaw-style clients with one OpenAI-compatible API base URL and model routes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">Coding agent API setup</p>
+      <h1>Use one API base URL for Codex-style and OpenClaw-style clients.</h1>
+      <p class="lead">Keep a low-cost default route for simple edits and a premium coding route for hard reasoning.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=guide_cta&utm_campaign=tken_ai_api_for_codex_openclaw">Try TKEN API</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-codex-client-kit">Codex kit</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article><h2>Base URL</h2><p><code>https://www.tken.shop/v1</code></p></article>
+      <article><h2>Default route</h2><p><code>free-model</code> for formatting, drafts, and simple edits.</p></article>
+      <article><h2>Premium route</h2><p><code>premium-gpt</code> for coding, debugging, and agent planning.</p></article>
+    </section>
+
+    <section>
+      <h2>Codex-style config</h2>
+      <pre><code>{
+  "provider": "tken",
+  "base_url": "https://www.tken.shop/v1",
+  "api_key_env": "TKEN_API_KEY",
+  "models": {
+    "default": "free-model",
+    "premium": "premium-gpt"
+  }
+}</code></pre>
+    </section>
+  </main>
+</body>
+</html>

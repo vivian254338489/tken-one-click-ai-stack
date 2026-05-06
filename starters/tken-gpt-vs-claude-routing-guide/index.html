@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPT vs Claude: Route by Task, Not by Brand</title>
+  <meta name="description" content="A short GPT vs Claude routing guide for builders using OpenAI-compatible APIs and low-cost model routes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">GPT vs Claude</p>
+      <h1>The winning answer is not one model. It is routing.</h1>
+      <p class="lead">Use cheap routes for routine work and premium routes when the task actually needs stronger reasoning.</p>
+      <div class="actions">
+        <a class="button" href="https://www.tken.shop/?utm_source=github&utm_medium=guide_cta&utm_campaign=tken_gpt_vs_claude_routing_guide">Try TKEN API</a>
+        <a class="button secondary" href="https://github.com/vivian254338489/tken-llm-routing-recipes">View routing recipes</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article><h2>Use cheap routes for</h2><p>Summaries, extraction, translation, formatting, first drafts, and bulk variants.</p></article>
+      <article><h2>Use premium routes for</h2><p>Coding, agent planning, hard reasoning, and final answers with real business risk.</p></article>
+      <article><h2>Keep one API shape</h2><p>Point OpenAI-compatible clients to one base URL: <code>https://www.tken.shop/v1</code>.</p></article>
+    </section>
+
+    <section>
+      <h2>Decision table</h2>
+      <table>
+        <thead><tr><th>Task</th><th>Start route</th><th>Escalate when</th></tr></thead>
+        <tbody>
+          <tr><td>Summarize a long article</td><td><code>free-model</code></td><td>Quotes or facts must be perfect</td></tr>
+          <tr><td>Generate production code</td><td><code>premium-gpt</code></td><td>Already premium</td></tr>
+          <tr><td>Draft support reply</td><td><code>free-model</code></td><td>Refund, security, angry customer</td></tr>
+          <tr><td>Plan agent workflow</td><td><code>premium-gpt</code></td><td>Already premium</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

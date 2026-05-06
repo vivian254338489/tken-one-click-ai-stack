@@ -1,6 +1,6 @@
 {
   "name": "tken-one-click-ai-stack",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "type": "module",
   "engines": {
@@ -14,6 +14,7 @@
     "check:kits": "npm run package:kits && node scripts/validate-kits.mjs",
     "setup": "node tools/bootstrap.mjs",
     "wizard": "node tools/wizard.mjs",
+    "production:check": "node tools/production-check.mjs",
     "package:kits": "node scripts/package-kits.mjs"
   },
   "keywords": [
@@ -36,7 +37,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0"
   },
   "devDependencies": {
     "archiver": "^7.0.1"

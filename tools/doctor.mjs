@@ -21,6 +21,7 @@ const required = [
   "tools/bootstrap.mjs",
   "tools/doctor.mjs",
   "tools/wizard.mjs",
+  "tools/production-check.mjs",
   "src/app.js",
   "api/index.js",
   "public/chatgpt.html",

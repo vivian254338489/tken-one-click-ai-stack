@@ -8,6 +8,7 @@ Use this checklist before exposing the gateway to real users.
 - Set `DEMO_MODE=false`.
 - Set a strong `LOCAL_API_KEY`.
 - Set `CORS_ORIGIN` to your domain instead of `*`.
+- Set `RATE_LIMIT_MAX` to a safe value for your users.
 - Use HTTPS.
 - Keep `.env` out of git.
 - Confirm your upstream model provider allows your intended usage.
@@ -30,6 +31,14 @@ The server loads `.env` automatically when started with `npm start`.
 - Keep a reserve balance for paid model routes.
 - Test low-cost and premium routes separately before launch.
 
+## Production Check
+
+```bash
+npm run production:check
+```
+
+This check fails when demo mode, weak keys, wildcard CORS, or missing rate limits are still present.
+
 ## Production `.env` Example
 
 ```env
@@ -44,10 +53,13 @@ PREMIUM_MODEL=your_premium_model
 DEFAULT_ROUTE=free-model
 MODEL_ROUTES={"qwen-fast":"your_qwen_model","deepseek-chat":"your_deepseek_model"}
 CORS_ORIGIN=https://your-domain.example
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX=120
 ```
 
 ## Smoke Test
 
 ```bash
 npm run check
+npm run check:kits
 ```

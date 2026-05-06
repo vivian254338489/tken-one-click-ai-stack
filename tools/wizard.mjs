@@ -23,6 +23,7 @@ const localApiKey = await ask("Local gateway key", "local-dev-key");
 const freeModel = await ask("Low-cost model route", "tken-free-model");
 const premiumModel = await ask("Premium model route", "premium-gpt-model");
 const corsOrigin = await ask("CORS origin for production", "*");
+const rateLimitMax = await ask("Requests per minute limit", "120");
 
 const env = `PORT=8787
 HOST=0.0.0.0
@@ -35,6 +36,8 @@ PREMIUM_MODEL=${premiumModel}
 DEFAULT_ROUTE=free-model
 MODEL_ROUTES={}
 CORS_ORIGIN=${corsOrigin}
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX=${rateLimitMax}
 `;
 
 fs.writeFileSync(path.join(root, ".env"), env);

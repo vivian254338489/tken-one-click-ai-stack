@@ -3,7 +3,7 @@
 ## Windows
 
 1. Install Node.js 20+.
-2. Download `tken-full-stack.zip`.
+2. Download `tken-full-stack.zip` from https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest
 3. Unzip it.
 4. Double-click `START.bat`.
 5. Open `http://localhost:8787/chatgpt`.
@@ -42,6 +42,14 @@ npm start
 ```
 
 The server loads `.env` automatically.
+
+Before sharing with real users:
+
+```bash
+npm run production:check
+```
+
+Fix every warning before production traffic.
 
 ## Need Only One Package?
 

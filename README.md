@@ -25,25 +25,27 @@ Get an API key:
 
 https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_click_ai_stack
 
-## Download
+## Direct Download
 
-Build locally:
+Latest release:
+
+https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest
+
+| Need | Download |
+| --- | --- |
+| Everything: gateway, ChatGPT-style UI, Claude-style UI, client kits | [`tken-full-stack.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-full-stack.zip) |
+| Only the OpenAI-compatible gateway | [`tken-gateway.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-gateway.zip) |
+| ChatGPT-style standalone UI | [`tken-chatgpt-web-ui.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-chatgpt-web-ui.zip) |
+| Claude-style standalone UI | [`tken-claude-web-ui.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-claude-web-ui.zip) |
+| Codex config kit | [`tken-codex-client-kit.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-codex-client-kit.zip) |
+| OpenClaw config kit | [`tken-openclaw-client-kit.zip`](https://github.com/vivian254338489/tken-one-click-ai-stack/releases/latest/download/tken-openclaw-client-kit.zip) |
+
+Build locally only if you want to modify the source:
 
 ```bash
 npm install
 npm run check:kits
 ```
-
-Then use:
-
-| Need | Package |
-| --- | --- |
-| Everything | `dist/tken-full-stack.zip` |
-| Only the gateway | `dist/tken-gateway.zip` |
-| ChatGPT-style standalone UI | `dist/tken-chatgpt-web-ui.zip` |
-| Claude-style standalone UI | `dist/tken-claude-web-ui.zip` |
-| Codex config | `dist/tken-codex-client-kit.zip` |
-| OpenClaw config | `dist/tken-openclaw-client-kit.zip` |
 
 ## Important Naming Note
 
@@ -74,6 +76,8 @@ The first run uses demo mode by default. The UI works immediately without an ups
 - Local route names for low-cost and premium models.
 - Two familiar web UIs without a heavy frontend build step.
 - Real deployment files for Docker, Railway, Render, and Vercel.
+- Demo mode, setup wizard, admin status page, and production readiness check.
+- Built-in request rate limiting and basic security headers for public deployments.
 - Zip packages are validated after build, so users can unzip and run.
 
 ## Fastest Start
@@ -103,6 +107,12 @@ Interactive setup:
 ```bash
 npm run wizard
 npm start
+```
+
+Production check before sharing with real users:
+
+```bash
+npm run production:check
 ```
 
 Open:
@@ -261,6 +271,7 @@ Each zip contains its own README and beginner entry point. Windows users can sta
 
 ```bash
 npm run check
+npm run check:kits
 ```
 
 The check starts the gateway, verifies the bundled UIs and config routes, and confirms required package files exist.

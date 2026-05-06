@@ -1,4 +1,5 @@
 import express from "express";
+import rateLimit from "express-rate-limit";
 import path from "node:path";
 import { Readable } from "node:stream";
 import { fileURLToPath } from "node:url";
@@ -61,11 +62,27 @@ export function createApp() {
   const defaultRoute = process.env.DEFAULT_ROUTE || "free-model";
   const corsOrigin = process.env.CORS_ORIGIN || "*";
   const demoMode = process.env.DEMO_MODE === "true" || isDemoKey(upstreamApiKey);
+  const configuredRateLimitWindowMs = Number.parseInt(process.env.RATE_LIMIT_WINDOW_MS || "60000", 10);
+  const configuredRateLimitMax = Number.parseInt(process.env.RATE_LIMIT_MAX || "120", 10);
+  const rateLimitWindowMs = Number.isFinite(configuredRateLimitWindowMs) && configuredRateLimitWindowMs > 0
+    ? configuredRateLimitWindowMs
+    : 60000;
+  const rateLimitMax = Number.isFinite(configuredRateLimitMax) && configuredRateLimitMax > 0
+    ? configuredRateLimitMax
+    : 120;
 
   app.disable("x-powered-by");
   app.use(express.json({ limit: "2mb" }));
+  app.use(rateLimit({
+    windowMs: rateLimitWindowMs,
+    max: rateLimitMax,
+    standardHeaders: true,
+    legacyHeaders: false,
+  }));
 
   app.use((req, res, next) => {
+    res.setHeader("X-Content-Type-Options", "nosniff");
+    res.setHeader("Referrer-Policy", "no-referrer");
     res.setHeader("Access-Control-Allow-Origin", corsOrigin);
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Authorization,Content-Type");
@@ -75,9 +92,9 @@ export function createApp() {
 
   app.use("/assets", express.static(path.join(publicDir, "assets")));
 
-app.get("/", (_req, res) => res.redirect("/chatgpt"));
-app.get("/chatgpt", (_req, res) => res.sendFile(path.join(publicDir, "chatgpt.html")));
-app.get("/claude", (_req, res) => res.sendFile(path.join(publicDir, "claude.html")));
+  app.get("/", (_req, res) => res.redirect("/chatgpt"));
+  app.get("/chatgpt", (_req, res) => res.sendFile(path.join(publicDir, "chatgpt.html")));
+  app.get("/claude", (_req, res) => res.sendFile(path.join(publicDir, "claude.html")));
   app.get("/admin", (_req, res) => res.sendFile(path.join(publicDir, "admin.html")));
 
   app.get("/health", (_req, res) => {

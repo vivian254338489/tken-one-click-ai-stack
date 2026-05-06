@@ -29,6 +29,8 @@ PREMIUM_MODEL=${config.premiumModel}
 DEFAULT_ROUTE=free-model
 MODEL_ROUTES={}
 CORS_ORIGIN=*
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX=120
 `;
 
 fs.writeFileSync(path.join(root, ".env"), env);

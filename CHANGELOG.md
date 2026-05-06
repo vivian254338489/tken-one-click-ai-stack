@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0
+
+- Added built-in request rate limiting and basic security headers.
+- Added `npm run production:check` for commercial deployment readiness.
+- Added production check coverage to package doctor.
+- Updated README with direct release asset download links.
+- Improved production docs and launch checklist.
+
 ## 0.3.0
 
 - Added one-click start scripts to every standalone package.

@@ -1,0 +1,7 @@
+{
+  "name": "summary-fallback",
+  "defaultModel": "free-model",
+  "fallbackModel": "premium-gpt",
+  "escalateWhen": ["missing key facts", "conflicting instructions", "high stakes summary"],
+  "apiBaseUrl": "https://www.tken.shop/v1"
+}

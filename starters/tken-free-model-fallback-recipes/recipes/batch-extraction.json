@@ -1,0 +1,7 @@
+{
+  "name": "batch-extraction",
+  "defaultModel": "free-model",
+  "fallbackModel": "premium-gpt",
+  "escalateWhen": ["low confidence", "schema mismatch", "repeated parse failure"],
+  "apiBaseUrl": "https://www.tken.shop/v1"
+}

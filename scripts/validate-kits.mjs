@@ -192,6 +192,26 @@ const kits = [
     files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "lib/client.mjs", "agents/planner-agent.mjs", "agents/coding-agent.mjs", "agents/support-agent.mjs", "demo.mjs", "check.mjs"],
     commands: [["npm", ["run", "check"]]],
   },
+  {
+    zip: "tken-ai-sdk-provider-template.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "package.json", "provider.mjs", "demo.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-openwebui-provider-pack.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "configs/openwebui.env.example", "configs/model-routes.json", "docs/setup-checklist.md", "docs/troubleshooting.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-cursor-windsurf-base-url-guide.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "configs/cursor.example.json", "configs/windsurf.example.json", "docs/test-prompts.md", "docs/troubleshooting.md", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
+  {
+    zip: "tken-free-model-fallback-recipes.zip",
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "recipes/summary-fallback.json", "recipes/coding-escalation.json", "recipes/support-triage.json", "recipes/batch-extraction.json", "router-demo.mjs", "check.mjs"],
+    commands: [["npm", ["run", "check"]]],
+  },
 ];
 
 if (!fs.existsSync(path.join(dist, "SHA256SUMS.txt"))) {

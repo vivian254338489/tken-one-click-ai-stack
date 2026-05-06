@@ -128,6 +128,34 @@ These GitHub assets were published as source repos and release zips:
    - Repo: `https://github.com/vivian254338489/tken-ai-agent-starter-pack`
    - Release: `https://github.com/vivian254338489/tken-ai-agent-starter-pack/releases/tag/v0.1.0`
 
+## Batch 4 Completed
+
+These GitHub assets were published as source repos and release zips:
+
+1. `tken-ai-sdk-provider-template`
+   - Purpose: JavaScript provider wrapper for one OpenAI-compatible base URL.
+   - Search angle: AI SDK OpenAI-compatible provider, custom API base URL provider.
+   - Repo: `https://github.com/vivian254338489/tken-ai-sdk-provider-template`
+   - Release: `https://github.com/vivian254338489/tken-ai-sdk-provider-template/releases/tag/v0.1.0`
+
+2. `tken-openwebui-provider-pack`
+   - Purpose: Open WebUI-style provider settings, model routes, and troubleshooting.
+   - Search angle: Open WebUI OpenAI-compatible endpoint, custom base URL.
+   - Repo: `https://github.com/vivian254338489/tken-openwebui-provider-pack`
+   - Release: `https://github.com/vivian254338489/tken-openwebui-provider-pack/releases/tag/v0.1.0`
+
+3. `tken-cursor-windsurf-base-url-guide`
+   - Purpose: coding tool config examples for custom API base URL and route names.
+   - Search angle: Cursor API base URL, Windsurf OpenAI-compatible API.
+   - Repo: `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide`
+   - Release: `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide/releases/tag/v0.1.0`
+
+4. `tken-free-model-fallback-recipes`
+   - Purpose: route escalation recipes for low-cost default and premium fallback.
+   - Search angle: cheap AI model fallback, LLM router fallback recipes.
+   - Repo: `https://github.com/vivian254338489/tken-free-model-fallback-recipes`
+   - Release: `https://github.com/vivian254338489/tken-free-model-fallback-recipes/releases/tag/v0.1.0`
+
 ## Do Not Run Without Approval
 
 - Do not post to Reddit.

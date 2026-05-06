@@ -1,0 +1,18 @@
+{
+  "name": "tken-ai-sdk-provider-template",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "demo": "node demo.mjs",
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "ai-sdk",
+    "provider-template",
+    "openai-compatible",
+    "model-routing",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_ai_sdk_provider_template"
+}

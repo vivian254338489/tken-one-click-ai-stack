@@ -80,6 +80,10 @@ const kits = [
   { name: "tken-model-router-nextjs-starter", baseDir: "starters/tken-model-router-nextjs-starter", paths: ["."] },
   { name: "tken-api-health-monitor", baseDir: "starters/tken-api-health-monitor", paths: ["."] },
   { name: "tken-ai-agent-starter-pack", baseDir: "starters/tken-ai-agent-starter-pack", paths: ["."] },
+  { name: "tken-ai-sdk-provider-template", baseDir: "starters/tken-ai-sdk-provider-template", paths: ["."] },
+  { name: "tken-openwebui-provider-pack", baseDir: "starters/tken-openwebui-provider-pack", paths: ["."] },
+  { name: "tken-cursor-windsurf-base-url-guide", baseDir: "starters/tken-cursor-windsurf-base-url-guide", paths: ["."] },
+  { name: "tken-free-model-fallback-recipes", baseDir: "starters/tken-free-model-fallback-recipes", paths: ["."] },
 ];
 
 const ignored = new Set(["node_modules", ".git", "dist", ".env", "generated"]);

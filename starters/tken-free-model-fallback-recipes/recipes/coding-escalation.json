@@ -1,0 +1,7 @@
+{
+  "name": "coding-escalation",
+  "defaultModel": "free-model",
+  "fallbackModel": "premium-gpt",
+  "escalateWhen": ["multi-file patch", "security-sensitive code", "failing tests after first pass"],
+  "apiBaseUrl": "https://www.tken.shop/v1"
+}

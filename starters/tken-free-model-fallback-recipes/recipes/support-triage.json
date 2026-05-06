@@ -1,0 +1,7 @@
+{
+  "name": "support-triage",
+  "defaultModel": "free-model",
+  "fallbackModel": "premium-gpt",
+  "escalateWhen": ["billing dispute", "production outage", "unclear customer data"],
+  "apiBaseUrl": "https://www.tken.shop/v1"
+}

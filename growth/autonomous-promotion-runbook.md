@@ -77,6 +77,10 @@ Current seeds:
 - `https://github.com/vivian254338489/tken-model-router-nextjs-starter`
 - `https://github.com/vivian254338489/tken-api-health-monitor`
 - `https://github.com/vivian254338489/tken-ai-agent-starter-pack`
+- `https://github.com/vivian254338489/tken-ai-sdk-provider-template`
+- `https://github.com/vivian254338489/tken-openwebui-provider-pack`
+- `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide`
+- `https://github.com/vivian254338489/tken-free-model-fallback-recipes`
 
 Next useful seeds:
 
@@ -110,6 +114,23 @@ Next useful seeds after publishing:
    - Fallback recipes for low-cost/free routes with premium escalation.
    - Search angle: cheap AI model fallback, LLM router.
 
+These four seeds are now in local production and should be published as standalone GitHub repositories before the next batch.
+
+Next useful seeds after this batch:
+
+1. `tken-vscode-continue-config-pack`
+   - Continue.dev-style local coding assistant config examples.
+   - Search angle: VS Code AI custom OpenAI-compatible endpoint.
+2. `tken-langchain-openai-compatible-starter`
+   - LangChain-style examples for one base URL and route escalation.
+   - Search angle: LangChain OpenAI-compatible base URL.
+3. `tken-litellm-router-config-pack`
+   - LiteLLM-style route config snippets and fallback policies.
+   - Search angle: LiteLLM router cheap model fallback.
+4. `tken-ai-api-seo-landing-kit`
+   - Static comparison landing pages and FAQ blocks for organic search.
+   - Search angle: cheapest AI API, GPT vs Claude API price.
+
 ## Current GitHub Distribution Assets
 
 Use these assets to keep promotion useful instead of purely promotional:
@@ -124,6 +145,10 @@ Use these assets to keep promotion useful instead of purely promotional:
 | `tken-model-router-nextjs-starter` | Next.js AI route integration | Publish repo and add a deploy button after validation |
 | `tken-api-health-monitor` | uptime and error diagnosis searches | Publish repo and queue a dev.to troubleshooting draft |
 | `tken-ai-agent-starter-pack` | AI agent starter searches | Publish repo and connect it to Codex/OpenClaw guide pages |
+| `tken-ai-sdk-provider-template` | AI SDK provider searches | Publish repo and add provider examples to awesome list |
+| `tken-openwebui-provider-pack` | Open WebUI custom endpoint searches | Publish repo and queue setup tutorial draft |
+| `tken-cursor-windsurf-base-url-guide` | coding tool base URL searches | Publish repo and connect to Codex/OpenClaw guide |
+| `tken-free-model-fallback-recipes` | cheap model fallback searches | Publish repo and add recipes to routing docs |
 
 ## Safe Second-Development Rule
 

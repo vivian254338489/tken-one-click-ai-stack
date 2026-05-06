@@ -52,3 +52,12 @@ This matrix separates actions Codex can prepare automatically from actions that 
 | `https://github.com/vivian254338489/tken-model-router-nextjs-starter` | Next.js-style cheap/premium model routing |
 | `https://github.com/vivian254338489/tken-api-health-monitor` | API health CLI and local status page |
 | `https://github.com/vivian254338489/tken-ai-agent-starter-pack` | Planner, coding, and support agent examples |
+
+## Current GitHub Assets Published In Batch 4
+
+| Repo | Purpose |
+| --- | --- |
+| `https://github.com/vivian254338489/tken-ai-sdk-provider-template` | JavaScript provider wrapper for one API base URL |
+| `https://github.com/vivian254338489/tken-openwebui-provider-pack` | Open WebUI-style provider settings |
+| `https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide` | Cursor/Windsurf custom base URL examples |
+| `https://github.com/vivian254338489/tken-free-model-fallback-recipes` | Low-cost route fallback and premium escalation recipes |

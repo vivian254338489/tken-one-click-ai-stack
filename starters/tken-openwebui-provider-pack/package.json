@@ -1,0 +1,17 @@
+{
+  "name": "tken-openwebui-provider-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [
+    "open-webui",
+    "openai-compatible",
+    "provider-config",
+    "ai-gateway",
+    "tken"
+  ],
+  "homepage": "https://www.tken.shop/?utm_source=github&utm_medium=package_json&utm_campaign=tken_openwebui_provider_pack"
+}

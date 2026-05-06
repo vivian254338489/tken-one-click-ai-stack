@@ -51,14 +51,14 @@ const kits = [
   },
   {
     zip: "tken-claude-web-ui.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "open-browser.mjs", "support-report.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
+    files: ["README.md", "LICENSE", "DEPLOY.md", "PROMOTION.md", ".github/workflows/check.yml", ".env.example", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "open-browser.mjs", "support-report.mjs", "configure.mjs", "package.json", "server.mjs", "public/index.html", "public/config.js"],
     commands: [
       ["node", ["support-report.mjs"]],
     ],
   },
   {
     zip: "tken-codex-client-kit.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
     commands: [
       ["node", ["install.mjs"]],
       ["node", ["support-report.mjs"]],
@@ -66,7 +66,7 @@ const kits = [
   },
   {
     zip: "tken-openclaw-client-kit.zip",
-    files: ["README.md", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
+    files: ["README.md", "LICENSE", "PROMOTION.md", ".github/workflows/check.yml", "package.json", "START_HERE.txt", "NEXT_STEPS.md", "START.bat", "START.sh", "SUPPORT.bat", "SUPPORT.sh", "preflight.mjs", "support-report.mjs", "config.example.json", "install.mjs", ".env.example", "quick-test.sh"],
     commands: [
       ["node", ["install.mjs"]],
       ["node", ["support-report.mjs"]],

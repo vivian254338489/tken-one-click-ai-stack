@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TKEN Stack Admin</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <p class="brand">TKEN Admin</p>
+      <p class="muted">Configuration status for the local gateway.</p>
+      <div class="settings">
+        <a href="/chatgpt">ChatGPT-style UI</a>
+        <a href="/claude">Claude-style UI</a>
+        <a href="/health">Health JSON</a>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>Gateway Status</h1>
+        <p class="muted">Use this page after install to confirm the stack is ready.</p>
+      </header>
+      <section id="messages">
+        <div class="message assistant" id="status">Loading...</div>
+      </section>
+    </main>
+  </div>
+  <script>
+    async function boot() {
+      const [health, config] = await Promise.all([
+        fetch("/health").then((response) => response.json()),
+        fetch("/config/public").then((response) => response.json())
+      ]);
+
+      document.querySelector("#status").textContent = [
+        "Status: " + (health.ok ? "OK" : "Check required"),
+        "API base URL: " + config.upstreamBaseUrl,
+        "Demo mode: " + (config.demoMode ? "ON" : "OFF"),
+        "Default route: " + config.defaultModel,
+        "Routes: " + config.models.map((model) => model.id).join(", "),
+        "",
+        config.demoMode
+          ? "Next step: edit .env, set UPSTREAM_API_KEY, set DEMO_MODE=false, then restart."
+          : "Production mode is active. Run a test chat before exposing this gateway publicly."
+      ].join("\n");
+    }
+    boot().catch((error) => {
+      document.querySelector("#status").textContent = "Error: " + error.message;
+    });
+  </script>
+</body>
+</html>

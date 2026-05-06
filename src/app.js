@@ -75,9 +75,10 @@ export function createApp() {
 
   app.use("/assets", express.static(path.join(publicDir, "assets")));
 
-  app.get("/", (_req, res) => res.redirect("/chatgpt"));
-  app.get("/chatgpt", (_req, res) => res.sendFile(path.join(publicDir, "chatgpt.html")));
-  app.get("/claude", (_req, res) => res.sendFile(path.join(publicDir, "claude.html")));
+app.get("/", (_req, res) => res.redirect("/chatgpt"));
+app.get("/chatgpt", (_req, res) => res.sendFile(path.join(publicDir, "chatgpt.html")));
+app.get("/claude", (_req, res) => res.sendFile(path.join(publicDir, "claude.html")));
+  app.get("/admin", (_req, res) => res.sendFile(path.join(publicDir, "admin.html")));
 
   app.get("/health", (_req, res) => {
     res.json({
@@ -95,6 +96,8 @@ export function createApp() {
     res.json({
       defaultModel: models.some((model) => model.id === defaultRoute) ? defaultRoute : models[0]?.id,
       models,
+      upstreamBaseUrl,
+      demoMode,
     });
   });
 

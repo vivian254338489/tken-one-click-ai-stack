@@ -80,7 +80,10 @@ const webConfig = `window.TKEN_WEB_CONFIG = {
 `;
 
 for (const appName of ["chatgpt-web", "claude-web"]) {
-  fs.writeFileSync(path.join(root, "apps", appName, "public", "config.js"), webConfig);
+  const configPath = path.join(root, "apps", appName, "public", "config.js");
+  if (fs.existsSync(path.dirname(configPath))) {
+    fs.writeFileSync(configPath, webConfig);
+  }
 }
 
 console.log("Generated .env and client config files.");

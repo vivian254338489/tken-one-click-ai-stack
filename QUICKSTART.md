@@ -41,6 +41,8 @@ Restart:
 npm start
 ```
 
+The server loads `.env` automatically.
+
 ## Need Only One Package?
 
 - Gateway only: `tken-gateway.zip`

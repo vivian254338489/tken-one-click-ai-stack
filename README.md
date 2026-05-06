@@ -66,6 +66,8 @@ See `MANIFEST.md` for the full file manifest.
 
 The first run uses demo mode by default. The UI works immediately without an upstream key. For real models, set `UPSTREAM_API_KEY` and `DEMO_MODE=false`.
 
+`.env` is loaded automatically when you run `npm start`.
+
 ## Why Developers Star This
 
 - OpenAI-compatible endpoint shape, so existing tools can connect quickly.
@@ -107,6 +109,7 @@ Open:
 
 - ChatGPT-style UI: http://localhost:8787/chatgpt
 - Claude-style UI: http://localhost:8787/claude
+- Admin status page: http://localhost:8787/admin
 - Gateway health: http://localhost:8787/health
 
 Windows one-step installer:
@@ -234,6 +237,7 @@ Generated files are written to each package's `generated/` folder.
 - `DEMO.md`
 - `RELEASE.md`
 - `CONTRIBUTING.md`
+- `LAUNCH_CHECKLIST.md`
 
 ## Build Downloadable Packages
 

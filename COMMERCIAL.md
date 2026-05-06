@@ -20,6 +20,8 @@ npm run wizard
 
 The wizard creates `.env` and lets you set demo mode, upstream API key, route names, and CORS origin.
 
+The server loads `.env` automatically when started with `npm start`.
+
 ## Recommended
 
 - Put the gateway behind authentication if premium routes are enabled.

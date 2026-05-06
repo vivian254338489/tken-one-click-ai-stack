@@ -35,6 +35,7 @@
     "url": "https://github.com/vivian254338489/tken-one-click-ai-stack/issues"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.19.2"
   },
   "devDependencies": {

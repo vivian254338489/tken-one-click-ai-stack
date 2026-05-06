@@ -50,6 +50,7 @@ try {
   const health = await waitForHealth();
   await checkRoute("/chatgpt", "ChatGPT-Style Web UI");
   await checkRoute("/claude", "Claude-Style Web UI");
+  await checkRoute("/admin", "Gateway Status");
 
   const config = await fetch(`${baseUrl}/config/public`).then((response) => response.json());
   if (!config.models?.length) throw new Error("No public model routes found.");

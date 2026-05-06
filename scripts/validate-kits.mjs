@@ -18,15 +18,21 @@ const tmp = path.join(os.tmpdir(), `tken-kit-validate-${Date.now()}`);
 const kits = [
   {
     zip: "tken-full-stack.zip",
-    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "START.bat", "package.json", "src/app.js", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
+    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START.bat", "package.json", "src/app.js", "apps/chatgpt-web/package.json", "clients/codex/install.mjs"],
     install: true,
-    command: ["npm", ["run", "check", "--", "--skip-web-install"]],
+    commands: [
+      ["npm", ["run", "setup"]],
+      ["npm", ["run", "check", "--", "--skip-web-install"]],
+    ],
   },
   {
     zip: "tken-gateway.zip",
-    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "START.bat", "package.json", "src/app.js", "Dockerfile", "vercel.json"],
+    files: ["README.md", "QUICKSTART.md", "COMMERCIAL.md", "LAUNCH_CHECKLIST.md", "START.bat", "package.json", "src/app.js", "Dockerfile", "vercel.json"],
     install: true,
-    command: ["npm", ["run", "smoke", "--", "--spawn"]],
+    commands: [
+      ["npm", ["run", "setup"]],
+      ["npm", ["run", "smoke", "--", "--spawn"]],
+    ],
   },
   {
     zip: "tken-chatgpt-web-ui.zip",
@@ -93,8 +99,8 @@ for (const kit of kits) {
     run("npm", ["install"], target);
   }
 
-  if (kit.command) {
-    run(kit.command[0], kit.command[1], target);
+  for (const command of kit.commands || []) {
+    run(command[0], command[1], target);
   }
 
   console.log(JSON.stringify({ ok: true, kit: kit.zip, checkedFiles: kit.files.length }, null, 2));

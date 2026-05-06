@@ -1,0 +1,25 @@
+services:
+  gateway:
+    build: .
+    ports:
+      - "8787:8787"
+    env_file:
+      - .env
+
+  chatgpt-web:
+    build: ./apps/chatgpt-web
+    ports:
+      - "8788:8788"
+    environment:
+      PORT: 8788
+      TKEN_API_BASE_URL: https://www.tken.shop/v1
+      TKEN_DEFAULT_MODEL: tken-free-model
+
+  claude-web:
+    build: ./apps/claude-web
+    ports:
+      - "8789:8789"
+    environment:
+      PORT: 8789
+      TKEN_API_BASE_URL: https://www.tken.shop/v1
+      TKEN_DEFAULT_MODEL: tken-free-model

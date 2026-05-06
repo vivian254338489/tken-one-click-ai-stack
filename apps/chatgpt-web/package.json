@@ -1,0 +1,13 @@
+{
+  "name": "tken-chatgpt-web-ui",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node smoke.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

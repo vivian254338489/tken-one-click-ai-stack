@@ -2,24 +2,24 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vivian254338489/tken-one-click-ai-stack&env=LOCAL_API_KEY,UPSTREAM_API_KEY,UPSTREAM_BASE_URL,FREE_MODEL,PREMIUM_MODEL,DEFAULT_ROUTE&envDescription=OpenAI-compatible%20gateway%20settings&envLink=https://www.tken.shop/?utm_source=github%26utm_medium=deploy_button%26utm_campaign=one_click_ai_stack)
 
-Deploy an OpenAI-compatible multi-model AI stack with one gateway, two chat UIs, and ready-to-copy client configs.
+Complete install packages for an OpenAI-compatible multi-model AI stack:
 
-This repo is designed for developers who want to test selected low-cost AI model routes and use premium GPT routes when needed through one API format.
+- One-click AI gateway
+- One-click ChatGPT-style Web UI
+- One-click Claude-style Web UI
+- Codex client config kit
+- OpenClaw client config kit
+- Docker, Railway, Render, and Vercel deployment files
 
-## What You Get
+Default API base URL:
 
-- OpenAI-compatible gateway
-- ChatGPT-style web UI
-- Claude-style web UI
-- Docker Compose deployment
-- Railway deployment guide
-- Render deployment guide
-- Vercel deployment guide
-- Codex client config template
-- OpenClaw config template
-- Open WebUI setup notes
-- Node/Python/cURL API examples
-- Free or low-cost route plus premium route mapping
+```text
+https://www.tken.shop/v1
+```
+
+Get an API key:
+
+https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_click_ai_stack
 
 ## Important Naming Note
 
@@ -27,11 +27,24 @@ This project is not affiliated with OpenAI, Anthropic, ChatGPT, Claude, Codex, o
 
 The terms "ChatGPT-style" and "Claude-style" describe UI patterns only. You can connect any OpenAI-compatible provider.
 
-## Quick Start With Node
+## Install Package Matrix
+
+| Package | Path | What it installs | Deploy targets |
+| --- | --- | --- | --- |
+| Full stack | `.` | Gateway plus bundled ChatGPT-style and Claude-style UIs | Node, Docker, Railway, Render, Vercel |
+| Gateway | `.` | OpenAI-compatible `/v1/chat/completions` proxy and route mapper | Node, Docker, Railway, Render, Vercel |
+| ChatGPT Web UI | `apps/chatgpt-web` | Standalone browser UI | Node, Docker, Vercel/static hosts |
+| Claude Web UI | `apps/claude-web` | Standalone browser UI | Node, Docker, Vercel/static hosts |
+| Codex client kit | `clients/codex` | Generic Codex-style provider config generator | Local client config |
+| OpenClaw client kit | `clients/openclaw` | Generic OpenClaw-style provider config generator | Local client config |
+
+See `MANIFEST.md` for the full file manifest.
+
+## Fastest Start
 
 ```bash
 npm install
-cp .env.example .env
+npm run setup
 npm start
 ```
 
@@ -41,42 +54,56 @@ Open:
 - Claude-style UI: http://localhost:8787/claude
 - Gateway health: http://localhost:8787/health
 
-## Quick Start With Docker
+Windows one-step installer:
+
+```powershell
+.\install\install.ps1
+```
+
+macOS/Linux one-step installer:
+
+```bash
+sh install/install.sh
+```
+
+## Docker Start
+
+Gateway plus bundled UIs:
 
 ```bash
 cp .env.example .env
 docker compose up --build
 ```
 
-Open:
+Full multi-package stack:
 
-- ChatGPT-style UI: http://localhost:8787/chatgpt
-- Claude-style UI: http://localhost:8787/claude
-- Gateway health: http://localhost:8787/health
-
-## TKEN API Base URL
-
-```env
-UPSTREAM_BASE_URL=https://www.tken.shop/v1
+```bash
+cp .env.example .env
+docker compose -f docker-compose.full.yml up --build
 ```
 
-Get an API key:
+Ports:
 
-https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_click_ai_stack
+| Service | URL |
+| --- | --- |
+| Gateway and bundled UIs | http://localhost:8787 |
+| Standalone ChatGPT Web UI | http://localhost:8788 |
+| Standalone Claude Web UI | http://localhost:8789 |
 
-## Routes
+## Gateway Routes
 
 | Route | Purpose |
 | --- | --- |
 | `/v1/chat/completions` | OpenAI-compatible gateway endpoint |
 | `/v1/models` | Local route list in OpenAI-style format |
-| `/chatgpt` | ChatGPT-style UI |
-| `/claude` | Claude-style UI |
+| `/chatgpt` | Bundled ChatGPT-style UI |
+| `/claude` | Bundled Claude-style UI |
+| `/config/public` | Public model route config for bundled UIs |
 | `/health` | Health check |
 
 ## Model Routing
 
-Users talk to local route names such as `free-model` and `premium-gpt`. The gateway maps those names to upstream model IDs:
+Users can send local model route names such as `free-model` and `premium-gpt`. The gateway maps those names to upstream model IDs:
 
 ```env
 FREE_MODEL=your_free_or_low_cost_model
@@ -87,18 +114,77 @@ MODEL_ROUTES={"qwen-fast":"your_qwen_model","deepseek-chat":"your_deepseek_model
 
 Use the low-cost route for simple extraction, summarization, formatting, and drafts. Use the premium route for coding, hard reasoning, and final critical answers.
 
-## Deploy
+## Standalone Web UIs
 
-- Docker: `docker compose up --build`
-- Railway: see `deploy/railway.md`
-- Render: see `deploy/render.md`
-- Vercel: see `deploy/vercel.md`
+ChatGPT-style UI:
 
-## Client Configs
+```bash
+cd apps/chatgpt-web
+npm install
+npm start
+```
 
-- Codex client: `clients/codex/config.example.json`
-- OpenClaw: `clients/openclaw/config.example.json`
-- Open WebUI notes: `clients/open-webui/README.md`
+Claude-style UI:
+
+```bash
+cd apps/claude-web
+npm install
+npm start
+```
+
+Each standalone UI reads `public/config.js`:
+
+```js
+window.TKEN_WEB_CONFIG = {
+  apiBaseUrl: "https://www.tken.shop/v1",
+  defaultModel: "tken-free-model",
+  models: [
+    { id: "tken-free-model", label: "Low-cost model" },
+    { id: "premium-gpt-model", label: "Premium GPT route" }
+  ]
+};
+```
+
+## Client Kits
+
+Codex config generator:
+
+```bash
+cd clients/codex
+node install.mjs
+```
+
+OpenClaw config generator:
+
+```bash
+cd clients/openclaw
+node install.mjs
+```
+
+Generated files are written to each package's `generated/` folder.
+
+## Cloud Deploy
+
+- Docker: `deploy/docker.md`
+- Railway: `deploy/railway.md`
+- Render: `deploy/render.md`
+- Vercel: `deploy/vercel.md`
+
+## Build Downloadable Packages
+
+```bash
+npm install
+npm run package:kits
+```
+
+Generated zip packages:
+
+- `dist/tken-full-stack.zip`
+- `dist/tken-gateway.zip`
+- `dist/tken-chatgpt-web-ui.zip`
+- `dist/tken-claude-web-ui.zip`
+- `dist/tken-codex-client-kit.zip`
+- `dist/tken-openclaw-client-kit.zip`
 
 ## Verify
 
@@ -106,14 +192,18 @@ Use the low-cost route for simple extraction, summarization, formatting, and dra
 npm run check
 ```
 
-The smoke test starts the local server and verifies `/health`, `/chatgpt`, `/claude`, and `/config/public`.
+The check starts the gateway, verifies the bundled UIs and config routes, and confirms required package files exist.
 
-## Topics For GitHub
+## Example API Call
 
-Suggested repository topics:
-
-```text
-openai-compatible ai-gateway chatgpt-ui claude-ui vercel railway docker llm-router chinese-ai-models
+```bash
+curl https://www.tken.shop/v1/chat/completions \
+  -H "Authorization: Bearer $TKEN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "tken-free-model",
+    "messages": [{"role":"user","content":"Say hello in one sentence."}]
+  }'
 ```
 
 ## License

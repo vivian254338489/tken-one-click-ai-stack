@@ -1,6 +1,6 @@
 # Vercel Deployment
 
-This repository includes `vercel.json` for a Node server deployment.
+This repository includes `api/index.js`, `public/`, and `vercel.json` for a Vercel deployment.
 
 For the simplest production path, Docker-based Railway or Render is usually easier. Vercel can still be used for quick demos.
 
@@ -21,6 +21,11 @@ Vercel routing is handled by:
 - `public/`
 
 Static pages are served from `public/`. API routes are rewritten to the Express app in `api/index.js`.
+
+Standalone UI packages can also be deployed separately:
+
+- `apps/chatgpt-web`
+- `apps/claude-web`
 
 Get an upstream API key:
 

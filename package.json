@@ -10,7 +10,9 @@
     "start": "node src/server.js",
     "dev": "node src/server.js",
     "smoke": "node scripts/smoke.mjs",
-    "check": "node scripts/smoke.mjs --spawn"
+    "check": "node scripts/smoke.mjs --spawn && node scripts/check-web-apps.mjs && node tools/doctor.mjs",
+    "setup": "node tools/bootstrap.mjs",
+    "package:kits": "node scripts/package-kits.mjs"
   },
   "keywords": [
     "openai-compatible",
@@ -32,5 +34,8 @@
   },
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1"
   }
 }

@@ -1,6 +1,6 @@
-# Codex Client Configuration
+# TKEN Codex Client Kit
 
-This folder contains a generic Codex-style client config template for an OpenAI-compatible endpoint.
+This folder contains a generic Codex-style client config kit for an OpenAI-compatible endpoint.
 
 Set:
 
@@ -17,3 +17,23 @@ https://www.tken.shop/v1
 Get a key:
 
 https://www.tken.shop/?utm_source=github&utm_medium=client_config&utm_campaign=codex_config
+
+## Generate Config
+
+```bash
+node install.mjs
+```
+
+This writes:
+
+```text
+generated/codex.tken.json
+```
+
+Override values:
+
+```bash
+node install.mjs --base-url https://www.tken.shop/v1 --default-model tken-free-model --premium-model premium-gpt-model
+```
+
+The generated file is a portable template. Adapt the exact destination to your Codex-compatible client.

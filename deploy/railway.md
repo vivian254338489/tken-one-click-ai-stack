@@ -1,5 +1,7 @@
 # Railway Deployment
 
+This deploys the gateway plus bundled ChatGPT-style and Claude-style Web UIs.
+
 1. Create a new Railway project.
 2. Connect this repository.
 3. Railway will use the included `Dockerfile` and `railway.json`.

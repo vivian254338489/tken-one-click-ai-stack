@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TKEN ChatGPT-Style Web UI</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <p class="brand">TKEN Chat UI</p>
+      <p class="muted">Standalone ChatGPT-style interface for OpenAI-compatible APIs.</p>
+      <div class="settings">
+        <label>API base URL
+          <input id="api-base" autocomplete="off">
+        </label>
+        <label>API key
+          <input id="api-key" type="password" autocomplete="off">
+        </label>
+        <label>Model
+          <select id="model"></select>
+        </label>
+        <p class="muted">Get a key from <a href="https://www.tken.shop/?utm_source=github&utm_medium=webui_package&utm_campaign=chatgpt_web_runtime">tken.shop</a>.</p>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>ChatGPT-Style Web UI</h1>
+        <p class="muted">One browser UI for low-cost and premium model routes.</p>
+      </header>
+      <section id="messages"></section>
+      <form id="chat-form">
+        <textarea id="prompt" rows="2" placeholder="Ask something..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/config.js"></script>
+  <script src="/web-client.js"></script>
+  <script>
+    window.bootStandaloneChat({
+      systemPrompt: "You are a concise assistant in a ChatGPT-style web UI."
+    });
+  </script>
+</body>
+</html>

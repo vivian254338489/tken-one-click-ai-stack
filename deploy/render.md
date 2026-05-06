@@ -1,5 +1,7 @@
 # Render Deployment
 
+This deploys the gateway plus bundled ChatGPT-style and Claude-style Web UIs.
+
 1. Create a new Web Service on Render.
 2. Choose this repository.
 3. Select Docker.

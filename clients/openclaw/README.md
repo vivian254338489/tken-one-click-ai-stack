@@ -20,6 +20,20 @@ https://www.tken.shop/?utm_source=github&utm_medium=client_config&utm_campaign=o
 
 ## Generate Config
 
+Windows:
+
+```text
+Double-click START.bat
+```
+
+macOS/Linux:
+
+```bash
+sh START.sh
+```
+
+Manual:
+
 ```bash
 node install.mjs
 ```
@@ -37,3 +51,5 @@ node install.mjs --base-url https://www.tken.shop/v1 --default-model tken-free-m
 ```
 
 The generated file is intentionally generic because OpenClaw-compatible client config locations may differ by installation.
+
+See `NEXT_STEPS.md` after generation.

@@ -33,6 +33,13 @@ Get an API key:
 
 https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=one_click_ai_stack
 
+Need an OpenAI-compatible endpoint for testing this stack?
+
+Start here:
+
+https://www.tken.shop/?utm_source=github&utm_medium=readme&utm_campaign=customer_acquisition&utm_content=one_click_stack_need_endpoint
+
+
 ## Direct Download
 
 Latest release:
